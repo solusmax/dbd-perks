@@ -1,0 +1,8 @@
+last 4 versions
+not <= 0.3%
+not dead
+Safari >= 14
+iOS >= 14
+last 1 FirefoxAndroid version
+not ie <= 11
+not op_mini all
