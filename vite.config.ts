@@ -4,6 +4,7 @@ import browserslistToEsbuild from 'browserslist-to-esbuild'
 
 // https://vitejs.dev/config/
 export default defineConfig({
+  base: "./",
   plugins: [react()],
   build: {
     target: browserslistToEsbuild(),

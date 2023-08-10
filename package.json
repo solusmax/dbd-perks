@@ -9,7 +9,8 @@
     "lint:ts": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "lint:scss": "prettier --write \"./src/**/*.scss\" && stylelint \"./src/**/*.scss\" --custom-syntax postcss-scss",
     "lint:html": "prettier --write \"./**/*.html\"",
-    "preview": "vite preview --open --port 5173"
+    "preview": "vite preview --open --port 5173",
+    "deploy": "npm run build && gh-pages -d \"./dist\""
   },
   "dependencies": {
     "react": "^18.2.0",
@@ -27,6 +28,7 @@
     "eslint-plugin-react": "^7.33.1",
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-react-refresh": "^0.4.3",
+    "gh-pages": "^5.0.0",
     "postcss": "^8.4.27",
     "postcss-scss": "^4.0.6",
     "prettier": "^3.0.1",
