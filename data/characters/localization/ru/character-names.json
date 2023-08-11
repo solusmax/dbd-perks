@@ -1,0 +1,284 @@
+{
+  "meta": {
+    "dbd-version": "7.0.2",
+    "langauge": "ru"
+  },
+  "characters": [
+    {
+      "character": "ace-visconti",
+      "name": "Эйс Висконти"
+    },
+    {
+      "character": "ada-wong",
+      "name": "Ада Вонг"
+    },
+    {
+      "character": "adam-francis",
+      "name": "Адам Фрэнсис"
+    },
+    {
+      "character": "ashley-j-williams",
+      "name": "Эшли Джей Уильямс"
+    },
+    {
+      "character": "cheryl-mason",
+      "name": "Шерил Мейсон"
+    },
+    {
+      "character": "claudette-morel",
+      "name": "Клодетт Морель"
+    },
+    {
+      "character": "david-king",
+      "name": "Дэвид Кинг"
+    },
+    {
+      "character": "detective-tapp",
+      "name": "Детектив Тэпп"
+    },
+    {
+      "character": "dwight-fairfield",
+      "name": "Дуайт Фэйрфилд"
+    },
+    {
+      "character": "elodie-rakoto",
+      "name": "Элоди Ракото"
+    },
+    {
+      "character": "felix-richter",
+      "name": "Феликс Рихтер"
+    },
+    {
+      "character": "feng-min",
+      "name": "Фенг Мин"
+    },
+    {
+      "character": "gabriel-soma",
+      "name": "Габриэль Сома"
+    },
+    {
+      "character": "haddie-kaur",
+      "name": "Хэдди Каур"
+    },
+    {
+      "character": "jake-park",
+      "name": "Джейк Парк"
+    },
+    {
+      "character": "jane-romero",
+      "name": "Джейн Ромеро"
+    },
+    {
+      "character": "jeff-johansen",
+      "name": "Джефф Йохансен"
+    },
+    {
+      "character": "jill-valentine",
+      "name": "Джилл Валентайн"
+    },
+    {
+      "character": "jonah-vasquez",
+      "name": "Хонас Васкес"
+    },
+    {
+      "character": "kate-denson",
+      "name": "Кейт Денсон"
+    },
+    {
+      "character": "laurie-strode",
+      "name": "Лори Строуд"
+    },
+    {
+      "character": "leon-s-kennedy",
+      "name": "Леон С. Кеннеди"
+    },
+    {
+      "character": "meg-thomas",
+      "name": "Мэг Томас"
+    },
+    {
+      "character": "mikaela-reid",
+      "name": "Микаэла Рид"
+    },
+    {
+      "character": "nancy-wheeler",
+      "name": "Нэнси Уиллер"
+    },
+    {
+      "character": "nea-karlsson",
+      "name": "Нея Карлссон"
+    },
+    {
+      "character": "quentin-smith",
+      "name": "Квентин Смит"
+    },
+    {
+      "character": "rebecca-chambers",
+      "name": "Ребекка Чемберс"
+    },
+    {
+      "character": "renato-lyra",
+      "name": "Ренато Лира"
+    },
+    {
+      "character": "steve-harrington",
+      "name": "Стив Харрингтон"
+    },
+    {
+      "character": "thalita-lyra",
+      "name": "Талита Лира"
+    },
+    {
+      "character": "vittorio-toscano",
+      "name": "Витторио Тоскано"
+    },
+    {
+      "character": "william-bill-overbeck",
+      "name": "Уильям \"Билл\" Овербек"
+    },
+    {
+      "character": "yoichi-asakawa",
+      "name": "Ёити Асакава"
+    },
+    {
+      "character": "yui-kimura",
+      "name": "Юи Кимура"
+    },
+    {
+      "character": "yun-jin-lee",
+      "name": "Ли Юнчин"
+    },
+    {
+      "character": "zarina-kassir",
+      "name": "Зарина Кассир"
+    },
+    {
+      "character": "the-artist",
+      "name": "Художница"
+    },
+    {
+      "character": "the-blight",
+      "name": "Мор"
+    },
+    {
+      "character": "the-cannibal",
+      "name": "Каннибал"
+    },
+    {
+      "character": "the-cenobite",
+      "name": "Сенобит"
+    },
+    {
+      "character": "the-clown",
+      "name": "Клоун"
+    },
+    {
+      "character": "the-deathslinger",
+      "name": "Стрелок"
+    },
+    {
+      "character": "the-demogorgon",
+      "name": "Демогоргон"
+    },
+    {
+      "character": "the-doctor",
+      "name": "Доктор"
+    },
+    {
+      "character": "the-dredge",
+      "name": "Грязь"
+    },
+    {
+      "character": "the-executioner",
+      "name": "Палач"
+    },
+    {
+      "character": "the-ghost-face",
+      "name": "Гоуст Фейс"
+    },
+    {
+      "character": "the-hag",
+      "name": "Ведьма"
+    },
+    {
+      "character": "the-hillbilly",
+      "name": "Деревенщина"
+    },
+    {
+      "character": "the-huntress",
+      "name": "Охотница"
+    },
+    {
+      "character": "the-knight",
+      "name": "Рыцарь"
+    },
+    {
+      "character": "the-legion",
+      "name": "Легион"
+    },
+    {
+      "character": "the-mastermind",
+      "name": "Кукловод"
+    },
+    {
+      "character": "the-nemesis",
+      "name": "Немезис"
+    },
+    {
+      "character": "the-nightmare",
+      "name": "Кошмар"
+    },
+    {
+      "character": "the-nurse",
+      "name": "Медсестра"
+    },
+    {
+      "character": "the-oni",
+      "name": "Они"
+    },
+    {
+      "character": "the-onryo",
+      "name": "Онрё"
+    },
+    {
+      "character": "the-pig",
+      "name": "Свинья"
+    },
+    {
+      "character": "the-plague",
+      "name": "Чума"
+    },
+    {
+      "character": "the-shape",
+      "name": "Тень"
+    },
+    {
+      "character": "the-singularity",
+      "name": "Сингулярность"
+    },
+    {
+      "character": "the-skull-merchant",
+      "name": "Торговка черепами"
+    },
+    {
+      "character": "the-spirit",
+      "name": "Дух"
+    },
+    {
+      "character": "the-trapper",
+      "name": "Охотник"
+    },
+    {
+      "character": "the-trickster",
+      "name": "Трюкач"
+    },
+    {
+      "character": "the-twins",
+      "name": "Близнецы"
+    },
+    {
+      "character": "the-wraith",
+      "name": "Призрак"
+    }
+  ]
+}
