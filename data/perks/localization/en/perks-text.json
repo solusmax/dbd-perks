@@ -1,0 +1,1443 @@
+{
+  "meta": {
+    "dbd-version": "7.0.2",
+    "language": "en",
+    "paths": {
+      "killer-perk-descriptions-folder": "./descriptions/killer-perks",
+      "survivor-perk-descriptions-folder": "./descriptions/survivor-perks"
+    }
+  },
+  "perks-info": [
+    {
+      "id": "ace-in-the-hole-b022b3",
+      "name": "Ace in the Hole",
+      "alt-names": null,
+      "description": "ace-in-the-hole.html"
+    },
+    {
+      "id": "adrenaline-95f04b",
+      "name": "Adrenaline",
+      "alt-names": null,
+      "description": "adrenaline.html"
+    },
+    {
+      "id": "aftercare-b3e500",
+      "name": "Aftercare",
+      "alt-names": null,
+      "description": "aftercare.html"
+    },
+    {
+      "id": "alert-544ac1",
+      "name": "Alert",
+      "alt-names": null,
+      "description": "alert.html"
+    },
+    {
+      "id": "any-means-necessary-ad2d04",
+      "name": "Any Means Necessary",
+      "alt-names": null,
+      "description": "any-means-necessary.html"
+    },
+    {
+      "id": "appraisal-450146",
+      "name": "Appraisal",
+      "alt-names": null,
+      "description": "appraisal.html"
+    },
+    {
+      "id": "autodidact-d0cf46",
+      "name": "Autodidact",
+      "alt-names": null,
+      "description": "autodidact.html"
+    },
+    {
+      "id": "background-player-a771c4",
+      "name": "Background Player",
+      "alt-names": null,
+      "description": "background-player.html"
+    },
+    {
+      "id": "balanced-landing-36ace2",
+      "name": "Balanced Landing",
+      "alt-names": null,
+      "description": "balanced-landing.html"
+    },
+    {
+      "id": "better-than-new-3d1958",
+      "name": "Better than New",
+      "alt-names": null,
+      "description": "better-than-new.html"
+    },
+    {
+      "id": "bite-the-bullet-830e27",
+      "name": "Bite the Bullet",
+      "alt-names": null,
+      "description": "bite-the-bullet.html"
+    },
+    {
+      "id": "blast-mine-8e2bde",
+      "name": "Blast Mine",
+      "alt-names": null,
+      "description": "blast-mine.html"
+    },
+    {
+      "id": "blood-pact-5fdedb",
+      "name": "Blood Pact",
+      "alt-names": null,
+      "description": "blood-pact.html"
+    },
+    {
+      "id": "blood-rush-8436c0",
+      "name": "Blood Rush",
+      "alt-names": null,
+      "description": "blood-rush.html"
+    },
+    {
+      "id": "boil-over-7324a8",
+      "name": "Boil Over",
+      "alt-names": null,
+      "description": "boil-over.html"
+    },
+    {
+      "id": "bond-8050e7",
+      "name": "Bond",
+      "alt-names": null,
+      "description": "bond.html"
+    },
+    {
+      "id": "boon-circle-of-healing-551a2b",
+      "name": "Boon: Circle of Healing",
+      "alt-names": null,
+      "description": "boon-circle-of-healing.html"
+    },
+    {
+      "id": "boon-dark-theory-78e77c",
+      "name": "Boon: Dark Theory",
+      "alt-names": null,
+      "description": "boon-dark-theory.html"
+    },
+    {
+      "id": "boon-exponential-2379a2",
+      "name": "Boon: Exponential",
+      "alt-names": null,
+      "description": "boon-exponential.html"
+    },
+    {
+      "id": "boon-shadow-step-7cfcef",
+      "name": "Boon: Shadow Step",
+      "alt-names": null,
+      "description": "boon-shadow-step.html"
+    },
+    {
+      "id": "borrowed-time-78efc4",
+      "name": "Borrowed Time",
+      "alt-names": "BT",
+      "description": "borrowed-time.html"
+    },
+    {
+      "id": "botany-knowledge-2f7d01",
+      "name": "Botany Knowledge",
+      "alt-names": null,
+      "description": "botany-knowledge.html"
+    },
+    {
+      "id": "breakdown-e3d189",
+      "name": "Breakdown",
+      "alt-names": null,
+      "description": "breakdown.html"
+    },
+    {
+      "id": "breakout-b9f9d0",
+      "name": "Breakout",
+      "alt-names": null,
+      "description": "breakout.html"
+    },
+    {
+      "id": "buckle-up-9f92df",
+      "name": "Buckle Up",
+      "alt-names": null,
+      "description": "buckle-up.html"
+    },
+    {
+      "id": "built-to-last-d39164",
+      "name": "Built to Last",
+      "alt-names": null,
+      "description": "built-to-last.html"
+    },
+    {
+      "id": "calm-spirit-2d5af7",
+      "name": "Calm Spirit",
+      "alt-names": null,
+      "description": "calm-spirit.html"
+    },
+    {
+      "id": "clairvoyance-b1092f",
+      "name": "Clairvoyance",
+      "alt-names": null,
+      "description": "clairvoyance.html"
+    },
+    {
+      "id": "corrective-action-3d08d4",
+      "name": "Corrective Action",
+      "alt-names": null,
+      "description": "corrective-action.html"
+    },
+    {
+      "id": "counterforce-f2ca06",
+      "name": "Counterforce",
+      "alt-names": null,
+      "description": "counterforce.html"
+    },
+    {
+      "id": "cut-loose-7148eb",
+      "name": "Cut Loose",
+      "alt-names": null,
+      "description": "cut-loose.html"
+    },
+    {
+      "id": "dance-with-me-da0b32",
+      "name": "Dance With Me",
+      "alt-names": null,
+      "description": "dance-with-me.html"
+    },
+    {
+      "id": "dark-sense-aec185",
+      "name": "Dark Sense",
+      "alt-names": null,
+      "description": "dark-sense.html"
+    },
+    {
+      "id": "dead-hard-06dc08",
+      "name": "Dead Hard",
+      "alt-names": "DH",
+      "description": "dead-hard.html"
+    },
+    {
+      "id": "deception-4214ee",
+      "name": "Deception",
+      "alt-names": null,
+      "description": "deception.html"
+    },
+    {
+      "id": "decisive-strike-9d6df6",
+      "name": "Decisive Strike",
+      "alt-names": "DS",
+      "description": "decisive-strike.html"
+    },
+    {
+      "id": "deja-vu-5a8445",
+      "name": "Déjà Vu",
+      "alt-names": null,
+      "description": "deja-vu.html"
+    },
+    {
+      "id": "deliverance-fa225e",
+      "name": "Deliverance",
+      "alt-names": null,
+      "description": "deliverance.html"
+    },
+    {
+      "id": "desperate-measures-89eb55",
+      "name": "Desperate Measures",
+      "alt-names": null,
+      "description": "desperate-measures.html"
+    },
+    {
+      "id": "detectives-hunch-4bb9fe",
+      "name": "Detective's Hunch",
+      "alt-names": null,
+      "description": "detectives-hunch.html"
+    },
+    {
+      "id": "distortion-c08944",
+      "name": "Distortion",
+      "alt-names": null,
+      "description": "distortion.html"
+    },
+    {
+      "id": "diversion-588c9e",
+      "name": "Diversion",
+      "alt-names": null,
+      "description": "diversion.html"
+    },
+    {
+      "id": "empathic-connection-2b1bbc",
+      "name": "Empathic Connection",
+      "alt-names": null,
+      "description": "empathic-connection.html"
+    },
+    {
+      "id": "empathy-c4ea19",
+      "name": "Empathy",
+      "alt-names": null,
+      "description": "empathy.html"
+    },
+    {
+      "id": "fast-track-6edebb",
+      "name": "Fast Track",
+      "alt-names": null,
+      "description": "fast-track.html"
+    },
+    {
+      "id": "flashbang-4d9974",
+      "name": "Flashbang",
+      "alt-names": null,
+      "description": "flashbang.html"
+    },
+    {
+      "id": "flip-flop-58b523",
+      "name": "Flip-Flop",
+      "alt-names": null,
+      "description": "flip-flop.html"
+    },
+    {
+      "id": "fogwise-f3e0dc",
+      "name": "Fogwise",
+      "alt-names": null,
+      "description": "fogwise.html"
+    },
+    {
+      "id": "for-the-people-3a3eed",
+      "name": "For the People",
+      "alt-names": null,
+      "description": "for-the-people.html"
+    },
+    {
+      "id": "friendly-competition-e2acf9",
+      "name": "Friendly Competition",
+      "alt-names": null,
+      "description": "friendly-competition.html"
+    },
+    {
+      "id": "guardian-c91484",
+      "name": "Guardian",
+      "alt-names": null,
+      "description": "guardian.html",
+      "legacy": {
+        "name": "Babysitter"
+      }
+    },
+    {
+      "id": "head-on-fac685",
+      "name": "Head On",
+      "alt-names": null,
+      "description": "head-on.html"
+    },
+    {
+      "id": "hope-641889",
+      "name": "Hope",
+      "alt-names": null,
+      "description": "hope.html"
+    },
+    {
+      "id": "hyperfocus-f2364d",
+      "name": "Hyperfocus",
+      "alt-names": null,
+      "description": "hyperfocus.html"
+    },
+    {
+      "id": "inner-focus-76843f",
+      "name": "Inner Focus",
+      "alt-names": null,
+      "description": "inner-focus.html"
+    },
+    {
+      "id": "inner-healing-4f43eb",
+      "name": "Inner Healing",
+      "alt-names": null,
+      "description": "inner-healing.html",
+      "legacy": {
+        "name": "Inner Strength"
+      }
+    },
+    {
+      "id": "iron-will-e76742",
+      "name": "Iron Will",
+      "alt-names": null,
+      "description": "iron-will.html"
+    },
+    {
+      "id": "kindred-491bea",
+      "name": "Kindred",
+      "alt-names": null,
+      "description": "kindred.html"
+    },
+    {
+      "id": "kinship-2380a7",
+      "name": "Kinship",
+      "alt-names": null,
+      "description": "kinship.html",
+      "legacy": {
+        "name": "Camaraderie"
+      }
+    },
+    {
+      "id": "leader-3d1513",
+      "name": "Leader",
+      "alt-names": null,
+      "description": "leader.html"
+    },
+    {
+      "id": "left-behind-d5f964",
+      "name": "Left Behind",
+      "alt-names": null,
+      "description": "left-behind.html"
+    },
+    {
+      "id": "lightweight-30c31a",
+      "name": "Lightweight",
+      "alt-names": null,
+      "description": "lightweight.html"
+    },
+    {
+      "id": "lithe-c16661",
+      "name": "Lithe",
+      "alt-names": null,
+      "description": "lithe.html"
+    },
+    {
+      "id": "low-profile-74d85d",
+      "name": "Low Profile",
+      "alt-names": null,
+      "description": "low-profile.html"
+    },
+    {
+      "id": "lucky-break-7a795e",
+      "name": "Lucky Break",
+      "alt-names": null,
+      "description": "lucky-break.html"
+    },
+    {
+      "id": "made-for-this-9c74a5",
+      "name": "Made for This",
+      "alt-names": null,
+      "description": "made-for-this.html"
+    },
+    {
+      "id": "mettle-of-man-b3c4aa",
+      "name": "Mettle of Man",
+      "alt-names": null,
+      "description": "mettle-of-man.html"
+    },
+    {
+      "id": "no-mither-58477a",
+      "name": "No Mither",
+      "alt-names": null,
+      "description": "no-mither.html"
+    },
+    {
+      "id": "no-one-left-behind-51e672",
+      "name": "No One Left Behind",
+      "alt-names": null,
+      "description": "no-one-left-behind.html"
+    },
+    {
+      "id": "object-of-obsession-9b2958",
+      "name": "Object of Obsession",
+      "alt-names": null,
+      "description": "object-of-obsession.html"
+    },
+    {
+      "id": "off-the-record-9d0f9b",
+      "name": "Off the Record",
+      "alt-names": null,
+      "description": "off-the-record.html"
+    },
+    {
+      "id": "open-handed-ad589a",
+      "name": "Open-Handed",
+      "alt-names": null,
+      "description": "open-handed.html"
+    },
+    {
+      "id": "overcome-0fbcf6",
+      "name": "Overcome",
+      "alt-names": null,
+      "description": "overcome.html"
+    },
+    {
+      "id": "overzealous-001c36",
+      "name": "Overzealous",
+      "alt-names": null,
+      "description": "overzealous.html"
+    },
+    {
+      "id": "parental-guidance-f85fcc",
+      "name": "Parental Guidance",
+      "alt-names": null,
+      "description": "parental-guidance.html"
+    },
+    {
+      "id": "pharmacy-6e4b81",
+      "name": "Pharmacy",
+      "alt-names": null,
+      "description": "pharmacy.html"
+    },
+    {
+      "id": "plunderers-instinct-d5cb4d",
+      "name": "Plunderer's Instinct",
+      "alt-names": null,
+      "description": "plunderers-instinct.html"
+    },
+    {
+      "id": "poised-a96a34",
+      "name": "Poised",
+      "alt-names": null,
+      "description": "poised.html"
+    },
+    {
+      "id": "potential-energy-8d0a57",
+      "name": "Potential Energy",
+      "alt-names": null,
+      "description": "potential-energy.html"
+    },
+    {
+      "id": "power-struggle-3cc582",
+      "name": "Power Struggle",
+      "alt-names": null,
+      "description": "power-struggle.html"
+    },
+    {
+      "id": "premonition-05d040",
+      "name": "Premonition",
+      "alt-names": null,
+      "description": "premonition.html"
+    },
+    {
+      "id": "prove-thyself-81dc93",
+      "name": "Prove Thyself",
+      "alt-names": null,
+      "description": "prove-thyself.html"
+    },
+    {
+      "id": "quick-and-quiet-973ff3",
+      "name": "Quick & Quiet",
+      "alt-names": null,
+      "description": "quick-and-quiet.html"
+    },
+    {
+      "id": "quick-gambit-3543e6",
+      "name": "Quick Gambit",
+      "alt-names": null,
+      "description": "quick-gambit.html"
+    },
+    {
+      "id": "reactive-healing-8936db",
+      "name": "Reactive Healing",
+      "alt-names": null,
+      "description": "reactive-healing.html"
+    },
+    {
+      "id": "reassurance-d2e77c",
+      "name": "Reassurance",
+      "alt-names": null,
+      "description": "reassurance.html"
+    },
+    {
+      "id": "red-herring-c2b4fd",
+      "name": "Red Herring",
+      "alt-names": null,
+      "description": "red-herring.html"
+    },
+    {
+      "id": "renewal-033060",
+      "name": "Renewal",
+      "alt-names": null,
+      "description": "renewal.html",
+      "legacy": {
+        "name": "Second Wind"
+      }
+    },
+    {
+      "id": "repressed-alliance-774ee9",
+      "name": "Repressed Alliance",
+      "alt-names": null,
+      "description": "repressed-alliance.html"
+    },
+    {
+      "id": "residual-manifest-42d894",
+      "name": "Residual Manifest",
+      "alt-names": null,
+      "description": "residual-manifest.html"
+    },
+    {
+      "id": "resilience-144fdb",
+      "name": "Resilience",
+      "alt-names": null,
+      "description": "resilience.html"
+    },
+    {
+      "id": "resurgence-717bd4",
+      "name": "Resurgence",
+      "alt-names": null,
+      "description": "resurgence.html"
+    },
+    {
+      "id": "rookie-spirit-3dc5e6",
+      "name": "Rookie Spirit",
+      "alt-names": null,
+      "description": "rookie-spirit.html"
+    },
+    {
+      "id": "saboteur-aa31b1",
+      "name": "Saboteur",
+      "alt-names": null,
+      "description": "saboteur.html"
+    },
+    {
+      "id": "scavenger-3b3224",
+      "name": "Scavenger",
+      "alt-names": null,
+      "description": "scavenger.html"
+    },
+    {
+      "id": "self-aware-dfac48",
+      "name": "Self-Aware",
+      "alt-names": null,
+      "description": "self-aware.html",
+      "legacy": {
+        "name": "Fixated"
+      }
+    },
+    {
+      "id": "self-care-cdf5c6",
+      "name": "Self-Care",
+      "alt-names": null,
+      "description": "self-care.html"
+    },
+    {
+      "id": "self-preservation-7c821d",
+      "name": "Self-Preservation",
+      "alt-names": null,
+      "description": "self-preservation.html"
+    },
+    {
+      "id": "situational-awareness-db2c0b",
+      "name": "Situational Awareness",
+      "alt-names": null,
+      "description": "situational-awareness.html",
+      "legacy": {
+        "name": "Better Together"
+      }
+    },
+    {
+      "id": "slippery-meat-0b7f8f",
+      "name": "Slippery Meat",
+      "alt-names": null,
+      "description": "slippery-meat.html"
+    },
+    {
+      "id": "small-game-d34d10",
+      "name": "Small Game",
+      "alt-names": null,
+      "description": "small-game.html"
+    },
+    {
+      "id": "smash-hit-d41499",
+      "name": "Smash Hit",
+      "alt-names": null,
+      "description": "smash-hit.html"
+    },
+    {
+      "id": "sole-survivor-c715d0",
+      "name": "Sole Survivor",
+      "alt-names": null,
+      "description": "sole-survivor.html"
+    },
+    {
+      "id": "solidarity-1d7f60",
+      "name": "Solidarity",
+      "alt-names": null,
+      "description": "solidarity.html"
+    },
+    {
+      "id": "soul-guard-28cb27",
+      "name": "Soul Guard",
+      "alt-names": null,
+      "description": "soul-guard.html"
+    },
+    {
+      "id": "spine-chil-ce2db6",
+      "name": "Spine Chil",
+      "alt-names": null,
+      "description": "spine-chil.html"
+    },
+    {
+      "id": "sprint-burst-8dd4b1",
+      "name": "Sprint Burst",
+      "alt-names": null,
+      "description": "sprint-burst.html"
+    },
+    {
+      "id": "stake-out-262384",
+      "name": "Stake Out",
+      "alt-names": null,
+      "description": "stake-out.html"
+    },
+    {
+      "id": "streetwise-35927e",
+      "name": "Streetwise",
+      "alt-names": null,
+      "description": "streetwise.html"
+    },
+    {
+      "id": "teamwork-collective-stealth-a098e7",
+      "name": "Teamwork: Collective Stealth",
+      "alt-names": null,
+      "description": "teamwork-collective-stealth.html"
+    },
+    {
+      "id": "teamwork-power-of-two-d88199",
+      "name": "Teamwork: Power of Two",
+      "alt-names": null,
+      "description": "teamwork-power-of-two.html"
+    },
+    {
+      "id": "technician-780f00",
+      "name": "Technician",
+      "alt-names": null,
+      "description": "technician.html"
+    },
+    {
+      "id": "tenacity-da1dd7",
+      "name": "Tenacity",
+      "alt-names": null,
+      "description": "tenacity.html"
+    },
+    {
+      "id": "this-is-not-happening-b535a4",
+      "name": "This Is Not Happening",
+      "alt-names": null,
+      "description": "this-is-not-happening.html"
+    },
+    {
+      "id": "troubleshooter-ff384d",
+      "name": "Troubleshooter",
+      "alt-names": null,
+      "description": "troubleshooter.html"
+    },
+    {
+      "id": "unbreakable-6e07f1",
+      "name": "Unbreakable",
+      "alt-names": null,
+      "description": "unbreakable.html"
+    },
+    {
+      "id": "up-the-ante-44a562",
+      "name": "Up the Ante",
+      "alt-names": null,
+      "description": "up-the-ante.html"
+    },
+    {
+      "id": "urban-evasion-81951b",
+      "name": "Urban Evasion",
+      "alt-names": null,
+      "description": "urban-evasion.html"
+    },
+    {
+      "id": "vigil-f4914b",
+      "name": "Vigil",
+      "alt-names": null,
+      "description": "vigil.html"
+    },
+    {
+      "id": "visionary-558b7b",
+      "name": "Visionary",
+      "alt-names": null,
+      "description": "visionary.html"
+    },
+    {
+      "id": "wake-up-0cf464",
+      "name": "Wake Up!",
+      "alt-names": null,
+      "description": "wake-up.html"
+    },
+    {
+      "id": "well-make-it-ab52ec",
+      "name": "We'll Make It",
+      "alt-names": null,
+      "description": "well-make-it.html"
+    },
+    {
+      "id": "were-gonna-live-forever-357900",
+      "name": "We're Gonna Live Forever",
+      "alt-names": null,
+      "description": "were-gonna-live-forever.html"
+    },
+    {
+      "id": "windows-of-opportunity-7413ce",
+      "name": "Windows of Opportunity",
+      "alt-names": null,
+      "description": "windows-of-opportunity.html"
+    },
+    {
+      "id": "wiretap-46e3ec",
+      "name": "Wiretap",
+      "alt-names": null,
+      "description": "wiretap.html"
+    },
+    {
+      "id": "a-nurses-calling-a98a5e",
+      "name": "A Nurse's Calling",
+      "alt-names": null,
+      "description": "a-nurses-calling.html"
+    },
+    {
+      "id": "agitation-29512a",
+      "name": "Agitation",
+      "alt-names": null,
+      "description": "agitation.html"
+    },
+    {
+      "id": "awakened-awareness-bf1070",
+      "name": "Awakened Awareness",
+      "alt-names": null,
+      "description": "awakened-awareness.html"
+    },
+    {
+      "id": "bamboozle-f0a2c2",
+      "name": "Bamboozle",
+      "alt-names": null,
+      "description": "bamboozle.html"
+    },
+    {
+      "id": "barbecue-and-chilli-e30b6e",
+      "name": "Barbecue & Chilli",
+      "alt-names": "B&C",
+      "description": "barbecue-and-chilli.html"
+    },
+    {
+      "id": "beast-of-prey-006f7c",
+      "name": "Beast of Prey",
+      "alt-names": null,
+      "description": "beast-of-prey.html"
+    },
+    {
+      "id": "bitter-murmur-31bddb",
+      "name": "Bitter Murmur",
+      "alt-names": null,
+      "description": "bitter-murmur.html"
+    },
+    {
+      "id": "blood-echo-261091",
+      "name": "Blood Echo",
+      "alt-names": null,
+      "description": "blood-echo.html"
+    },
+    {
+      "id": "blood-warden-be4ae2",
+      "name": "Blood Warden",
+      "alt-names": null,
+      "description": "blood-warden.html"
+    },
+    {
+      "id": "bloodhound-28512c",
+      "name": "Bloodhound",
+      "alt-names": null,
+      "description": "bloodhound.html"
+    },
+    {
+      "id": "brutal-strength-506890",
+      "name": "Brutal Strength",
+      "alt-names": null,
+      "description": "brutal-strength.html"
+    },
+    {
+      "id": "call-of-brine-2531fa",
+      "name": "Call of Brine",
+      "alt-names": null,
+      "description": "call-of-brine.html"
+    },
+    {
+      "id": "claustrophobia-e13c28",
+      "name": "Claustrophobia",
+      "alt-names": null,
+      "description": "claustrophobia.html",
+      "legacy": {
+        "name": "Cruel Limits"
+      }
+    },
+    {
+      "id": "corrupt-intervention-c1aee3",
+      "name": "Corrupt Intervention",
+      "alt-names": null,
+      "description": "corrupt-intervention.html"
+    },
+    {
+      "id": "coulrophobia-5858f9",
+      "name": "Coulrophobia",
+      "alt-names": null,
+      "description": "coulrophobia.html"
+    },
+    {
+      "id": "coup-de-grace-6136ca",
+      "name": "Coup de Grâce",
+      "alt-names": null,
+      "description": "coup-de-grace.html"
+    },
+    {
+      "id": "dark-devotion-d2f5cf",
+      "name": "Dark Devotion",
+      "alt-names": null,
+      "description": "dark-devotion.html"
+    },
+    {
+      "id": "darkness-revealed-be34b4",
+      "name": "Darkness Revealed",
+      "alt-names": null,
+      "description": "darkness-revealed.html"
+    },
+    {
+      "id": "dead-mans-switch-965210",
+      "name": "Dead Man's Switch",
+      "alt-names": "DMS",
+      "description": "dead-mans-switch.html"
+    },
+    {
+      "id": "deadlock-9d8a23",
+      "name": "Deadlock",
+      "alt-names": null,
+      "description": "deadlock.html"
+    },
+    {
+      "id": "deathbound-9879a9",
+      "name": "Deathbound",
+      "alt-names": null,
+      "description": "deathbound.html"
+    },
+    {
+      "id": "deerstalker-b8e8f2",
+      "name": "Deerstalker",
+      "alt-names": null,
+      "description": "deerstalker.html"
+    },
+    {
+      "id": "discordance-0fa454",
+      "name": "Discordance",
+      "alt-names": null,
+      "description": "discordance.html"
+    },
+    {
+      "id": "dissolution-e6661a",
+      "name": "Dissolution",
+      "alt-names": null,
+      "description": "dissolution.html"
+    },
+    {
+      "id": "distressing-a77cb4",
+      "name": "Distressing",
+      "alt-names": null,
+      "description": "distressing.html"
+    },
+    {
+      "id": "dragons-grip-dc26f9",
+      "name": "Dragon's Grip",
+      "alt-names": null,
+      "description": "dragons-grip.html"
+    },
+    {
+      "id": "dying-light-e7f1ca",
+      "name": "Dying Light",
+      "alt-names": null,
+      "description": "dying-light.html"
+    },
+    {
+      "id": "enduring-75deaf",
+      "name": "Enduring",
+      "alt-names": null,
+      "description": "enduring.html"
+    },
+    {
+      "id": "eruption-014b5c",
+      "name": "Eruption",
+      "alt-names": null,
+      "description": "eruption.html"
+    },
+    {
+      "id": "fearmonger-e34f6c",
+      "name": "Fearmonger",
+      "alt-names": null,
+      "description": "fearmonger.html",
+      "legacy": {
+        "name": "Mindbreaker"
+      }
+    },
+    {
+      "id": "fire-up-29f0dd",
+      "name": "Fire Up",
+      "alt-names": null,
+      "description": "fire-up.html"
+    },
+    {
+      "id": "forced-hesitation-cec393",
+      "name": "Forced Hesitation",
+      "alt-names": null,
+      "description": "forced-hesitation.html"
+    },
+    {
+      "id": "forced-penance-b40928",
+      "name": "Forced Penance",
+      "alt-names": null,
+      "description": "forced-penance.html"
+    },
+    {
+      "id": "franklins-demise-7af0a2",
+      "name": "Franklin's Demise",
+      "alt-names": null,
+      "description": "franklins-demise.html"
+    },
+    {
+      "id": "furtive-chase-d4a12e",
+      "name": "Furtive Chase",
+      "alt-names": null,
+      "description": "furtive-chase.html"
+    },
+    {
+      "id": "game-afoot-778403",
+      "name": "Game Afoot",
+      "alt-names": null,
+      "description": "game-afoot.html"
+    },
+    {
+      "id": "gearhead-c6803d",
+      "name": "Gearhead",
+      "alt-names": null,
+      "description": "gearhead.html"
+    },
+    {
+      "id": "genetic-limits-881490",
+      "name": "Genetic Limits",
+      "alt-names": null,
+      "description": "genetic-limits.html"
+    },
+    {
+      "id": "grim-embrace-9749bb",
+      "name": "Grim Embrace",
+      "alt-names": null,
+      "description": "grim-embrace.html"
+    },
+    {
+      "id": "hangmans-trick-5b8aeb",
+      "name": "Hangman's Trick",
+      "alt-names": null,
+      "description": "hangmans-trick.html"
+    },
+    {
+      "id": "hex-blood-favour-a96980",
+      "name": "Hex: Blood Favour",
+      "alt-names": "Hex: Blood Favor",
+      "description": "hex-blood-favour.html"
+    },
+    {
+      "id": "hex-crowd-control-e35699",
+      "name": "Hex: Crowd Control",
+      "alt-names": null,
+      "description": "hex-crowd-control.html"
+    },
+    {
+      "id": "hex-devour-hope-28f5fc",
+      "name": "Hex: Devour Hope",
+      "alt-names": null,
+      "description": "hex-devour-hope.html"
+    },
+    {
+      "id": "hex-face-the-darkness-c73c40",
+      "name": "Hex: Face the Darkness",
+      "alt-names": null,
+      "description": "hex-face-the-darkness.html"
+    },
+    {
+      "id": "hex-haunted-ground-e85ab1",
+      "name": "Hex: Haunted Ground",
+      "alt-names": null,
+      "description": "hex-haunted-ground.html"
+    },
+    {
+      "id": "hex-huntress-lullaby-53cb72",
+      "name": "Hex: Huntress Lullaby",
+      "alt-names": null,
+      "description": "hex-huntress-lullaby.html"
+    },
+    {
+      "id": "hex-no-one-escapes-death-e15ab3",
+      "name": "Hex: No One Escapes Death",
+      "alt-names": "NOED",
+      "description": "hex-no-one-escapes-death.html"
+    },
+    {
+      "id": "hex-pentimento-4fe979",
+      "name": "Hex: Pentimento",
+      "alt-names": null,
+      "description": "hex-pentimento.html"
+    },
+    {
+      "id": "hex-plaything-16ef57",
+      "name": "Hex: Plaything",
+      "alt-names": null,
+      "description": "hex-plaything.html"
+    },
+    {
+      "id": "hex-retribution-61191c",
+      "name": "Hex: Retribution",
+      "alt-names": null,
+      "description": "hex-retribution.html"
+    },
+    {
+      "id": "hex-ruin-ea9b2b",
+      "name": "Hex: Ruin",
+      "alt-names": null,
+      "description": "hex-ruin.html"
+    },
+    {
+      "id": "hex-the-third-seal-f86b4d",
+      "name": "Hex: The Third Seal",
+      "alt-names": null,
+      "description": "hex-the-third-seal.html"
+    },
+    {
+      "id": "hex-thrill-of-the-hunt-85f8fc",
+      "name": "Hex: Thrill of the Hunt",
+      "alt-names": null,
+      "description": "hex-thrill-of-the-hunt.html"
+    },
+    {
+      "id": "hex-undying-3abd3c",
+      "name": "Hex: Undying",
+      "alt-names": null,
+      "description": "hex-undying.html"
+    },
+    {
+      "id": "hoarder-09fb22",
+      "name": "Hoarder",
+      "alt-names": null,
+      "description": "hoarder.html"
+    },
+    {
+      "id": "hubris-73f0f2",
+      "name": "Hubris",
+      "alt-names": null,
+      "description": "hubris.html"
+    },
+    {
+      "id": "hysteria-91c0d5",
+      "name": "Hysteria",
+      "alt-names": null,
+      "description": "hysteria.html"
+    },
+    {
+      "id": "im-all-ears-faa3c6",
+      "name": "I'm All Ears",
+      "alt-names": null,
+      "description": "im-all-ears.html"
+    },
+    {
+      "id": "infectious-fright-1001e7",
+      "name": "Infectious Fright",
+      "alt-names": null,
+      "description": "infectious-fright.html"
+    },
+    {
+      "id": "insidious-bc6712",
+      "name": "Insidious",
+      "alt-names": null,
+      "description": "insidious.html"
+    },
+    {
+      "id": "iron-grasp-c1ce87",
+      "name": "Iron Grasp",
+      "alt-names": null,
+      "description": "iron-grasp.html"
+    },
+    {
+      "id": "iron-maiden-ce3bed",
+      "name": "Iron Maiden",
+      "alt-names": null,
+      "description": "iron-maiden.html"
+    },
+    {
+      "id": "jolt-b96ca1",
+      "name": "Jolt",
+      "alt-names": null,
+      "description": "jolt.html",
+      "legacy": {
+        "name": "Surge"
+      }
+    },
+    {
+      "id": "knock-out-316c96",
+      "name": "Knock Out",
+      "alt-names": null,
+      "description": "knock-out.html"
+    },
+    {
+      "id": "lethal-pursuer-9554ef",
+      "name": "Lethal Pursuer",
+      "alt-names": null,
+      "description": "lethal-pursuer.html"
+    },
+    {
+      "id": "leverage-42d7a4",
+      "name": "Leverage",
+      "alt-names": null,
+      "description": "leverage.html"
+    },
+    {
+      "id": "lightborn-6eb622",
+      "name": "Lightborn",
+      "alt-names": null,
+      "description": "lightborn.html"
+    },
+    {
+      "id": "machine-learning-66a543",
+      "name": "Machine Learning",
+      "alt-names": null,
+      "description": "machine-learning.html"
+    },
+    {
+      "id": "mad-grit-bf8ce3",
+      "name": "Mad Grit",
+      "alt-names": null,
+      "description": "mad-grit.html"
+    },
+    {
+      "id": "make-your-choice-09baca",
+      "name": "Make Your Choice",
+      "alt-names": null,
+      "description": "make-your-choice.html"
+    },
+    {
+      "id": "merciless-storm-b2c0e6",
+      "name": "Merciless Storm",
+      "alt-names": null,
+      "description": "merciless-storm.html"
+    },
+    {
+      "id": "monitor-and-abuse-e81cf7",
+      "name": "Monitor & Abuse",
+      "alt-names": null,
+      "description": "monitor-and-abuse.html"
+    },
+    {
+      "id": "nemesis-9689d1",
+      "name": "Nemesis",
+      "alt-names": null,
+      "description": "nemesis.html"
+    },
+    {
+      "id": "no-way-out-33fc26",
+      "name": "No Way Out",
+      "alt-names": null,
+      "description": "no-way-out.html"
+    },
+    {
+      "id": "nowhere-to-hide-858e72",
+      "name": "Nowhere to Hide",
+      "alt-names": null,
+      "description": "nowhere-to-hide.html"
+    },
+    {
+      "id": "oppression-afa768",
+      "name": "Oppression",
+      "alt-names": null,
+      "description": "oppression.html"
+    },
+    {
+      "id": "overcharge-fb9f98",
+      "name": "Overcharge",
+      "alt-names": null,
+      "description": "overcharge.html"
+    },
+    {
+      "id": "overwhelming-presence-bef9b5",
+      "name": "Overwhelming Presence",
+      "alt-names": null,
+      "description": "overwhelming-presence.html"
+    },
+    {
+      "id": "play-with-your-food-28fced",
+      "name": "Play with Your Food",
+      "alt-names": null,
+      "description": "play-with-your-food.html"
+    },
+    {
+      "id": "pop-goes-the-weasel-d77c48",
+      "name": "Pop Goes the Weasel",
+      "alt-names": null,
+      "description": "pop-goes-the-weasel.html"
+    },
+    {
+      "id": "predator-0efea8",
+      "name": "Predator",
+      "alt-names": null,
+      "description": "predator.html"
+    },
+    {
+      "id": "rancor-48c749",
+      "name": "Rancor",
+      "alt-names": null,
+      "description": "rancor.html"
+    },
+    {
+      "id": "remember-me-eaf2c8",
+      "name": "Remember Me",
+      "alt-names": null,
+      "description": "remember-me.html"
+    },
+    {
+      "id": "save-the-best-for-last-48c25d",
+      "name": "Save the Best for Last",
+      "alt-names": "SBFL, STBFL",
+      "description": "save-the-best-for-last.html"
+    },
+    {
+      "id": "scourge-hook-floods-of-rage-4fd4a4",
+      "name": "Scourge Hook: Floods of Rage",
+      "alt-names": null,
+      "description": "scourge-hook-floods-of-rage.html"
+    },
+    {
+      "id": "scourge-hook-gift-of-pain-1605f5",
+      "name": "Scourge Hook: Gift of Pain",
+      "alt-names": null,
+      "description": "scourge-hook-gift-of-pain.html"
+    },
+    {
+      "id": "scourge-hook-monstrous-shrine-a5b09e",
+      "name": "Scourge Hook: Monstrous Shrine",
+      "alt-names": null,
+      "description": "scourge-hook-monstrous-shrine.html"
+    },
+    {
+      "id": "scourge-hook-pain-resonance-96dc43",
+      "name": "Scourge Hook: Pain Resonance",
+      "alt-names": null,
+      "description": "scourge-hook-pain-resonance.html"
+    },
+    {
+      "id": "septic-touch-ca2fcd",
+      "name": "Septic Touch",
+      "alt-names": null,
+      "description": "septic-touch.html"
+    },
+    {
+      "id": "shadowborn-140491",
+      "name": "Shadowborn",
+      "alt-names": null,
+      "description": "shadowborn.html"
+    },
+    {
+      "id": "shattered-hope-42798f",
+      "name": "Shattered Hope",
+      "alt-names": null,
+      "description": "shattered-hope.html"
+    },
+    {
+      "id": "sloppy-butcher-e8a504",
+      "name": "Sloppy Butcher",
+      "alt-names": null,
+      "description": "sloppy-butcher.html"
+    },
+    {
+      "id": "spies-from-the-shadows-2fdb39",
+      "name": "Spies from the Shadows",
+      "alt-names": null,
+      "description": "spies-from-the-shadows.html"
+    },
+    {
+      "id": "spirit-fury-c783fc",
+      "name": "Spirit Fury",
+      "alt-names": null,
+      "description": "spirit-fury.html"
+    },
+    {
+      "id": "starstruck-236b8f",
+      "name": "Starstruck",
+      "alt-names": null,
+      "description": "starstruck.html"
+    },
+    {
+      "id": "stridor-ce620e",
+      "name": "Stridor",
+      "alt-names": null,
+      "description": "stridor.html"
+    },
+    {
+      "id": "superior-anatomy-a6af65",
+      "name": "Superior Anatomy",
+      "alt-names": null,
+      "description": "superior-anatomy.html"
+    },
+    {
+      "id": "surveillance-844242",
+      "name": "Surveillance",
+      "alt-names": null,
+      "description": "surveillance.html"
+    },
+    {
+      "id": "terminus-683db6",
+      "name": "Terminus",
+      "alt-names": null,
+      "description": "terminus.html"
+    },
+    {
+      "id": "territorial-imperative-26b735",
+      "name": "Territorial Imperative",
+      "alt-names": null,
+      "description": "territorial-imperative.html"
+    },
+    {
+      "id": "thanatophobia-de130d",
+      "name": "Thanatophobia",
+      "alt-names": null,
+      "description": "thanatophobia.html"
+    },
+    {
+      "id": "thrilling-tremors-966b36",
+      "name": "Thrilling Tremors",
+      "alt-names": null,
+      "description": "thrilling-tremors.html"
+    },
+    {
+      "id": "thwack-8277f8",
+      "name": "THWACK!",
+      "alt-names": null,
+      "description": "thwack.html"
+    },
+    {
+      "id": "tinkerer-628428",
+      "name": "Tinkerer",
+      "alt-names": null,
+      "description": "tinkerer.html"
+    },
+    {
+      "id": "trail-of-torment-672ff2",
+      "name": "Trail of Torment",
+      "alt-names": null,
+      "description": "trail-of-torment.html"
+    },
+    {
+      "id": "unnerving-presence-17eb19",
+      "name": "Unnerving Presence",
+      "alt-names": null,
+      "description": "unnerving-presence.html"
+    },
+    {
+      "id": "unrelenting-150a16",
+      "name": "Unrelenting",
+      "alt-names": null,
+      "description": "unrelenting.html"
+    },
+    {
+      "id": "whispers-63de4c",
+      "name": "Whispers",
+      "alt-names": null,
+      "description": "whispers.html"
+    },
+    {
+      "id": "zanshin-tactics-e9f6fa",
+      "name": "Zanshin Tactics",
+      "alt-names": null,
+      "description": "zanshin-tactics.html"
+    }
+  ]
+}
