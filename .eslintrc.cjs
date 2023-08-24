@@ -24,10 +24,12 @@ module.exports = {
    },
   plugins: ['react-refresh'],
   rules: {
+    'quotes': ['warn', 'single'],
     'react-refresh/only-export-components': [
       'warn',
       { allowConstantExport: true },
     ],
-    '@typescript-eslint/strict-boolean-expressions': 'warn'
+    '@typescript-eslint/strict-boolean-expressions': 'warn',
+    '@typescript-eslint/consistent-type-definitions': ['error', 'type'],
   },
 }
