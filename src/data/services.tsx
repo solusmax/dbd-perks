@@ -2,24 +2,27 @@ import Perks from '../routes/Perks';
 import TempRoute from '../routes/TempRoute';
 
 type Service = {
-  title: string,
+  localeNS: string,
+  localeKey: string,
   route: string,
   routeElement: React.JSX.Element,
 }
 
 export const services: Service[] = [
   {
-    title: 'Perks',
+    localeNS: 'services',
+    localeKey: 'name.perks',
     route: 'perks',
     get routeElement() {
-      return <Perks title={this.title} />
+      return <Perks titleKey={this.localeKey} titleNS={this.localeNS} />
     }
   },
   {
-    title: 'TempRoute',
+    localeNS: 'services',
+    localeKey: 'name.tempRoute',
     route: 'temproute',
     get routeElement() {
-      return <TempRoute title={this.title} />
+      return <TempRoute titleKey={this.localeKey} titleNS={this.localeNS} />
     }
   },
 ]

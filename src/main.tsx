@@ -6,7 +6,9 @@ import {
   Route,
   RouterProvider
 } from 'react-router-dom';
+import './i18n';
 import './styles/index.scss'
+import LoadingPage from './components/LoadingPage/index.tsx';
 import App from './components/App'
 import ErrorPage from './routes/ErrorPage';
 import { services } from './data/services.tsx';
@@ -16,12 +18,12 @@ const router = createBrowserRouter(
     <Route
       path='/'
       element={<App />}
-      errorElement={<ErrorPage title='404' />}
+      errorElement={<ErrorPage titleKey='documentTitle.errorPage' titleNS='app' />}
     >
       {services.map((service, i) => {
         return (
           <Route
-            key={service.title}
+            key={service.localeKey}
             index={!i}
             path={service.route}
             element={service.routeElement}
@@ -34,6 +36,8 @@ const router = createBrowserRouter(
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>
-    <RouterProvider router={router} />
+    <React.Suspense fallback={<LoadingPage />}>
+      <RouterProvider router={router} />
+    </React.Suspense>
   </React.StrictMode>,
 )

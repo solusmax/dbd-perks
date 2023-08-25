@@ -1,3 +1,4 @@
 export type PageProps = {
-  title: string
+  titleKey: string,
+  titleNS: string
 }
