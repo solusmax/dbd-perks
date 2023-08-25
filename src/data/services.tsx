@@ -1,5 +1,5 @@
-import Perks from './routes/Perks';
-import TempRoute from './routes/TempRoute';
+import Perks from '../routes/Perks';
+import TempRoute from '../routes/TempRoute';
 
 type Service = {
   title: string,

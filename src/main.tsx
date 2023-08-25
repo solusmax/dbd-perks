@@ -9,7 +9,7 @@ import {
 import './styles/index.scss'
 import App from './components/App'
 import ErrorPage from './routes/ErrorPage';
-import { services } from './services';
+import { services } from './data/services.tsx';
 
 const router = createBrowserRouter(
   createRoutesFromElements(

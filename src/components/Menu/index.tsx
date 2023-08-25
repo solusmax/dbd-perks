@@ -1,5 +1,5 @@
 import { NavLink } from 'react-router-dom';
-import { services } from '../../services';
+import { services } from '../../data/services.tsx';
 
 export default function Menu(): React.JSX.Element {
   return (
