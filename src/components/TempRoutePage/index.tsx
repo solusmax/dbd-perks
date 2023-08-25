@@ -3,9 +3,9 @@ import { useEffect } from 'react'
 import { setDocumentTitle } from '../../utils';
 import { useTranslation } from 'react-i18next';
 
-type TempPageProps = PageProps;
+type TempRoutePageProps = PageProps;
 
-export default function TempRoute({ titleKey, titleNS }: TempPageProps): React.JSX.Element {
+export default function TempRoutePage({ titleKey, titleNS }: TempRoutePageProps): React.JSX.Element {
   const { t } = useTranslation();
 
   useEffect(

@@ -10,7 +10,7 @@ import './i18n';
 import './styles/index.scss'
 import LoadingPage from './components/LoadingPage/index.tsx';
 import App from './components/App'
-import ErrorPage from './routes/ErrorPage';
+import ErrorPage from './components/ErrorPage/index.tsx';
 import { services } from './data/services.tsx';
 
 const router = createBrowserRouter(

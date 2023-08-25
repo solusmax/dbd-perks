@@ -3,9 +3,9 @@ import { PageProps } from '../../types';
 import { setDocumentTitle } from '../../utils';
 import { useTranslation } from 'react-i18next';
 
-type PerksProps = PageProps;
+type PerksPageProps = PageProps;
 
-export default function Perks({ titleKey, titleNS }: PerksProps): React.JSX.Element {
+export default function PerksPage({ titleKey, titleNS }: PerksPageProps): React.JSX.Element {
   const { t } = useTranslation();
 
   useEffect(

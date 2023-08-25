@@ -1,5 +1,5 @@
-import Perks from '../routes/Perks';
-import TempRoute from '../routes/TempRoute';
+import PerksPage from '../components/PerksPage';
+import TempRoutePage from '../components/TempRoutePage';
 
 type Service = {
   localeNS: string,
@@ -14,7 +14,7 @@ export const services: Service[] = [
     localeKey: 'name.perks',
     route: 'perks',
     get routeElement() {
-      return <Perks titleKey={this.localeKey} titleNS={this.localeNS} />
+      return <PerksPage titleKey={this.localeKey} titleNS={this.localeNS} />
     }
   },
   {
@@ -22,7 +22,7 @@ export const services: Service[] = [
     localeKey: 'name.tempRoute',
     route: 'temproute',
     get routeElement() {
-      return <TempRoute titleKey={this.localeKey} titleNS={this.localeNS} />
+      return <TempRoutePage titleKey={this.localeKey} titleNS={this.localeNS} />
     }
   },
 ]
