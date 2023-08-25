@@ -6,7 +6,7 @@ import {
   Route,
   RouterProvider
 } from 'react-router-dom';
-import './global/scss/index.scss'
+import './styles/index.scss'
 import App from './components/App'
 import ErrorPage from './routes/ErrorPage';
 import { services } from './services';
