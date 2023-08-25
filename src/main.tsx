@@ -19,7 +19,14 @@ const router = createBrowserRouter(
       errorElement={<ErrorPage title='404' />}
     >
       {services.map((service, i) => {
-        return <Route key={service.title} index={!i} path={service.route} element={service.routeElement} />
+        return (
+          <Route
+            key={service.title}
+            index={!i}
+            path={service.route}
+            element={service.routeElement}
+          />
+        )
       })}
     </Route>
   )
