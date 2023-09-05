@@ -9,7 +9,7 @@
     "lint:ts": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "lint:scss": "prettier --write \"./src/**/*.scss\" && stylelint \"./src/**/*.scss\" --custom-syntax postcss-scss",
     "lint:html": "prettier --write \"./**/*.html\"",
-    "preview": "vite preview --open --port 5173",
+    "preview": "npm run build && vite preview --open",
     "deploy": "npm run build && gh-pages -d \"./dist\""
   },
   "dependencies": {
