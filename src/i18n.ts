@@ -12,8 +12,8 @@ void i18n
       loadPath: './locales/{{lng}}/{{ns}}.json',
     },
     ns: [
-      'app',
-      'services'
+      'perks',
+      'characters'
     ],
     defaultNS: 'app',
     fallbackLng: 'en',
