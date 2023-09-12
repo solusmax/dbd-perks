@@ -1,1 +1,1 @@
-export const DOCUMENT_TITLE = 'DBD Services';
+export const DOCUMENT_TITLE = 'DBD Perks';
