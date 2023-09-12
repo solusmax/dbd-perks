@@ -8,6 +8,9 @@ void i18n
   .use(Backend)
   .use(initReactI18next)
   .init({
+    backend: {
+      loadPath: './locales/{{lng}}/{{ns}}.json',
+    },
     ns: [
       'app',
       'services'
