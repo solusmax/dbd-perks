@@ -1,4 +1,10 @@
 [
-  "en",
-  "ru"
+  {
+    "value": "en",
+    "label": "EN"
+  },
+  {
+    "value": "ru",
+    "label": "RU"
+  }
 ]
