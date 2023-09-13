@@ -1,6 +1,6 @@
-type FooterProps = {
-  className: string,
-};
+import { ComponentProps } from '../../types';
+
+type FooterProps = ComponentProps;
 
 export default function Footer({ className }: FooterProps): React.JSX.Element {
   return (

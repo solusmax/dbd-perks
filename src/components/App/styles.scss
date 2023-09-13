@@ -1,3 +1,5 @@
+@import "./../../styles/variables.scss";
+
 html {
   height: 100%;
 }
@@ -10,6 +12,7 @@ body {
 
   font-family: $font-roboto-condensed;
   font-size: 16px;
+  font-weight: 400;
   color: $color-white;
   overflow-wrap: break-word;
 
@@ -23,9 +26,23 @@ body {
   justify-content: flex-start;
   height: 100%;
   min-height: 100%;
+  padding-top: $mobile-header-height;
+
+  @media (min-width: $tablet-width) {
+    padding-top: $tablet-header-height;
+  }
+
+  @media (min-width: $desktop-width) {
+    padding-top: $desktop-header-height;
+  }
 }
 
 .app__header {
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+
   flex-shrink: 0;
 }
 

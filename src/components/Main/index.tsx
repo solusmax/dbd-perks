@@ -1,8 +1,7 @@
+import { ComponentProps } from '../../types';
 import { useTranslation } from 'react-i18next';
 
-type MainProps = {
-  className: string,
-};
+type MainProps = ComponentProps;
 
 export default function Main({ className }: MainProps): React.JSX.Element {
   const { t } = useTranslation();

@@ -12,10 +12,11 @@ void i18n
       loadPath: './locales/{{lng}}/{{ns}}.json',
     },
     ns: [
+      'app',
       'perks',
       'characters'
     ],
-    defaultNS: 'perks',
+    defaultNS: 'app',
     fallbackLng: 'en',
     debug: false,
     interpolation: {

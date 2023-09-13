@@ -1,0 +1,46 @@
+@import "./../../styles/variables.scss";
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo__img {
+  width: 48px;
+  height: 48px;
+
+  @media (min-width: $tablet-width) {
+    width: 80px;
+    height: 80px;
+  }
+
+  @media (min-width: $desktop-width) {
+    width: 100px;
+    height: 100px;
+  }
+}
+
+.logo__title {
+  margin-left: 8px;
+
+  font-family: $font-roboto-condensed;
+  font-size: 24px;
+  font-weight: 700;
+  font-style: normal;
+  line-height: 1;
+  text-transform: uppercase;
+
+  color: $color-white;
+
+  @media (min-width: $tablet-width) {
+    margin-left: 12px;
+
+    font-size: 32px;
+  }
+
+  @media (min-width: $desktop-width) {
+    margin-left: 16px;
+
+    font-size: 36px;
+  }
+}
