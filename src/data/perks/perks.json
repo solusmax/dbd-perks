@@ -1,6 +1,5 @@
 {
   "meta": {
-    "dbd-version": "7.0.2",
     "paths": {
       "killer-icons-folder": "./img/killer-perks",
       "survivor-icons-folder": "./img/survivor-perks"
