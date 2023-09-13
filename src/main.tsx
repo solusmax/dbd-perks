@@ -1,7 +1,6 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 import './i18n';
-import './styles/index.scss'
 import LoadingPage from './components/LoadingPage';
 import App from './components/App'
 

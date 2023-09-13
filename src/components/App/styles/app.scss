@@ -1,0 +1,39 @@
+html {
+  height: 100%;
+}
+
+body {
+  min-width: $mobile-width;
+  margin: 0;
+  height: 100%;
+  min-height: 100%;
+
+  font-family: $font-roboto-condensed;
+  font-size: 16px;
+  color: $color-white;
+  overflow-wrap: break-word;
+
+  background-color: $color-purple-500;
+}
+
+// stylelint-disable-next-line
+#root {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  height: 100%;
+  min-height: 100%;
+}
+
+.app__header {
+  flex-shrink: 0;
+}
+
+.app__main {
+  flex-grow: 1;
+}
+
+.app__footer {
+  flex-shrink: 0;
+  margin-top: auto;
+}

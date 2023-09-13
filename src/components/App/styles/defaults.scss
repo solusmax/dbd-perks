@@ -15,23 +15,6 @@ img {
   height: auto;
 }
 
-// https://github.com/WICG/focus-visible
-// [1] Hide the focus indicator if the element receives focus via
-//     the mouse, but it will still show up on keyboard focus
-// [2] The focus indicator for keyboard focus
-
-.js-focus-visible :focus:not(.focus-visible) {
-  // [1]
-  outline: none;
-}
-
-.js-focus-visible .focus-visible,
-:focus-visible,
-.no-js :focus {
-  // [2]
-  @include focus-default-styles;
-}
-
 // [1] Add the correct height in Firefox
 // [2] Correct the inheritance of border color in Firefox
 

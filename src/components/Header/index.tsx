@@ -1,9 +1,13 @@
 import LanguageSwitcher from '../LanguageSwitcher';
 
-export default function Header(): React.JSX.Element {
+type HeaderProps = {
+  className: string,
+};
+
+export default function Header({ className }: HeaderProps): React.JSX.Element {
   return (
-    <>
+    <header className={`header ${className}`}>
       <LanguageSwitcher />
-    </>
+    </header>
   )
 }
