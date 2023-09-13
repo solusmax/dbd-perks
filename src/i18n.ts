@@ -15,7 +15,7 @@ void i18n
       'perks',
       'characters'
     ],
-    defaultNS: 'app',
+    defaultNS: 'perks',
     fallbackLng: 'en',
     debug: false,
     interpolation: {
