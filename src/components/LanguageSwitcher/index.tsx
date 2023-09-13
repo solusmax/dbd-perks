@@ -4,7 +4,7 @@ import { changeLanguage } from '../../utils';
 
 type LanguageSwitcherProps = ComponentProps;
 
-export default function LanguageSwitcher({ className }: LanguageSwitcherProps): React.JSX.Element {
+export default function LanguageSwitcher({ className }: LanguageSwitcherProps = {}): React.JSX.Element {
   return (
     <div className={`language-switcher ${className}`}>
       {languages.map((language) => {

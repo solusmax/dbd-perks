@@ -3,7 +3,7 @@ import { useTranslation } from 'react-i18next';
 
 type MainProps = ComponentProps;
 
-export default function Main({ className }: MainProps): React.JSX.Element {
+export default function Main({ className }: MainProps = {}): React.JSX.Element {
   const { t } = useTranslation();
 
   return (

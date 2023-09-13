@@ -32,3 +32,10 @@ $tablet-dbd-version-min-height: 18px;
     font-size: 14px;
   }
 }
+
+// https://react-tooltip.com/docs/examples/styling#classes
+body .dbd-version__tooltip {
+  font-weight: 300;
+
+  background-color: $color-purple-450;
+}
