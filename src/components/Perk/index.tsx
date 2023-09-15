@@ -57,7 +57,7 @@ export default function Perk({
 
   return (
     <div className={`perk ${className}`}>
-      <button id={`perk-${id}`} className={`perk__inner ${isInfoOpen ? 'perk__inner--selected' : ''}`} ref={perkButtonRef}>
+      <button id={`perk-${id}`} className={`perk__button ${isInfoOpen ? 'perk__button--selected' : ''}`} ref={perkButtonRef}>
         <img className="perk__img" src={`./img/perks/${side}/${!(isLegacyMode && legacy !== null) ? icon : 'legacy/' + legacy.icon}`} alt={t(!isLegacyMode ? `${id}.name` : `${id}.legacy.name`, { ns: 'perks'})} />
       </button>
       <div className='perk__overlay' />

@@ -6,7 +6,7 @@
   height: var(--perk-size);
 }
 
-.perk__inner {
+.perk__button {
   position: relative;
   left: var(--perk-image-offset);
   top: var(--perk-image-offset);
@@ -136,7 +136,7 @@
   }
 }
 
-.perk__inner--selected + .perk__overlay {
+.perk__button--selected + .perk__overlay {
   display: block;
 }
 
