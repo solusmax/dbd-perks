@@ -1,1 +1,26 @@
 @import "./../../styles/variables.scss";
+
+.main {
+  display: flex;
+  justify-content: center;
+}
+
+.main__inner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  max-width: 1024px + ($desktop-padding * 2);
+  padding-left: $mobile-padding;
+  padding-right: $mobile-padding;
+
+  @media (min-width: $tablet-width) {
+    padding-left: $tablet-padding;
+    padding-right: $tablet-padding;
+  }
+
+  @media (min-width: $desktop-width) {
+    padding-left: $desktop-padding;
+    padding-right: $desktop-padding;
+  }
+}

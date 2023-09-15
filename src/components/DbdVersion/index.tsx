@@ -7,7 +7,7 @@ type DbdVersionProps = ComponentProps & {
   dbdVersion: string
 };
 
-export default function DbdVersion({ className, dbdVersion }: DbdVersionProps): React.JSX.Element {
+export default function DbdVersion({ className = '', dbdVersion }: DbdVersionProps): React.JSX.Element {
   const { t } = useTranslation();
 
   return (

@@ -7,7 +7,7 @@ import LanguageSwitcher from '../LanguageSwitcher';
 
 type HeaderProps = ComponentProps;
 
-export default function Header({ className }: HeaderProps = {}): React.JSX.Element {
+export default function Header({ className = '' }: HeaderProps = {}): React.JSX.Element {
   return (
     <header className={`header ${className}`}>
       <div className="header__inner">

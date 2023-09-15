@@ -7,3 +7,7 @@ export const changeLanguage = (language: string) => {
 export const getCurrentLanguage = () => {
   return i18next.language;
 }
+
+export const isCurrentLanguageEnglish = () => {
+  return getCurrentLanguage() === 'en';
+}

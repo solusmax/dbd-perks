@@ -22,6 +22,29 @@ $mobile-header-gap: 8px;
 $tablet-header-gap: 12px;
 $desktop-header-gap: 16px;
 
+// Перки
+
+:root {
+  --perks-gap: 6px;
+  --perks-extra-offset: 50px;
+  --perks-offset-between-lines: -16px;
+  --perk-rotated-size: 65px;
+  --perk-size: 92px;
+  --perk-image-offset: calc((var(--perk-size) - var(--perk-rotated-size)) / 2);
+  --perk-description-width: 340px;
+  --perk-description-side-size: 48px;
+
+  @media (min-width: $tablet-width) {
+    --perks-gap: 32px;
+    --perks-extra-offset: 96px;
+    --perks-offset-between-lines: -32px;
+    --perk-rotated-size: 113px;
+    --perk-size: 160px;
+    --perk-description-width: 545px;
+    --perk-description-side-size: 64px;
+  }
+}
+
 // Шрифты
 
 $font-roboto-condensed: "Roboto Condensed", "Arial Narrow", "Arial", sans-serif;
@@ -31,7 +54,20 @@ $font-roboto-condensed: "Roboto Condensed", "Arial Narrow", "Arial", sans-serif;
 $color-white: #ffffff;
 $color-black: #000000;
 
+$color-green-500: #199b1e;
+
+$color-yellow-300: #fefedd;
+$color-yellow-400: #c8c0a1;
+$color-yellow-500: #e8c252;
+
+$color-red-500: #d41c1c;
+
+$color-orange-500: #ff8800;
+
+$color-purple-200: #ac3ee3;
 $color-purple-300: #45325e;
+$color-purple-325: #4d2564;
+$color-purple-350: #4a255b;
 $color-purple-400: #2f2141;
 $color-purple-450: #170f22;
 $color-purple-500: #150b22;

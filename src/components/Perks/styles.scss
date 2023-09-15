@@ -1,1 +1,77 @@
 @import "./../../styles/variables.scss";
+
+.perks {
+  display: flex;
+  flex-wrap: wrap;
+
+  &--row-size-3 {
+    width: calc(
+      var(--perk-size) * 3 + var(--perks-gap) * 2 + var(--perks-extra-offset)
+    );
+  }
+
+  &--row-size-4 {
+    width: calc(
+      var(--perk-size) * 4 + var(--perks-gap) * 3 + var(--perks-extra-offset)
+    );
+  }
+
+  &--row-size-5 {
+    width: calc(
+      var(--perk-size) * 5 + var(--perks-gap) * 4 + var(--perks-extra-offset)
+    );
+  }
+}
+
+.perks--row-size-3 .perks__perk {
+  &:not(:nth-child(3n + 1)) {
+    margin-left: var(--perks-gap);
+  }
+
+  &:nth-child(6n + 4) {
+    margin-left: var(--perks-extra-offset);
+  }
+
+  &:nth-child(n + 4) {
+    margin-top: var(--perks-offset-between-lines);
+  }
+}
+
+.perks--row-size-4 .perks__perk {
+  &:not(:nth-child(4n + 1)) {
+    margin-left: var(--perks-gap);
+  }
+
+  &:nth-child(8n + 5) {
+    margin-left: var(--perks-extra-offset);
+  }
+
+  &:nth-child(n + 5) {
+    margin-top: var(--perks-offset-between-lines);
+  }
+}
+
+.perks--row-size-5 .perks__perk {
+  &:not(:nth-child(5n + 1)) {
+    margin-left: var(--perks-gap);
+  }
+
+  &:nth-child(10n + 6) {
+    margin-left: var(--perks-extra-offset);
+  }
+
+  &:nth-child(n + 6) {
+    margin-top: var(--perks-offset-between-lines);
+  }
+}
+
+.perks__empty-slot {
+  display: inline-block;
+  width: var(--perk-size);
+  height: var(--perk-size);
+
+  background-image: url("./../../assets/img/perks/empty-slot.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+}

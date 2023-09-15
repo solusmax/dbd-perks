@@ -37,12 +37,17 @@ body {
 }
 
 .app__header {
-  position: fixed;
+  position: absolute;
   left: 0;
   right: 0;
   top: 0;
+  z-index: 9998;
 
   flex-shrink: 0;
+
+  @media (min-height: 500px) {
+    position: fixed;
+  }
 }
 
 .app__main {

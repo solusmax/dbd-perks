@@ -1,18 +1,21 @@
 import './styles.scss';
-import { ComponentProps } from '../../types';
+import PerksJson from './../../data/perks.json';
+import { ComponentProps, PerkData } from '../../types';
 import Filter from '../Filter';
 import Sorter from '../Sorter';
 import Perks from '../Perks';
 
+const perks: PerkData[] = PerksJson;
+
 type MainProps = ComponentProps;
 
-export default function Main({ className }: MainProps = {}): React.JSX.Element {
+export default function Main({ className = '' }: MainProps = {}): React.JSX.Element {
   return (
     <main className={`main ${className}`}>
-      <div>
+      <div className="main__inner">
         <Filter />
         <Sorter />
-        <Perks />
+        <Perks perks={perks} />
       </div>
     </main>
   )

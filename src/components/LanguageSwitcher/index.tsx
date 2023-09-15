@@ -18,7 +18,7 @@ const getDefaultLanguage = () => {
   return languages.find((language) => language.value === getCurrentLanguage()) ?? languages[0];
 }
 
-export default function LanguageSwitcher({ className }: LanguageSwitcherProps = {}): React.JSX.Element {
+export default function LanguageSwitcher({ className = '' }: LanguageSwitcherProps = {}): React.JSX.Element {
   const [selectedOption, setSelectedOption] = useState<Language>(getDefaultLanguage());
 
   const handleChange = (language: Language | null) => {
