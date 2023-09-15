@@ -11,6 +11,7 @@
     "scss/at-import-partial-extension": null,
     "scss/at-rule-no-unknown": null,
     "scss/comment-no-empty": null,
+    "scss/operator-no-newline-after": null,
     "color-named": "never",
     "font-weight-notation": "numeric",
     "declaration-no-important": true,
