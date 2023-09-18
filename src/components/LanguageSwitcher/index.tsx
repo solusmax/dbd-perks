@@ -1,11 +1,11 @@
 import './styles.scss';
-import { ComponentProps } from '../../types';
+import { CustomComponentProps } from '../../types';
 import languagesJson from '../../data/languages.json'
 import { useState } from 'react';
 import { changeLanguage, getCurrentLanguage } from '../../utils';
 import Select from 'react-select';
 
-type LanguageSwitcherProps = ComponentProps;
+type LanguageSwitcherProps = CustomComponentProps;
 
 type Language = {
   value: string,

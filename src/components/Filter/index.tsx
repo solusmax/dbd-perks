@@ -1,7 +1,7 @@
 import './styles.scss';
-import { ComponentProps } from '../../types';
+import { CustomComponentProps } from '../../types';
 
-type FilterProps = ComponentProps;
+type FilterProps = CustomComponentProps;
 
 export default function Filter({ className = '' }: FilterProps): React.JSX.Element {
   return (

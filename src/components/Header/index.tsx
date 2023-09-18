@@ -1,11 +1,11 @@
 import './styles.scss';
-import { ComponentProps } from '../../types';
+import { CustomComponentProps } from '../../types';
 import dbdData from '../../data/dbd.json';
 import Logo from '../Logo';
 import DbdVersion from '../DbdVersion';
 import LanguageSwitcher from '../LanguageSwitcher';
 
-type HeaderProps = ComponentProps;
+type HeaderProps = CustomComponentProps;
 
 export default function Header({ className = '' }: HeaderProps = {}): React.JSX.Element {
   return (

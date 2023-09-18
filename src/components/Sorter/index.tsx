@@ -1,7 +1,7 @@
 import './styles.scss';
-import { ComponentProps } from '../../types';
+import { CustomComponentProps } from '../../types';
 
-type SorterProps = ComponentProps;
+type SorterProps = CustomComponentProps;
 
 export default function Sorter({ className = '' }: SorterProps): React.JSX.Element {
   return (

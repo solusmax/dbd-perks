@@ -1,7 +1,7 @@
 import './styles.scss';
-import { ComponentProps } from '../../types';
+import { CustomComponentProps } from '../../types';
 
-type FooterProps = ComponentProps;
+type FooterProps = CustomComponentProps;
 
 export default function Footer({ className = '' }: FooterProps = {}): React.JSX.Element {
   return (

@@ -1,5 +1,5 @@
 import './styles.scss';
-import { ComponentProps, PerkData } from '../../types';
+import { CustomComponentProps, PerkData } from '../../types';
 import { useTranslation } from 'react-i18next';
 import { Tooltip } from 'react-tooltip';
 import { MouseEvent, useState, useRef } from 'react';
@@ -18,7 +18,7 @@ const sideImages: SideImages = {
   killer: './img/perks/killer.png'
 }
 
-type SideImgProps = ComponentProps & {
+type SideImgProps = CustomComponentProps & {
   side: string
 }
 
@@ -30,7 +30,7 @@ function SideImg({ className = '', side }: SideImgProps): React.JSX.Element {
   )
 }
 
-type PerkProps = ComponentProps & PerkData;
+type PerkProps = CustomComponentProps & PerkData;
 
 export default function Perk({
   className = '',

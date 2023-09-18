@@ -1,7 +1,7 @@
 import './styles.scss';
-import { ComponentProps } from '../../types';
+import { CustomComponentProps } from '../../types';
 
-type LogoProps = ComponentProps;
+type LogoProps = CustomComponentProps;
 
 export default function Logo({ className = '' }: LogoProps = {}): React.JSX.Element {
   return (

@@ -1,3 +1,3 @@
-export type ComponentProps = {
+export type CustomComponentProps = {
   className?: string,
 };

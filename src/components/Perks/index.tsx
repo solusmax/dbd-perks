@@ -1,5 +1,5 @@
 import './styles.scss';
-import { ComponentProps, PerkData } from '../../types';
+import { CustomComponentProps, PerkData } from '../../types';
 import Perk from '../Perk';
 import useWindowDimensions from '../../hooks/use-window-dimensions';
 import { useEffect, useState } from 'react';
@@ -25,7 +25,7 @@ const calcRowSize = (windowWidth: number) => {
   return 5;
 }
 
-type EmptySlotProps = ComponentProps;
+type EmptySlotProps = CustomComponentProps;
 
 function EmptySlot({ className = '' }: EmptySlotProps): React.JSX.Element {
   return (
@@ -49,7 +49,7 @@ function EmptySlots({ count }: EmptySlotsProps ): React.JSX.Element | null {
   )
 }
 
-type PerksProps = ComponentProps & {
+type PerksProps = CustomComponentProps & {
   perks: PerkData[];
 };
 
