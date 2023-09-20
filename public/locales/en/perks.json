@@ -121,7 +121,9 @@
   },
   "borrowed-time-78efc4": {
     "name": "Borrowed Time",
-    "alt-names": ["BT"],
+    "alt-names": [
+      "BT"
+    ],
     "description": "<p>You are fueled by unexpected energy when saving an ally from a hook.</p> <p>Survivors you unhook:</p> <ul> <li>Keep their <strong>Endurance</strong> status effect for an extra <span class=\"md-perk-tier-1\">6</span>/<span class=\"md-perk-tier-2\">8</span>/<span class=\"md-perk-tier-3\">10</span> <strong>seconds</strong>.</li> <li>Keep their movement speed bonus for an extra <span class=\"md-perk-value-orange\">10 seconds</span>.</li> </ul> <p class=\"md-perk-extra-info\">Endurance prevents a Survivor from being downed, inflicting Deep Wound instead.</p> <p class=\"md-perk-extra-info\">Deep Wound will put a Survivor in the dying state unless it is mended before the timer runs out.</p> <p class=\"md-perk-quote\">\"Probably stings like hell, but it ain't gonna kill ya. Up and at 'em soldier. Time to move!\" — Bill Overbeck</p> ",
     "legacy": null
   },
@@ -199,7 +201,9 @@
   },
   "dead-hard-06dc08": {
     "name": "Dead Hard",
-    "alt-names": ["DH"],
+    "alt-names": [
+      "DH"
+    ],
     "description": "<p>You can take a beating.</p> <p>Dead Hard activates after you are unhooked or unhook yourself.</p> <p>When injured, tap into your adrenaline bank to avoid incoming damage. Press the <em>Active Ability Button 1</em> while running to gain the Endurance status effect for the next <span class=\"md-perk-value-yellow\">0.5 seconds</span>.</p> <ul> <li>Causes the <em>Exhausted</em> status effect for <span class=\"md-perk-tier-1\">60</span>/<span class=\"md-perk-tier-2\">50</span>/<span class=\"md-perk-tier-3\">40</span> <strong>seconds</strong>.</li> <li>Dead Hard then deactivates.</li> </ul> <p class=\"md-perk-extra-info\">Endurance prevents a Survivor from being downed, inflicting Deep Wound instead.</p> <p class=\"md-perk-extra-info\">Deep Wound will put a Survivor in the dying state unless it is mended before the timer runs out.</p> <p class=\"md-perk-extra-info\">Exhausted prevents Survivors from activating exhausting perks.</p> <p class=\"md-perk-quote\">\"We were walkin' through t'ginnel one night when a beer bottle flew past me, then another, and another. I thought to myself, \"Gonna 'ave some fun 'ere lads, let's get stuck in!\" It were a right dust up, I swear down!\" — David King</p> ",
     "legacy": null
   },
@@ -211,7 +215,9 @@
   },
   "decisive-strike-9d6df6": {
     "name": "Decisive Strike",
-    "alt-names": ["DS"],
+    "alt-names": [
+      "DS"
+    ],
     "description": "<p>Stab at your aggressor in an attempt to escape.</p> <p>After being unhooked or unhooking yourself, <em>Decisive Strike</em> activates for <span class=\"md-perk-tier-1\">40</span>/<span class=\"md-perk-tier-2\">50</span>/<span class=\"md-perk-tier-3\">60</span> <strong>seconds</strong>.</p> <p>When active, complete a Skill Check when grabbed by the Killer to escape, stunning them for <span class=\"md-perk-value-orange\">3 seconds</span>.</p> <ul> <li>Succeeding or failing the Skill Check disables <em>Decisive Strike</em>.</li> <li>You become the Obsession after stunning the Killer.</li> <li>The perk and its effects are disabled if the exit gates are powered.</li> </ul> <p><em>Increases your chance to be the Obsession.</em></p> <p><span class=\"md-perk-extra-info\">The Killer can obly be obsesssed with one Survivor at a time.</span></p> <p>Taking any Conspicuous Action will deactivate <em>Decisive Strike</em>.</p> <p class=\"md-perk-quote\">\"There is nothing to be scared of.\" — Laurie Strode</p> ",
     "legacy": null
   },
@@ -786,7 +792,9 @@
   },
   "barbecue-and-chilli-e30b6e": {
     "name": "Barbecue & Chilli",
-    "alt-names": ["B&C"],
+    "alt-names": [
+      "B&C"
+    ],
     "description": "<p>A deep bond with The Entity unlocks potential in one&#39;s aura reading ability.</p> <ul> <li>After hooking a Survivor, all other Survivors&#39; auras are revealed to you for <span class=\"md-perk-value-yellow\">4 seconds</span> when they are further than <span class=\"md-perk-tier-1\">60</span>/<span class=\"md-perk-tier-2\">50</span>/<span class=\"md-perk-tier-3\">40</span> <strong>meters</strong> from the hook.</li> </ul> <p class=\"md-perk-quote\">\"I just can't take no pleasure in killing. There's just some things you gotta do. Don't mean you have to like it.\" — Drayton Sawyer</p> ",
     "legacy": null
   },
@@ -872,7 +880,9 @@
   },
   "dead-mans-switch-965210": {
     "name": "Dead Man's Switch",
-    "alt-names": ["DMS"],
+    "alt-names": [
+      "DMS"
+    ],
     "description": "<p>When you hook a Survivor, <em>Dead Man&#39;s Switch</em> activates for the next <span class=\"md-perk-tier-1\">20</span>/<span class=\"md-perk-tier-2\">25</span>/<span class=\"md-perk-tier-3\">30</span> <strong>seconds</strong>.</p> <p>While activated, any Survivor that stops repairing a generator before it is fully repaired causes The Entity to block the generator until <em>Dead Man&#39;s Switch&#39;s</em> effect ends.</p> <p>Affected generators are highlighted by a white aura.</p> <p class=\"md-perk-quote\">\"I've seen the look on a man's face when he realizes he's going to die.\" — Caleb Quinn</p> ",
     "legacy": null
   },
@@ -1006,7 +1016,9 @@
   },
   "hex-blood-favour-a96980": {
     "name": "Hex: Blood Favour",
-    "alt-names": ["Hex: Blood Favor"],
+    "alt-names": [
+      "Hex: Blood Favor"
+    ],
     "description": "<p>A Hex that gains The Entity&#39;s favor when blood is spilled.</p> <p>Injuring a Survivor will call upon The Entity to block pallets from being pulled down within a <span class=\"md-perk-tier-1\">24</span>/<span class=\"md-perk-tier-2\">28</span>/<span class=\"md-perk-tier-3\">32</span> <strong>meter</strong> radius of the Survivor location for <span class=\"md-perk-value-orange\">15 seconds</span>.</p> <p><em>The Hex effects persist as long as the related Hex Totem is standing.</em></p> <p class=\"md-perk-quote\">\"It would be no leap of the imagination to suggest that the trials are a biological response of sorts.\" — Journal of Talbot Grimes</p> ",
     "legacy": null
   },
@@ -1042,7 +1054,9 @@
   },
   "hex-no-one-escapes-death-e15ab3": {
     "name": "Hex: No One Escapes Death",
-    "alt-names": ["NOED"],
+    "alt-names": [
+      "NOED"
+    ],
     "description": "<p>A Hex rooting its power on hope. You are animated by the power of your Hex Totem when the Survivors are on the verge of escaping.</p> <p>Once the exit gates are powered, if there is a Dull Totem remaining on the map, this Hex is applied to it.</p> <p>While this Hex is active,</p> <ul> <li>Survivors suffer from the Exposed status effect.</li> <li>Your movement speed is increased by <span class=\"md-perk-tier-1\">2</span>/<span class=\"md-perk-tier-2\">3</span>/<span class=\"md-perk-tier-3\">4</span><strong>%</strong>.</li> </ul> <p>Once the Hex&#39;s effect is revealed to the Survivors, its Hex Totem&#39;s aura is shown to the Survivors at a range of <span class=\"md-perk-value-orange\">4 meters</span>. This range increases steadily over the next <span class=\"md-perk-value-red\">30 seconds</span> to <span class=\"md-perk-value-purple\">24 meters</span>.</p> <p>The Hex effects persist as long as the related Hex Totem is standing.</p> <p class=\"md-perk-extra-info\">Exposed Survivors will be downed by basic attacks even if uninjured.</p> <p class=\"md-perk-quote\">\"And the beast became faster and more powerful as if The Entity's shadowy whips were lashing at its back.\"</p> ",
     "legacy": null
   },
@@ -1266,7 +1280,9 @@
   },
   "save-the-best-for-last-48c25d": {
     "name": "Save the Best for Last",
-    "alt-names": ["SBFL, STBFL"],
+    "alt-names": [
+      "SBFL, STBFL"
+    ],
     "description": "<p>You become <strong>obsessed</strong> with one Survivor.</p> <p>Earn a token for each successful <em>basic attack</em> that is not dealt to the Obsession.</p> <p>Each Token grants a stackable <span class=\"md-perk-value-yellow\">5%</span> decreased successful <em>basic attack</em> cooldown, you can earn up to <span class=\"md-perk-value-orange\">8</span> tokens.</p> <p>Hitting your Obsession with a <em>basic attack</em> will cause you to lose <span class=\"md-perk-tier-1\">4</span>/<span class=\"md-perk-tier-2\">3</span>/<span class=\"md-perk-tier-3\">2</span> tokens.</p> <p>You can no longer gain tokens if your Obsession is sacrificed or killed.</p> <p class=\"md-perk-extra-info\">The Killer can only be <b>obsessed</b> with one Survivor at a time.</p> <p class=\"md-perk-quote\">\"Death has come to your little town, sheriff.\" — Dr. Sam Loomis</p> ",
     "legacy": null
   },
