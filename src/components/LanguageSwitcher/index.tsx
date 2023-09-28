@@ -1,9 +1,9 @@
-import './styles.scss';
-import { CustomComponentProps } from '../../types';
+import './styles.scss'
+import { CustomComponentProps } from '../../types'
 import languagesJson from '../../data/languages.json'
-import { useState } from 'react';
-import { changeLanguage, getCurrentLanguage } from '../../utils';
-import Select from 'react-select';
+import { useState } from 'react'
+import { changeLanguage, getCurrentLanguage } from '../../utils'
+import Select from 'react-select'
 
 type LanguageSwitcherProps = CustomComponentProps;
 
@@ -35,8 +35,8 @@ export default function LanguageSwitcher({ className = '' }: LanguageSwitcherPro
   return (
     <div className={`language-switcher ${className}`}>
       <Select
-        className='language-switcher__select'
-        classNamePrefix='language-switcher'
+        className="language-switcher__select"
+        classNamePrefix="language-switcher"
         isSearchable={false}
         components={{
           DropdownIndicator: () => null,

@@ -1,9 +1,9 @@
-import './styles.scss';
-import { CustomComponentProps, PerkData } from '../../types';
-import Perk from '../Perk';
-import useWindowDimensions from '../../hooks/use-window-dimensions';
-import { useEffect, useState } from 'react';
-import { MOBILE_PADDING, TABLET_PADDING, TABLET_WINDOW_WIDTH } from '../../consts';
+import './styles.scss'
+import { CustomComponentProps, PerkData } from '../../types'
+import Perk from '../Perk'
+import useWindowDimensions from '../../hooks/use-window-dimensions'
+import { useEffect, useState } from 'react'
+import { MOBILE_PADDING, TABLET_PADDING, TABLET_WINDOW_WIDTH } from '../../consts'
 
 const MOBILE_PERK_WIDTH = 92;
 const TABLET_PERK_WIDTH = 160;

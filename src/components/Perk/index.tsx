@@ -1,12 +1,12 @@
-import './styles.scss';
-import { CustomComponentProps, PerkData } from '../../types';
-import { useTranslation } from 'react-i18next';
-import { Tooltip } from 'react-tooltip';
-import { MouseEvent, useState, useRef } from 'react';
-import { disablePointerEvents, isCurrentLanguageEnglish, resetPointerEvents } from '../../utils';
+import './styles.scss'
+import { CustomComponentProps, PerkData } from '../../types'
+import { useTranslation } from 'react-i18next'
+import { Tooltip } from 'react-tooltip'
+import { MouseEvent, useState, useRef } from 'react'
+import { disablePointerEvents, isCurrentLanguageEnglish, resetPointerEvents } from '../../utils'
 import { autoPlacement, offset, shift } from '@floating-ui/dom'
-import useWindowDimensions from '../../hooks/use-window-dimensions';
-import { DESKTOP_PADDING, DESKTOP_WINDOW_WIDTH, MOBILE_PADDING, TABLET_PADDING, TABLET_WINDOW_WIDTH } from '../../consts';
+import useWindowDimensions from '../../hooks/use-window-dimensions'
+import { DESKTOP_PADDING, DESKTOP_WINDOW_WIDTH, MOBILE_PADDING, TABLET_PADDING, TABLET_WINDOW_WIDTH } from '../../consts'
 
 type SideImages = {
   survivor: string
@@ -60,7 +60,7 @@ export default function Perk({
       <button id={`perk-${id}`} className={`perk__button ${isInfoOpen ? 'perk__button--selected' : ''}`} ref={perkButtonRef}>
         <img className="perk__img" src={`./img/perks/${side}/${!(isLegacyMode && legacy !== null) ? icon : 'legacy/' + legacy.icon}`} alt={t(!isLegacyMode ? `${id}.name` : `${id}.legacy.name`, { ns: 'perks'})} />
       </button>
-      <div className='perk__overlay' />
+      <div className="perk__overlay" />
 
       <Tooltip
         className="perk__info"
