@@ -1,21 +1,21 @@
 export type PerkData = {
-  id: string,
-  side: string,
-  character: string,
-  icon: string,
-  wiki: string,
+  id: string;
+  side: string;
+  character: string;
+  icon: string;
+  wiki: string;
   legacy: {
-    character: string,
-    icon: string,
-    wiki: string,
-  } | null,
-}
+    character: string;
+    icon: string;
+    wiki: string;
+  } | null;
+};
 
 export type PerkLocale = {
-  name: string,
-  altNames: string[] | null,
-  description: string,
+  name: string;
+  altNames: string[] | null;
+  description: string;
   legacy: {
-    name: string,
-  } | null,
-}
+    name: string;
+  } | null;
+};

@@ -1,13 +1,16 @@
-import './styles.scss'
-import { useTranslation } from 'react-i18next'
-import { CustomComponentProps } from '../../types'
-import { Tooltip } from 'react-tooltip'
+import './styles.scss';
+import { useTranslation } from 'react-i18next';
+import { CustomComponentProps } from '../../types';
+import { Tooltip } from 'react-tooltip';
 
 type DbdVersionProps = CustomComponentProps & {
-  dbdVersion: string
+  dbdVersion: string;
 };
 
-export default function DbdVersion({ className = '', dbdVersion }: DbdVersionProps): React.JSX.Element {
+export default function DbdVersion({
+  className = '',
+  dbdVersion,
+}: DbdVersionProps): React.JSX.Element {
   const { t } = useTranslation();
 
   return (
@@ -15,9 +18,14 @@ export default function DbdVersion({ className = '', dbdVersion }: DbdVersionPro
       <div id="dbd-version" className={`dbd-version ${className}`}>
         {dbdVersion}
       </div>
-      <Tooltip className="dbd-version__tooltip" anchorSelect="#dbd-version" place="bottom" closeOnEsc>
+      <Tooltip
+        className="dbd-version__tooltip"
+        anchorSelect="#dbd-version"
+        place="bottom"
+        closeOnEsc
+      >
         {t('dbd-version-tooltip')}
       </Tooltip>
     </>
-  )
+  );
 }
