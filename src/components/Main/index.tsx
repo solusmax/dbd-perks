@@ -1,17 +1,18 @@
-import './styles.scss';
-import PerksJson from './../../data/perks.json';
+import { RootState } from '../../store/store';
 import { CustomComponentProps, PerkData } from '../../types';
 import Filter from '../Filter';
-import Sorter from '../Sorter';
 import Perks from '../Perks';
-
-const perks: PerkData[] = PerksJson;
+import Sorter from '../Sorter';
+import './styles.scss';
+import { useSelector } from 'react-redux';
 
 type MainProps = CustomComponentProps;
 
 export default function Main({
   className = '',
 }: MainProps = {}): React.JSX.Element {
+  const perks: PerkData[] = useSelector((state: RootState) => state.perks);
+
   return (
     <main className={`main ${className}`}>
       <div className="main__inner">

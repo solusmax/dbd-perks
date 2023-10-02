@@ -1,7 +1,7 @@
-import './styles.scss';
+import Footer from '../Footer';
 import Header from '../Header';
 import Main from '../Main';
-import Footer from '../Footer';
+import './styles.scss';
 
 export default function App(): JSX.Element {
   return (

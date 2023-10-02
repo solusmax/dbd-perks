@@ -1,13 +1,14 @@
-import './styles.scss';
-import { CustomComponentProps, PerkData } from '../../types';
-import Perk from '../Perk';
-import useWindowDimensions from '../../hooks/use-window-dimensions';
-import { useEffect, useState } from 'react';
 import {
   MOBILE_PADDING,
   TABLET_PADDING,
   TABLET_WINDOW_WIDTH,
 } from '../../consts';
+import useWindowDimensions from '../../hooks/use-window-dimensions';
+import { CustomComponentProps, PerkData } from '../../types';
+import Perk from '../Perk';
+import PerkInfo from '../PerkInfo';
+import './styles.scss';
+import { useEffect, useState } from 'react';
 
 const MOBILE_PERK_WIDTH = 92;
 const TABLET_PERK_WIDTH = 160;
@@ -103,17 +104,20 @@ export default function Perks({
   const isMultiple = perksCount % rowSize === 0;
 
   return (
-    <div className={`perks perks--row-size-${rowSize} ${className}`}>
-      {perks.map((perk) => {
-        return <Perk key={perk.id} className="perks__perk" {...perk} />;
-      })}
+    <>
+      <div className={`perks perks--row-size-${rowSize} ${className}`}>
+        {perks.map((perk) => {
+          return <Perk key={perk.id} className="perks__perk" {...perk} />;
+        })}
 
-      {perksCount < rowSize * 3 &&
-        EmptySlots({ count: rowSize * 3 - perksCount })}
+        {perksCount < rowSize * 3 &&
+          EmptySlots({ count: rowSize * 3 - perksCount })}
 
-      {perksCount > rowSize * 3 &&
-        !isMultiple &&
-        EmptySlots({ count: rowSize - (perksCount % rowSize) })}
-    </div>
+        {perksCount > rowSize * 3 &&
+          !isMultiple &&
+          EmptySlots({ count: rowSize - (perksCount % rowSize) })}
+      </div>
+      <PerkInfo />
+    </>
   );
 }

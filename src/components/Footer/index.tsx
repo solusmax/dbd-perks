@@ -1,5 +1,5 @@
-import './styles.scss';
 import { CustomComponentProps } from '../../types';
+import './styles.scss';
 
 type FooterProps = CustomComponentProps;
 
