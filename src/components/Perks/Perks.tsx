@@ -5,8 +5,8 @@ import {
 } from '../../consts';
 import useWindowDimensions from '../../hooks/use-window-dimensions';
 import { CustomComponentProps, PerkData } from '../../types';
-import Perk from '../Perk';
-import PerkInfo from '../PerkInfo';
+import Perk from '../Perk/Perk';
+import PerkInfo from '../PerkInfo/PerkInfo';
 import './styles.scss';
 import { useEffect, useState } from 'react';
 

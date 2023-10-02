@@ -1,5 +1,5 @@
-import App from './components/App';
-import LoadingPage from './components/LoadingPage';
+import App from './components/App/App';
+import LoadingPage from './components/LoadingPage/LoadingPage';
 import './i18n';
 import { store } from './store/store';
 import './styles/index.scss';

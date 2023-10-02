@@ -1,8 +1,8 @@
 import { RootState } from '../../store/store';
 import { CustomComponentProps, PerkData } from '../../types';
-import Filter from '../Filter';
-import Perks from '../Perks';
-import Sorter from '../Sorter';
+import Filter from '../Filter/Filter';
+import Perks from '../Perks/Perks';
+import Sorter from '../Sorter/Sorter';
 import './styles.scss';
 import { useSelector } from 'react-redux';
 

@@ -1,8 +1,8 @@
 import dbdData from '../../data/dbd.json';
 import { CustomComponentProps } from '../../types';
-import DbdVersion from '../DbdVersion';
-import LanguageSwitcher from '../LanguageSwitcher';
-import Logo from '../Logo';
+import DbdVersion from '../DbdVersion/DbdVersion';
+import LanguageSwitcher from '../LanguageSwitcher/LanguageSwitcher';
+import Logo from '../Logo/Logo';
 import './styles.scss';
 
 type HeaderProps = CustomComponentProps;
