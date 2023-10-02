@@ -9,5 +9,6 @@
         "jsxSingleQuote": false
       }
     }
-  ]
+  ],
+  "plugins": ["@trivago/prettier-plugin-sort-imports"]
 }

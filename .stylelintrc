@@ -1,11 +1,7 @@
 {
   "syntax": "scss",
-  "extends": [
-    "stylelint-config-recommended-scss"
-  ],
-  "plugins": [
-    "stylelint-scss"
-  ],
+  "extends": ["stylelint-config-recommended-scss"],
+  "plugins": ["stylelint-scss"],
   "rules": {
     "at-rule-no-unknown": null,
     "scss/at-import-partial-extension": null,
