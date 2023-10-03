@@ -1,10 +1,14 @@
-import { RootState } from '../../store/store';
-import { CustomComponentProps, PerkData } from '../../types';
-import Filter from '../Filter/Filter';
-import Perks from '../Perks/Perks';
-import Sorter from '../Sorter/Sorter';
-import './styles.scss';
 import { useSelector } from 'react-redux';
+
+import { RootState } from '@/store/store';
+
+import { CustomComponentProps, PerkData } from '@/types';
+
+import Filter from '@/components/Filter/Filter';
+import Perks from '@/components/Perks/Perks';
+import Sorter from '@/components/Sorter/Sorter';
+
+import './styles.scss';
 
 type MainProps = CustomComponentProps;
 

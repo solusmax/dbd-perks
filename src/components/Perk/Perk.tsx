@@ -1,11 +1,14 @@
-import { useIsLegacyMode } from '../../hooks/use-is-legacy-mode';
-import { setSelectedPerkId } from '../../store/appSlice';
-import { RootState } from '../../store/store';
-import { CustomComponentProps, PerkData } from '../../types';
-import './styles.scss';
 import { MouseEvent } from 'react';
 import { useTranslation } from 'react-i18next';
 import { useDispatch, useSelector } from 'react-redux';
+
+import { useIsLegacyMode } from '@/hooks/use-is-legacy-mode';
+import { setSelectedPerkId } from '@/store/appSlice';
+import { RootState } from '@/store/store';
+
+import { CustomComponentProps, PerkData } from '@/types';
+
+import './styles.scss';
 
 type PerkProps = CustomComponentProps & PerkData;
 

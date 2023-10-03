@@ -1,5 +1,3 @@
-@import "./../../styles/variables.scss";
-
 .perk {
   display: inline-block;
   width: var(--perk-size);
@@ -42,7 +40,7 @@
     width: var(--perk-size);
     height: var(--perk-size);
 
-    background-image: url("./../../assets/img/perks/perk-background.png");
+    background-image: url("@/assets/img/perks/perk-background.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: var(--perk-size);

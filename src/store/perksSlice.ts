@@ -1,6 +1,8 @@
-import { getPerksData } from '../model/data';
-import { PerkData } from '../types';
 import { createSlice } from '@reduxjs/toolkit';
+
+import { getPerksData } from '@/model/data';
+
+import { PerkData } from '@/types';
 
 export type PerksState = PerkData[];
 

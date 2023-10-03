@@ -1,14 +1,17 @@
-import { useIsLegacyMode } from '../../hooks/use-is-legacy-mode';
-import { clearSelectedPerkId, toogleLegacyPerk } from '../../store/appSlice';
-import { RootState } from '../../store/store';
-import { CustomComponentProps } from '../../types';
-import { getDataAttribute, isCurrentLanguageEnglish } from '../../utils';
-import './styles.scss';
 import { autoPlacement, offset, shift } from '@floating-ui/dom';
 import { MouseEvent } from 'react';
 import { useTranslation } from 'react-i18next';
 import { useDispatch, useSelector } from 'react-redux';
 import { Tooltip } from 'react-tooltip';
+
+import { useIsLegacyMode } from '@/hooks/use-is-legacy-mode';
+import { clearSelectedPerkId, toogleLegacyPerk } from '@/store/appSlice';
+import { RootState } from '@/store/store';
+import { getDataAttribute, isCurrentLanguageEnglish } from '@/utils';
+
+import { CustomComponentProps } from '@/types';
+
+import './styles.scss';
 
 type SideImages = {
   survivor: string;

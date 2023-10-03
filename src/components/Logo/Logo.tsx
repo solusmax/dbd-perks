@@ -1,4 +1,5 @@
-import { CustomComponentProps } from '../../types';
+import { CustomComponentProps } from '@/types';
+
 import './styles.scss';
 
 type LogoProps = CustomComponentProps;

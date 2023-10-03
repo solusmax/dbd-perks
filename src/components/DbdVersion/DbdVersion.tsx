@@ -1,7 +1,9 @@
-import { CustomComponentProps } from '../../types';
-import './styles.scss';
 import { useTranslation } from 'react-i18next';
 import { Tooltip } from 'react-tooltip';
+
+import { CustomComponentProps } from '@/types';
+
+import './styles.scss';
 
 type DbdVersionProps = CustomComponentProps & {
   dbdVersion: string;

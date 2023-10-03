@@ -6,9 +6,21 @@
       "options": {
         "bracketSameLine": false,
         "singleQuote": true,
-        "jsxSingleQuote": false
+        "jsxSingleQuote": false,
+        "plugins": ["@trivago/prettier-plugin-sort-imports"],
+        "importOrder": [
+          "<THIRD_PARTY_MODULES>",
+          "^@/(assets|data)/?(.*)$",
+          "^@/(model|consts|store|hooks|utils)/?(.*)$",
+          "^@/types/?(.*)$",
+          "^@/styles/?(.*)$",
+          "^@/components/?(.*)$",
+          "^@/(.*)$",
+          "^[./]"
+        ],
+        "importOrderSeparation": true,
+        "importOrderSortSpecifiers": true
       }
     }
-  ],
-  "plugins": ["@trivago/prettier-plugin-sort-imports"]
+  ]
 }

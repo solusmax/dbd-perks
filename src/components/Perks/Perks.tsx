@@ -1,14 +1,14 @@
-import {
-  MOBILE_PADDING,
-  TABLET_PADDING,
-  TABLET_WINDOW_WIDTH,
-} from '../../consts';
-import useWindowDimensions from '../../hooks/use-window-dimensions';
-import { CustomComponentProps, PerkData } from '../../types';
-import Perk from '../Perk/Perk';
-import PerkInfo from '../PerkInfo/PerkInfo';
-import './styles.scss';
 import { useEffect, useState } from 'react';
+
+import { MOBILE_PADDING, TABLET_PADDING, TABLET_WINDOW_WIDTH } from '@/consts';
+import useWindowDimensions from '@/hooks/use-window-dimensions';
+
+import { CustomComponentProps, PerkData } from '@/types';
+
+import Perk from '@/components/Perk/Perk';
+import PerkInfo from '@/components/PerkInfo/PerkInfo';
+
+import './styles.scss';
 
 const MOBILE_PERK_WIDTH = 92;
 const TABLET_PERK_WIDTH = 160;

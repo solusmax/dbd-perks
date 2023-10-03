@@ -1,6 +1,7 @@
-import { removeElementFromArray } from '../utils';
 import type { PayloadAction } from '@reduxjs/toolkit';
 import { createSlice } from '@reduxjs/toolkit';
+
+import { removeElementFromArray } from '@/utils';
 
 export type AppState = {
   selectedPerkId: string | null;

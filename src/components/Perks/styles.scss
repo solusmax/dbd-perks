@@ -1,5 +1,3 @@
-@import "./../../styles/variables.scss";
-
 .perks {
   display: flex;
   flex-wrap: wrap;
@@ -70,7 +68,7 @@
   width: var(--perk-size);
   height: var(--perk-size);
 
-  background-image: url("./../../assets/img/perks/empty-slot.png");
+  background-image: url("@/assets/img/perks/empty-slot.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: 100%;
