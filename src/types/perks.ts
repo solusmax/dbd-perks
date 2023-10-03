@@ -1,6 +1,10 @@
+import { Side } from '@/consts';
+
+export type Sides = Side.Survivor | Side.Killer;
+
 export type PerkData = {
   id: string;
-  side: string;
+  side: Sides;
   character: string;
   icon: string;
   wiki: string;

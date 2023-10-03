@@ -1,24 +1,35 @@
 import { ChangeEvent, MouseEvent, useRef, useState } from 'react';
 import { useTranslation } from 'react-i18next';
+import { useDispatch, useSelector } from 'react-redux';
 
 import { Side } from '@/consts';
+import {
+  toggleKillerPerksShown,
+  toggleSurvivorPerksShown,
+} from '@/store/appSlice';
+import { RootState } from '@/store/store';
 
-import { CustomComponentProps } from '@/types';
+import { CustomComponentProps, Sides } from '@/types';
 
 import SvgIcon from '@/components/SvgIcon/SvgIcon';
 
 import './styles.scss';
 
 type FilterProps = CustomComponentProps;
-type Sides = Side.Survivor | Side.Killer;
 
 export default function Filter({
   className = '',
 }: FilterProps): React.JSX.Element {
+  const isKillerSelected = useSelector(
+    (state: RootState) => state.app.killerPerksShown,
+  );
+  const isSurvivorSelected = useSelector(
+    (state: RootState) => state.app.survivorPerksShown,
+  );
+  const dispatch = useDispatch();
+
   const searchInputRef = useRef<HTMLInputElement>(null);
   const [searchValue, setSearchValue] = useState<string>('');
-  const [isSurvivorSelected, setIsSurvivorSelecter] = useState<boolean>(true);
-  const [isKillerSelected, setIsKillerSelected] = useState<boolean>(true);
   const { t } = useTranslation();
 
   const changeSearchValue = (value: string) => {
@@ -46,10 +57,10 @@ export default function Filter({
 
       switch (side) {
         case Side.Killer:
-          setIsKillerSelected(!isKillerSelected);
+          dispatch(toggleKillerPerksShown());
           break;
         case Side.Survivor:
-          setIsSurvivorSelecter(!isSurvivorSelected);
+          dispatch(toggleSurvivorPerksShown());
           break;
       }
     };

@@ -1,6 +1,7 @@
 import { useSelector } from 'react-redux';
 
 import { RootState } from '@/store/store';
+import { getPerksFilteredBy, getPerksSortedByName } from '@/utils';
 
 import { CustomComponentProps, PerkData } from '@/types';
 
@@ -17,6 +18,24 @@ export default function Main({
 }: MainProps = {}): React.JSX.Element {
   const perks: PerkData[] = useSelector((state: RootState) => state.perks);
 
+  const selectedDirection = useSelector(
+    (state: RootState) => state.app.sortDirection,
+  );
+  const isKillerPerksShown = useSelector(
+    (state: RootState) => state.app.killerPerksShown,
+  );
+  const isSurvivorPerksShown = useSelector(
+    (state: RootState) => state.app.survivorPerksShown,
+  );
+
+  const outputPerks: PerkData[] = getPerksFilteredBy(
+    getPerksSortedByName(perks, selectedDirection),
+    {
+      isKillerPerksShown: isKillerPerksShown,
+      isSurvivorPerksShown: isSurvivorPerksShown,
+    },
+  );
+
   return (
     <main className={`main ${className}`}>
       <div className="main__inner">
@@ -24,7 +43,7 @@ export default function Main({
           <Filter className="main__filter" />
           <Sorter className="main__sorter" />
         </div>
-        <Perks perks={perks} />
+        <Perks perks={outputPerks} />
       </div>
     </main>
   );
