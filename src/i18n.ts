@@ -16,7 +16,6 @@ void i18n
     ns: ['app', 'characters', 'perks', 'sides'],
     preload: languagesJson.map((language) => language.value),
     defaultNS: 'app',
-    lng: 'en',
     fallbackLng: 'en',
     debug: false,
     interpolation: {
