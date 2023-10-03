@@ -5,7 +5,9 @@
   "scripts": {
     "dev": "vite --open --host",
     "dev:tsc": "tsc --noEmit --watch",
-    "build": "npm run lint:scss && npm run lint:ts && npm run lint:html && tsc && vite build",
+    "build": "npm run lint && tsc && vite build",
+    "build:demo": "vite build",
+    "lint": "npm run lint:scss && npm run lint:ts && npm run lint:html",
     "lint:ts": "prettier --write \"./src/**/*.{js,jsx,ts,tsx}\" && eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "lint:scss": "prettier --write \"./src/**/*.scss\" && stylelint \"./src/**/*.scss\" --custom-syntax postcss-scss",
     "lint:html": "prettier --write \"./**/*.html\"",
