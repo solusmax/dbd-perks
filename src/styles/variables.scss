@@ -1,4 +1,4 @@
-// Сетка
+// Layout
 
 $mobile-padding: 10px;
 $tablet-padding: 32px;
@@ -22,7 +22,7 @@ $mobile-header-gap: 8px;
 $tablet-header-gap: 12px;
 $desktop-header-gap: 16px;
 
-// Перки
+// Perks
 
 :root {
   --perks-gap: 6px;
@@ -45,11 +45,11 @@ $desktop-header-gap: 16px;
   }
 }
 
-// Шрифты
+// Fonts
 
 $font-roboto-condensed: "Roboto Condensed", "Arial Narrow", "Arial", sans-serif;
 
-// Цвета
+// Colors
 
 $color-white: #ffffff;
 $color-black: #000000;
@@ -75,6 +75,6 @@ $color-purple-450: #170f22;
 $color-purple-500: #150b22;
 $color-purple-600: #10061c;
 
-// Анимации
+// Animations
 
 $transition-duration: 0.15s;
