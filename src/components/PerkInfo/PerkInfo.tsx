@@ -4,6 +4,7 @@ import { useTranslation } from 'react-i18next';
 import { useDispatch, useSelector } from 'react-redux';
 import { Tooltip } from 'react-tooltip';
 
+import { Side } from '@/consts';
 import { useIsLegacyMode } from '@/hooks/use-is-legacy-mode';
 import { clearSelectedPerkId, toogleLegacyPerk } from '@/store/appSlice';
 import { RootState } from '@/store/store';
@@ -14,13 +15,13 @@ import { CustomComponentProps } from '@/types';
 import './styles.scss';
 
 type SideImages = {
-  survivor: string;
-  killer: string;
+  [Side.Survivor]: string;
+  [Side.Killer]: string;
 };
 
 const sideImages: SideImages = {
-  survivor: './img/perks/survivor.png',
-  killer: './img/perks/killer.png',
+  [Side.Survivor]: `./img/perks/${Side.Survivor}.png`,
+  [Side.Killer]: `./img/perks/${Side.Killer}.png`,
 };
 
 type SideImgProps = CustomComponentProps & {

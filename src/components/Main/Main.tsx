@@ -20,8 +20,10 @@ export default function Main({
   return (
     <main className={`main ${className}`}>
       <div className="main__inner">
-        <Filter />
-        <Sorter />
+        <div className="main__filter-sorter-wrapper">
+          <Filter className="main__filter" />
+          <Sorter className="main__sorter" />
+        </div>
         <Perks perks={perks} />
       </div>
     </main>

@@ -1,1 +1,70 @@
-//
+:root {
+  --sorter-size: 44px;
+
+  @media (min-width: $tablet-width) {
+    --sorter-size: 48px;
+  }
+}
+
+.sorter {
+  width: var(--sorter-size);
+  height: var(--sorter-size);
+}
+
+.sorter__button {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  border: none;
+  border-radius: 4px;
+
+  background-color: transparent;
+
+  transition-property: background-color;
+  transition-duration: $transition-duration;
+
+  cursor: pointer;
+
+  &:hover {
+    background-color: $color-purple-600;
+  }
+}
+
+.sorter__svg-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.sorter__svg {
+  width: 100%;
+  height: calc(var(--sorter-size) / 2 - 10px);
+
+  fill: rgba($color-white, 0.3);
+
+  transition-property: fill;
+  transition-duration: $transition-duration;
+
+  &:first-child {
+    margin-bottom: 10px;
+  }
+
+  &--down {
+    transform: rotate(180deg);
+  }
+
+  &--selected {
+    fill: $color-white;
+  }
+}
+
+.sorter__button:active .sorter__svg {
+  fill: rgba($color-white, 0.4);
+
+  &--selected {
+    fill: $color-white;
+  }
+}
