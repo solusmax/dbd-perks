@@ -2,13 +2,11 @@ import { useTranslation } from 'react-i18next';
 
 import { CustomComponentProps } from '@/types';
 
-import './styles.scss';
+import './Logo.scss';
 
 type LogoProps = CustomComponentProps;
 
-export default function Logo({
-  className = '',
-}: LogoProps = {}): React.JSX.Element {
+export default function Logo({ className = '' }: LogoProps = {}): JSX.Element {
   const { t } = useTranslation();
 
   return (
@@ -18,7 +16,10 @@ export default function Logo({
         src="img/logo.svg"
         alt={t('dbd-perks-logo', { ns: 'app' })}
       />
-      <span className="logo__title">DBD Perks</span>
+      <span className="logo__title">
+        DBD Perks
+        <span className="logo__beta">beta</span>
+      </span>
     </div>
   );
 }

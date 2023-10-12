@@ -1,5 +1,13 @@
 {
-  "search-placeholder": "noed",
   "dbd-perks-logo": "DBD Perks logo.",
-  "dbd-version-tooltip": "Dead by Daylight version"
+  "dbd-version-tooltip": "Dead by Daylight version",
+  "side-switcher-killer-button": "Killer perks",
+  "side-switcher-survovor-button": "Survivor perks",
+  "sorter-button": "Sort alphabetically",
+  "search-placeholder": "noed",
+  "perks-counter-label_one": "{{count}} perk",
+  "perks-counter-label_other": "{{count}} perks",
+  "perks-counter-tooltip": "Perks",
+  "perk-belonging-general": "General perk",
+  "perk-belonging-character": "{{character}} perk"
 }

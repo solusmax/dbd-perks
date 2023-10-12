@@ -1,0 +1,138 @@
+:root {
+  --language-switcher-height: 46px;
+  --language-switcher-button-width: 32px;
+  --language-switcher-svg-ratio: 0.8;
+}
+
+.language-switcher {
+  display: flex;
+  height: var(--language-switcher-height);
+  padding-top: 4px;
+  padding-bottom: 4px;
+  border-radius: calc(var(--language-switcher-height) / 2);
+
+  background-color: $color-purple-500;
+}
+
+.language-switcher__button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: var(--language-switcher-button-width);
+  padding: 0;
+  border: none;
+
+  background-color: transparent;
+
+  filter: drop-shadow(0 2px 4px rgba($color-black, 0.25));
+
+  cursor: pointer;
+}
+
+.language-switcher__button-svg {
+  width: calc(
+    var(--language-switcher-button-width) * var(--language-switcher-svg-ratio)
+  );
+  height: calc(
+    var(--language-switcher-button-width) * var(--language-switcher-svg-ratio)
+  );
+
+  fill: $color-purple-440;
+
+  transition-duration: $transition-duration;
+  transition-property: fill;
+}
+
+.language-switcher__button--next .language-switcher__button-svg {
+  transform: rotate(180deg);
+}
+
+.language-switcher__button:focus {
+  outline: none;
+}
+
+.language-switcher__button:hover .language-switcher__button-svg,
+.language-switcher__button:focus-visible .language-switcher__button-svg {
+  fill: $color-purple-425;
+}
+
+.language-switcher .language-switcher__select {
+  cursor: pointer;
+}
+
+.language-switcher__select .language-switcher__control {
+  width: auto;
+  min-width: 50px;
+  border: none;
+
+  text-align: center;
+
+  background-color: $color-purple-440;
+  box-shadow: 0 2px 4px rgba($color-black, 0.25);
+  cursor: pointer;
+
+  transition-duration: $transition-duration;
+  transition-property: background-color;
+
+  &:hover,
+  &:focus-within {
+    border: none;
+
+    background-color: $color-purple-425;
+    box-shadow: 0 2px 4px rgba($color-black, 0.25);
+  }
+}
+
+.language-switcher__select .language-switcher__single-value {
+  color: $color-white;
+  font-weight: 700;
+  font-size: 18px;
+  text-transform: uppercase;
+
+  background-color: transparent;
+  cursor: pointer;
+
+  @media (min-width: $tablet-width) {
+    font-size: 22px;
+  }
+}
+
+body .language-switcher__menu-portal {
+  z-index: 9100;
+}
+
+.language-switcher__menu-portal .language-switcher__menu {
+  border-radius: 4px;
+
+  background-color: $color-purple-450;
+  cursor: pointer;
+}
+
+.language-switcher__menu-portal .language-switcher__menu-list {
+  border: transparent;
+  border-radius: 4px;
+
+  background-color: $color-purple-450;
+  cursor: pointer;
+}
+
+.language-switcher__menu-portal .language-switcher__option {
+  text-align: center;
+  text-transform: uppercase;
+
+  cursor: pointer;
+
+  &:active {
+    background-color: transparent;
+  }
+
+  &--is-focused,
+  &--is-focused:active {
+    background-color: $color-purple-400;
+  }
+
+  &--is-selected,
+  &--is-selected:active {
+    background-color: $color-purple-300;
+  }
+}

@@ -1,62 +1,94 @@
 import { useState } from 'react';
 import Select from 'react-select';
 
-import languagesJson from '@/data/languages.json';
+import {
+  getCurrentLanguage,
+  getDefaultLanguage,
+  getLanguages,
+  getNearestLanguage,
+  getSelectOption,
+  setLanguage,
+} from '@/utils';
 
-import { changeLanguage, getCurrentLanguage } from '@/utils';
+import {
+  CustomComponentProps,
+  LanguageSwitcherDirection,
+  SelectOption,
+} from '@/types';
 
-import { CustomComponentProps } from '@/types';
+import SvgIcon from '@/components/SvgIcon/SvgIcon';
 
-import './styles.scss';
+import './LanguageSwitcher.scss';
 
 type LanguageSwitcherProps = CustomComponentProps;
 
-type Language = {
-  value: string;
-  label: string;
-};
-
-const languages: Language[] = languagesJson;
-
-const getDefaultLanguage = () => {
-  return (
-    languages.find((language) => language.value === getCurrentLanguage()) ??
-    languages[0]
-  );
-};
+const languages = getLanguages();
 
 export default function LanguageSwitcher({
   className = '',
-}: LanguageSwitcherProps = {}): React.JSX.Element {
-  const [selectedOption, setSelectedOption] = useState<Language>(
-    getDefaultLanguage(),
+}: LanguageSwitcherProps = {}): JSX.Element {
+  const [selectedOption, setSelectedOption] = useState<SelectOption>(
+    getSelectOption(getCurrentLanguage()),
   );
 
-  const handleChange = (language: Language | null) => {
+  const setNewLanguage = (language: SelectOption) => {
+    setSelectedOption(language);
+    setLanguage(language.value);
+  };
+
+  const handleSelectChange = (language: SelectOption | null) => {
     if (!language) {
-      setSelectedOption(getDefaultLanguage());
-      changeLanguage(getDefaultLanguage().value);
+      const defaultLanguage = getDefaultLanguage();
+
+      setNewLanguage(getSelectOption(defaultLanguage));
       return;
     }
 
-    setSelectedOption(language);
-    changeLanguage(language.value);
+    setNewLanguage(language);
+  };
+
+  const handleButtonClick = (direction: LanguageSwitcherDirection) => {
+    return () => {
+      const newLanguage = getNearestLanguage(direction);
+
+      setNewLanguage(getSelectOption(newLanguage));
+    };
   };
 
   return (
     <div className={`language-switcher ${className}`}>
+      <button
+        className="language-switcher__button language-switcher__button--previous"
+        type="button"
+        onClick={handleButtonClick('previous')}
+      >
+        <SvgIcon className="language-switcher__button-svg" icon="triangle" />
+      </button>
+
       <Select
         className="language-switcher__select"
         classNamePrefix="language-switcher"
-        isSearchable={false}
+        menuPlacement="top"
+        menuPortalTarget={document.body}
         components={{
           DropdownIndicator: () => null,
           IndicatorSeparator: () => null,
         }}
-        defaultValue={selectedOption}
-        onChange={(newValue) => handleChange(newValue)}
-        options={languages}
+        isSearchable={false}
+        value={selectedOption}
+        onChange={(newValue) => handleSelectChange(newValue)}
+        options={languages.map((language) => {
+          return getSelectOption(language);
+        })}
       />
+
+      <button
+        className="language-switcher__button language-switcher__button--next"
+        type="button"
+        onClick={handleButtonClick('next')}
+      >
+        <SvgIcon className="language-switcher__button-svg" icon="triangle" />
+      </button>
     </div>
   );
 }

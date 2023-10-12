@@ -18,5 +18,12 @@ export const resetPointerEvents = (element: HTMLElement) => {
 export const getDataAttribute = (element: HTMLElement, attribute: string) => {
   if (element === null) return '';
 
-  return element?.getAttribute(attribute) ?? '';
+  return element?.getAttribute(`data-${attribute}`) ?? '';
+};
+
+export const getSelectOption = (value: string, label?: string) => {
+  return {
+    value: value,
+    label: label ?? value,
+  };
 };

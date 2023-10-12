@@ -258,7 +258,7 @@
   {
     "id": "dark-sense-aec185",
     "side": "survivor",
-    "character": "general",
+    "character": "general-perk",
     "icon": "dark-sense.png",
     "wiki": "https://deadbydaylight.fandom.com/wiki/Dark_Sense",
     "legacy": null
@@ -290,7 +290,7 @@
   {
     "id": "deja-vu-5a8445",
     "side": "survivor",
-    "character": "general",
+    "character": "general-perk",
     "icon": "deja-vu.png",
     "wiki": "https://deadbydaylight.fandom.com/wiki/D%C3%A9j%C3%A0_Vu",
     "legacy": null
@@ -402,7 +402,7 @@
   {
     "id": "guardian-c91484",
     "side": "survivor",
-    "character": "general",
+    "character": "general-perk",
     "icon": "guardian.png",
     "wiki": "https://deadbydaylight.fandom.com/wiki/Guardian",
     "legacy": {
@@ -422,7 +422,7 @@
   {
     "id": "hope-641889",
     "side": "survivor",
-    "character": "general",
+    "character": "general-perk",
     "icon": "hope.png",
     "wiki": "https://deadbydaylight.fandom.com/wiki/Hope",
     "legacy": null
@@ -446,7 +446,7 @@
   {
     "id": "inner-healing-4f43eb",
     "side": "survivor",
-    "character": "general",
+    "character": "general-perk",
     "icon": "inner-healing.png",
     "wiki": "https://deadbydaylight.fandom.com/wiki/Inner_Healing",
     "legacy": {
@@ -466,7 +466,7 @@
   {
     "id": "kindred-491bea",
     "side": "survivor",
-    "character": "general",
+    "character": "general-perk",
     "icon": "kindred.png",
     "wiki": "https://deadbydaylight.fandom.com/wiki/Kindred",
     "legacy": null
@@ -474,7 +474,7 @@
   {
     "id": "kinship-2380a7",
     "side": "survivor",
-    "character": "general",
+    "character": "general-perk",
     "icon": "kinship.png",
     "wiki": "https://deadbydaylight.fandom.com/wiki/Kinship",
     "legacy": {
@@ -502,7 +502,7 @@
   {
     "id": "lightweight-30c31a",
     "side": "survivor",
-    "character": "general",
+    "character": "general-perk",
     "icon": "lightweight.png",
     "wiki": "https://deadbydaylight.fandom.com/wiki/Lightweight",
     "legacy": null
@@ -558,7 +558,7 @@
   {
     "id": "no-one-left-behind-51e672",
     "side": "survivor",
-    "character": "general",
+    "character": "general-perk",
     "icon": "no-one-left-behind.png",
     "wiki": "https://deadbydaylight.fandom.com/wiki/No_One_Left_Behind",
     "legacy": null
@@ -622,7 +622,7 @@
   {
     "id": "plunderers-instinct-d5cb4d",
     "side": "survivor",
-    "character": "general",
+    "character": "general-perk",
     "icon": "plunderers-instinct.png",
     "wiki": "https://deadbydaylight.fandom.com/wiki/Plunderer%27s_Instinct",
     "legacy": null
@@ -654,7 +654,7 @@
   {
     "id": "premonition-05d040",
     "side": "survivor",
-    "character": "general",
+    "character": "general-perk",
     "icon": "premonition.png",
     "wiki": "https://deadbydaylight.fandom.com/wiki/Premonition",
     "legacy": null
@@ -710,7 +710,7 @@
   {
     "id": "renewal-033060",
     "side": "survivor",
-    "character": "general",
+    "character": "general-perk",
     "icon": "renewal.png",
     "wiki": "https://deadbydaylight.fandom.com/wiki/Renewal",
     "legacy": {
@@ -738,7 +738,7 @@
   {
     "id": "resilience-144fdb",
     "side": "survivor",
-    "character": "general",
+    "character": "general-perk",
     "icon": "resilience.png",
     "wiki": "https://deadbydaylight.fandom.com/wiki/Resilience",
     "legacy": null
@@ -778,7 +778,7 @@
   {
     "id": "self-aware-dfac48",
     "side": "survivor",
-    "character": "general",
+    "character": "general-perk",
     "icon": "self-aware.png",
     "wiki": "https://deadbydaylight.fandom.com/wiki/Self-Aware",
     "legacy": {
@@ -806,7 +806,7 @@
   {
     "id": "situational-awareness-db2c0b",
     "side": "survivor",
-    "character": "general",
+    "character": "general-perk",
     "icon": "situational-awareness.png",
     "wiki": "https://deadbydaylight.fandom.com/wiki/Situational_Awareness",
     "legacy": {
@@ -818,7 +818,7 @@
   {
     "id": "slippery-meat-0b7f8f",
     "side": "survivor",
-    "character": "general",
+    "character": "general-perk",
     "icon": "slippery-meat.png",
     "wiki": "https://deadbydaylight.fandom.com/wiki/Slippery_Meat",
     "legacy": null
@@ -826,7 +826,7 @@
   {
     "id": "small-game-d34d10",
     "side": "survivor",
-    "character": "general",
+    "character": "general-perk",
     "icon": "small-game.png",
     "wiki": "https://deadbydaylight.fandom.com/wiki/Small_Game",
     "legacy": null
@@ -866,7 +866,7 @@
   {
     "id": "spine-chil-ce2db6",
     "side": "survivor",
-    "character": "general",
+    "character": "general-perk",
     "icon": "spine-chill.png",
     "wiki": "https://deadbydaylight.fandom.com/wiki/Spine_Chill",
     "legacy": null
@@ -930,7 +930,7 @@
   {
     "id": "this-is-not-happening-b535a4",
     "side": "survivor",
-    "character": "general",
+    "character": "general-perk",
     "icon": "this-is-not-happening.png",
     "wiki": "https://deadbydaylight.fandom.com/wiki/This_Is_Not_Happening",
     "legacy": null
@@ -994,7 +994,7 @@
   {
     "id": "well-make-it-ab52ec",
     "side": "survivor",
-    "character": "general",
+    "character": "general-perk",
     "icon": "well-make-it.png",
     "wiki": "https://deadbydaylight.fandom.com/wiki/We%27ll_Make_It",
     "legacy": null
@@ -1074,7 +1074,7 @@
   {
     "id": "bitter-murmur-31bddb",
     "side": "killer",
-    "character": "general",
+    "character": "general-perk",
     "icon": "bitter-murmur.png",
     "wiki": "https://deadbydaylight.fandom.com/wiki/Bitter_Murmur",
     "legacy": null
@@ -1122,7 +1122,7 @@
   {
     "id": "claustrophobia-e13c28",
     "side": "killer",
-    "character": "general",
+    "character": "general-perk",
     "icon": "claustrophobia.png",
     "wiki": "https://deadbydaylight.fandom.com/wiki/Claustrophobia",
     "legacy": {
@@ -1198,7 +1198,7 @@
   {
     "id": "deerstalker-b8e8f2",
     "side": "killer",
-    "character": "general",
+    "character": "general-perk",
     "icon": "deerstalker.png",
     "wiki": "https://deadbydaylight.fandom.com/wiki/Deerstalker",
     "legacy": null
@@ -1222,7 +1222,7 @@
   {
     "id": "distressing-a77cb4",
     "side": "killer",
-    "character": "general",
+    "character": "general-perk",
     "icon": "distressing.png",
     "wiki": "https://deadbydaylight.fandom.com/wiki/Distressing",
     "legacy": null
@@ -1262,7 +1262,7 @@
   {
     "id": "fearmonger-e34f6c",
     "side": "killer",
-    "character": "general",
+    "character": "general-perk",
     "icon": "fearmonger.png",
     "wiki": "https://deadbydaylight.fandom.com/wiki/Fearmonger",
     "legacy": {
@@ -1402,7 +1402,7 @@
   {
     "id": "hex-no-one-escapes-death-e15ab3",
     "side": "killer",
-    "character": "general",
+    "character": "general-perk",
     "icon": "hex-no-one-escapes-death.png",
     "wiki": "https://deadbydaylight.fandom.com/wiki/Hex:_No_One_Escapes_Death",
     "legacy": null
@@ -1450,7 +1450,7 @@
   {
     "id": "hex-thrill-of-the-hunt-85f8fc",
     "side": "killer",
-    "character": "general",
+    "character": "general-perk",
     "icon": "hex-thrill-of-the-hunt.png",
     "wiki": "https://deadbydaylight.fandom.com/wiki/Hex:_Thrill_of_the_Hunt",
     "legacy": null
@@ -1506,7 +1506,7 @@
   {
     "id": "insidious-bc6712",
     "side": "killer",
-    "character": "general",
+    "character": "general-perk",
     "icon": "insidious.png",
     "wiki": "https://deadbydaylight.fandom.com/wiki/Insidious",
     "legacy": null
@@ -1514,7 +1514,7 @@
   {
     "id": "iron-grasp-c1ce87",
     "side": "killer",
-    "character": "general",
+    "character": "general-perk",
     "icon": "iron-grasp.png",
     "wiki": "https://deadbydaylight.fandom.com/wiki/Iron_Grasp",
     "legacy": null
@@ -1530,7 +1530,7 @@
   {
     "id": "jolt-b96ca1",
     "side": "killer",
-    "character": "general",
+    "character": "general-perk",
     "icon": "jolt.png",
     "wiki": "https://deadbydaylight.fandom.com/wiki/Jolt",
     "legacy": {
@@ -1726,7 +1726,7 @@
   {
     "id": "scourge-hook-monstrous-shrine-a5b09e",
     "side": "killer",
-    "character": "general",
+    "character": "general-perk",
     "icon": "scourge-hook-monstrous-shrine.png",
     "wiki": "https://deadbydaylight.fandom.com/wiki/Scourge_Hook:_Monstrous_Shrine",
     "legacy": null
@@ -1758,7 +1758,7 @@
   {
     "id": "shattered-hope-42798f",
     "side": "killer",
-    "character": "general",
+    "character": "general-perk",
     "icon": "shattered-hope.png",
     "wiki": "https://deadbydaylight.fandom.com/wiki/Shattered_Hope",
     "legacy": null
@@ -1766,7 +1766,7 @@
   {
     "id": "sloppy-butcher-e8a504",
     "side": "killer",
-    "character": "general",
+    "character": "general-perk",
     "icon": "sloppy-butcher.png",
     "wiki": "https://deadbydaylight.fandom.com/wiki/Sloppy_Butcher",
     "legacy": null
@@ -1774,7 +1774,7 @@
   {
     "id": "spies-from-the-shadows-2fdb39",
     "side": "killer",
-    "character": "general",
+    "character": "general-perk",
     "icon": "spies-from-the-shadows.png",
     "wiki": "https://deadbydaylight.fandom.com/wiki/Spies_from_the_Shadows",
     "legacy": null
@@ -1886,7 +1886,7 @@
   {
     "id": "unrelenting-150a16",
     "side": "killer",
-    "character": "general",
+    "character": "general-perk",
     "icon": "unrelenting.png",
     "wiki": "https://deadbydaylight.fandom.com/wiki/Unrelenting",
     "legacy": null
@@ -1894,7 +1894,7 @@
   {
     "id": "whispers-63de4c",
     "side": "killer",
-    "character": "general",
+    "character": "general-perk",
     "icon": "whispers.png",
     "wiki": "https://deadbydaylight.fandom.com/wiki/Whispers",
     "legacy": null

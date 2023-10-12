@@ -2,7 +2,6 @@
 
 $mobile-padding: 10px;
 $tablet-padding: 32px;
-$desktop-padding: 100px;
 
 $mobile-width: 360px;
 $tablet-width: 768px;
@@ -10,12 +9,14 @@ $desktop-width: 1224px;
 
 $max-content-width: 1700px;
 
+$comfortable-height: 480px;
+
 // Header
 
 $mobile-header-height: 68px;
-
 $tablet-header-height: 100px;
 $desktop-header-height: 118px;
+
 $desktop-header-padding: 8px;
 
 $mobile-header-gap: 8px;
@@ -39,6 +40,7 @@ $color-yellow-300: #fefedd;
 $color-yellow-400: #c8c0a1;
 $color-yellow-500: #e8c252;
 
+$color-red-400: #b7364d;
 $color-red-500: #d41c1c;
 
 $color-orange-500: #ff8800;
@@ -49,6 +51,7 @@ $color-purple-325: #4d2564;
 $color-purple-350: #4a255b;
 $color-purple-400: #2f2141;
 $color-purple-425: #26183b;
+$color-purple-440: #201530;
 $color-purple-450: #170f22;
 $color-purple-500: #150b22;
 $color-purple-550: #12091d;

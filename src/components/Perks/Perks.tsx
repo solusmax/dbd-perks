@@ -1,70 +1,70 @@
 import { useEffect, useState } from 'react';
 
-import { MOBILE_PADDING, TABLET_PADDING, TABLET_WINDOW_WIDTH } from '@/consts';
+import { AppLayout } from '@/consts';
 import useWindowDimensions from '@/hooks/use-window-dimensions';
+import { isMobileBreakpoint } from '@/utils';
 
 import { CustomComponentProps, PerkData } from '@/types';
 
 import Perk from '@/components/Perk/Perk';
 import PerkInfo from '@/components/PerkInfo/PerkInfo';
 
-import './styles.scss';
+import './Perks.scss';
 
-const MOBILE_PERK_WIDTH = 92;
-const TABLET_PERK_WIDTH = 160;
+const PerksLayout = {
+  PerkWidth: {
+    Mobile: 92,
+    Tablet: 160,
+  },
+  Gap: {
+    Mobile: 6,
+    Tablet: 32,
+  },
+  ExtraOffset: {
+    Mobile: 50,
+    Tablet: 96,
+  },
+  FreeSpace: 50,
+};
 
-const MOBILE_PERK_GAP = 6;
-const TABLET_PERK_GAP = 32;
-
-const MOBILE_EXTRA_OFFSET = 50;
-const TABLET_EXTRA_OFFSET = 96;
-
-const FREE_WIDTH = 18;
+const calcMinWindowWidth = (
+  perksCount: number,
+  breakpoint: 'Mobile' | 'Tablet',
+) => {
+  return (
+    (perksCount + 1) * PerksLayout.PerkWidth[breakpoint] +
+    perksCount * PerksLayout.Gap[breakpoint] +
+    PerksLayout.ExtraOffset[breakpoint] +
+    AppLayout.Padding[breakpoint] * 2 +
+    PerksLayout.FreeSpace
+  );
+};
 
 const calcRowSize = (windowWidth: number) => {
-  if (
-    windowWidth <
-    4 * MOBILE_PERK_WIDTH +
-      3 * MOBILE_PERK_GAP +
-      MOBILE_EXTRA_OFFSET +
-      MOBILE_PADDING * 2 +
-      FREE_WIDTH
-  )
+  if (windowWidth < calcMinWindowWidth(3, 'Mobile')) {
     return 3;
-  if (
-    windowWidth <
-    5 * MOBILE_PERK_WIDTH +
-      4 * MOBILE_PERK_GAP +
-      MOBILE_EXTRA_OFFSET +
-      MOBILE_PADDING * 2 +
-      FREE_WIDTH
-  )
+  }
+
+  if (windowWidth < calcMinWindowWidth(4, 'Mobile')) {
     return 4;
-  if (windowWidth < TABLET_WINDOW_WIDTH) return 5;
-  if (
-    windowWidth <
-    4 * TABLET_PERK_WIDTH +
-      3 * TABLET_PERK_GAP +
-      TABLET_EXTRA_OFFSET +
-      TABLET_PADDING * 2 +
-      FREE_WIDTH
-  )
+  }
+
+  if (isMobileBreakpoint(windowWidth)) return 5;
+
+  if (windowWidth < calcMinWindowWidth(3, 'Tablet')) {
     return 3;
-  if (
-    windowWidth <
-    5 * TABLET_PERK_WIDTH +
-      4 * TABLET_PERK_GAP +
-      TABLET_EXTRA_OFFSET +
-      TABLET_PADDING * 2 +
-      FREE_WIDTH
-  )
+  }
+
+  if (windowWidth < calcMinWindowWidth(4, 'Tablet')) {
     return 4;
+  }
+
   return 5;
 };
 
 type EmptySlotProps = CustomComponentProps;
 
-function EmptySlot({ className = '' }: EmptySlotProps): React.JSX.Element {
+function EmptySlot({ className = '' }: EmptySlotProps): JSX.Element {
   return <div className={`perks__empty-slot ${className}`} />;
 }
 
@@ -72,7 +72,7 @@ type EmptySlotsProps = {
   count: number;
 };
 
-function EmptySlots({ count }: EmptySlotsProps): React.JSX.Element | null {
+function EmptySlots({ count }: EmptySlotsProps): JSX.Element | null {
   if (count <= 0) return null;
 
   return (
@@ -91,7 +91,7 @@ type PerksProps = CustomComponentProps & {
 export default function Perks({
   className = '',
   perks,
-}: PerksProps): React.JSX.Element {
+}: PerksProps): JSX.Element {
   const { width: windowWidth } = useWindowDimensions();
 
   const [rowSize, setRowSize] = useState<number>(calcRowSize(windowWidth));
@@ -110,12 +110,13 @@ export default function Perks({
           return <Perk key={perk.id} className="perks__perk" {...perk} />;
         })}
 
-        {perksCount < rowSize * 3 &&
-          EmptySlots({ count: rowSize * 3 - perksCount })}
+        {perksCount < rowSize * 3 && (
+          <EmptySlots count={rowSize * 3 - perksCount} />
+        )}
 
-        {perksCount > rowSize * 3 &&
-          !isMultiple &&
-          EmptySlots({ count: rowSize - (perksCount % rowSize) })}
+        {perksCount > rowSize * 3 && !isMultiple && (
+          <EmptySlots count={rowSize - (perksCount % rowSize)} />
+        )}
       </div>
       <PerkInfo />
     </>

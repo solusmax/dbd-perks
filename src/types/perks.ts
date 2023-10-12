@@ -13,13 +13,7 @@ export type PerkData = {
     icon: string;
     wiki: string;
   } | null;
-};
-
-export type PerkLocale = {
-  name: string;
-  altNames: string[] | null;
-  description: string;
-  legacy: {
-    name: string;
-  } | null;
+  localeNames?: string;
+  localeDescription?: string;
+  localeCharacterNames?: string;
 };

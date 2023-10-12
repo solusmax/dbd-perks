@@ -2,20 +2,11 @@
   --perks-gap: 6px;
   --perks-extra-offset: 50px;
   --perks-offset-between-lines: -16px;
-  --perk-rotated-size: 65px;
-  --perk-size: 92px;
-  --perk-image-offset: calc((var(--perk-size) - var(--perk-rotated-size)) / 2);
-  --perk-description-width: 340px;
-  --perk-description-side-size: 48px;
 
   @media (min-width: $tablet-width) {
     --perks-gap: 32px;
     --perks-extra-offset: 96px;
     --perks-offset-between-lines: -32px;
-    --perk-rotated-size: 113px;
-    --perk-size: 160px;
-    --perk-description-width: 545px;
-    --perk-description-side-size: 64px;
   }
 }
 

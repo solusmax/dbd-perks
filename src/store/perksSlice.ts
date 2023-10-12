@@ -1,17 +1,26 @@
 import { createSlice } from '@reduxjs/toolkit';
-
-import { getPerksData } from '@/model/data';
+import type { PayloadAction } from '@reduxjs/toolkit';
 
 import { PerkData } from '@/types';
 
-export type PerksState = PerkData[];
+export type PerksState = {
+  perks: PerkData[];
+};
 
-const initialState: PerksState = getPerksData();
+const initialState: PerksState = {
+  perks: [],
+};
 
 export const perksSlice = createSlice({
   name: 'perks',
   initialState,
-  reducers: {},
+  reducers: {
+    setPerks: (state, action: PayloadAction<PerkData[]>) => {
+      state.perks = action.payload;
+    },
+  },
 });
+
+export const { setPerks } = perksSlice.actions;
 
 export default perksSlice.reducer;

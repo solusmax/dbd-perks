@@ -5,10 +5,11 @@ import { useDispatch, useSelector } from 'react-redux';
 import { useIsLegacyMode } from '@/hooks/use-is-legacy-mode';
 import { setSelectedPerkId } from '@/store/appSlice';
 import { RootState } from '@/store/store';
+import { getPerkBelongingLocale } from '@/utils';
 
 import { CustomComponentProps, PerkData } from '@/types';
 
-import './styles.scss';
+import './Perk.scss';
 
 type PerkProps = CustomComponentProps & PerkData;
 
@@ -20,7 +21,7 @@ export default function Perk({
   icon,
   wiki,
   legacy,
-}: PerkProps): React.JSX.Element {
+}: PerkProps): JSX.Element {
   const isInfoOpen = useSelector(
     (state: RootState) => id !== null && state.app.selectedPerkId === id,
   );
@@ -36,44 +37,51 @@ export default function Perk({
     };
   };
 
+  const perkId = id;
+  const perkName = t(`${id}.name`, { ns: 'perks' });
+  const perkSide = side;
+  const perkCharacter = getPerkBelongingLocale(character);
+  const perkWiki = wiki;
+  const perkDescription = t(`${id}.description`, { ns: 'perks' });
+  const perkHasLegacy = hasLegacy ? 'true' : 'false';
+  const perkLegacy = {
+    name: hasLegacy ? t(`${id}.legacy.name`, { ns: 'perks' }) : '',
+    character: hasLegacy ? getPerkBelongingLocale(legacy.character) : '',
+    wiki: hasLegacy ? legacy.wiki : '',
+  };
+  const perkIcon = !(hasLegacy && isLegacyMode)
+    ? `./img/perks/${side}/${icon}`
+    : `./img/perks/${side}/legacy/${legacy.icon}`;
+  const perkIconAltText = !(hasLegacy && isLegacyMode)
+    ? t(`${id}.name`, { ns: 'perks' })
+    : t(`${id}.legacy.name`, { ns: 'perks' });
+
   return (
     <div className={`perk ${className}`}>
       <button
         className={`perk__button ${isInfoOpen ? 'perk__button--selected' : ''}`}
         onClick={handleButtonClick(id)}
-        data-perk-id={id}
-        data-perk-name={t(`${id}.name`, { ns: 'perks' })}
-        data-perk-name-en={t(`${id}.name`, { ns: 'perks', lng: 'en' })}
-        data-perk-side={side}
-        data-perk-character={t(character, { ns: 'characters' })}
-        data-perk-description={t(`${id}.description`, { ns: 'perks' })}
-        data-perk-wiki={wiki}
-        data-perk-has-legacy={hasLegacy ? 'true' : 'false'}
-        data-perk-legacy-name={
-          hasLegacy ? t(`${id}.legacy.name`, { ns: 'perks' }) : ''
-        }
-        data-perk-legacy-name-en={
-          hasLegacy ? t(`${id}.legacy.name`, { ns: 'perks', lng: 'en' }) : ''
-        }
-        data-perk-legacy-wiki={hasLegacy ? legacy.wiki : ''}
-        data-perk-legacy-character={
-          hasLegacy ? t(legacy.character, { ns: 'characters' }) : ''
-        }
+        data-perk-id={perkId}
+        data-perk-name={perkName}
+        data-perk-side={perkSide}
+        data-perk-character={perkCharacter}
+        data-perk-description={perkDescription}
+        data-perk-wiki={perkWiki}
+        data-perk-has-legacy={perkHasLegacy}
+        data-perk-legacy-name={perkLegacy.name}
+        data-perk-legacy-character={perkLegacy.character}
+        data-perk-legacy-wiki={perkLegacy.wiki}
       >
         <img
           id={`perk-img-${id}`}
           className="perk__img"
-          src={
-            !(hasLegacy && isLegacyMode)
-              ? `./img/perks/${side}/${icon}`
-              : `./img/perks/${side}/legacy/${legacy.icon}`
-          }
-          alt={
-            !(hasLegacy && isLegacyMode)
-              ? t(`${id}.name`, { ns: 'perks' })
-              : t(`${id}.legacy.name`, { ns: 'perks' })
-          }
+          src={perkIcon}
+          alt={perkIconAltText}
         />
+        <div className="perk__selection perk__selection--tl" />
+        <div className="perk__selection perk__selection--tr" />
+        <div className="perk__selection perk__selection--bl" />
+        <div className="perk__selection perk__selection--br" />
       </button>
       <div className="perk__overlay" />
     </div>

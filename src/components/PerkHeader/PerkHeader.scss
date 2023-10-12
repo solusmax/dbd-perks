@@ -1,0 +1,122 @@
+:root {
+  --perk-header-side-size: 48px;
+
+  @media (min-width: $tablet-width) {
+    --perk-header-side-size: 64px;
+  }
+}
+
+.perk-header {
+  position: relative;
+
+  width: 100%;
+  min-height: 62px;
+  padding-left: 16px;
+  padding-right: 73px;
+  padding-top: 18px;
+  padding-bottom: 10px;
+
+  background-color: $color-purple-325;
+  background-image: url("@/assets/img/perks/description-header.jpg");
+  background-size: calc(var(--perk-info-width) * 1.4);
+  background-repeat: repeat-y;
+  background-position: right top;
+
+  @media (min-width: $tablet-width) {
+    min-height: 85px;
+    padding-left: 22px;
+    padding-right: 97px;
+    padding-top: 27px;
+    padding-bottom: 14px;
+
+    background-size: 100%;
+  }
+}
+
+.perk-header__wiki-link {
+  font-size: 20px;
+  line-height: 1;
+  font-weight: 700;
+  color: $color-white;
+  text-transform: uppercase;
+  text-decoration: none;
+
+  transition-duration: $transition-duration;
+  transition-property: color;
+
+  &:hover {
+    color: rgba($color-white, 0.7);
+  }
+
+  &:active {
+    color: rgba($color-white, 0.6);
+  }
+
+  @media (min-width: $tablet-width) {
+    font-size: 24px;
+  }
+}
+
+.perk-header__subtitle {
+  font-size: 12px;
+  font-weight: 400;
+  color: rgba($color-white, 0.6);
+  text-transform: uppercase;
+
+  @media (min-width: $tablet-width) {
+    font-size: 16px;
+  }
+}
+
+.perk-header__side {
+  position: absolute;
+  right: 9px;
+  top: 0;
+  bottom: 0;
+
+  display: flex;
+  align-items: center;
+  width: var(--perk-header-side-size);
+
+  @media (min-width: $tablet-width) {
+    right: 11px;
+  }
+}
+
+.perk-header__legacy-switcher {
+  position: relative;
+
+  width: var(--perk-header-side-size);
+  height: var(--perk-header-side-size);
+  padding: 0;
+  border: none;
+
+  background: transparent;
+  cursor: pointer;
+  outline: none;
+
+  &:focus-visible {
+    &::before {
+      content: "";
+
+      position: absolute;
+      left: 0;
+      right: 0;
+      top: 0;
+      bottom: 0;
+
+      border-color: rgba($color-white, 0.8);
+      border-width: 2px;
+      border-style: solid;
+
+      pointer-events: none;
+
+      transform: scale(1.15);
+    }
+  }
+}
+
+.perk-header__side-img {
+  width: var(--perk-header-side-size);
+  height: var(--perk-header-side-size);
+}

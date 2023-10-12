@@ -19,6 +19,8 @@
 }
 
 .logo__title {
+  position: relative;
+
   margin-left: 8px;
 
   font-family: $font-roboto-condensed;
@@ -40,5 +42,27 @@
     margin-left: 16px;
 
     font-size: 36px;
+  }
+}
+
+.logo__beta {
+  --beta-font-size: 13px;
+
+  position: absolute;
+  right: 0;
+  bottom: calc(var(--beta-font-size) * -1);
+
+  font-size: var(--beta-font-size);
+  line-height: 1;
+  color: $color-red-400;
+
+  pointer-events: none;
+
+  @media (min-width: $tablet-width) {
+    --beta-font-size: 17px;
+  }
+
+  @media (min-width: $desktop-width) {
+    --beta-font-size: 19px;
   }
 }

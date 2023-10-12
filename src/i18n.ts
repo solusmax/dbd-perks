@@ -5,6 +5,8 @@ import { initReactI18next } from 'react-i18next';
 
 import languagesJson from '@/data/languages.json';
 
+import { getDefaultLanguage } from '@/utils';
+
 void i18n
   .use(LanguageDetector)
   .use(Backend)
@@ -19,7 +21,7 @@ void i18n
     ns: ['app', 'characters', 'perks', 'sides'],
     preload: languagesJson.map((language) => language.value),
     defaultNS: 'app',
-    fallbackLng: 'en',
+    fallbackLng: getDefaultLanguage(),
     debug: false,
     interpolation: {
       escapeValue: false,

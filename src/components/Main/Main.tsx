@@ -1,22 +1,35 @@
-import { useSelector } from 'react-redux';
+import i18n from 'i18next';
+import { useDispatch, useSelector } from 'react-redux';
 
+import { getPerksData } from '@/model/data';
+import { setPerks } from '@/store/perksSlice';
 import { RootState } from '@/store/store';
-import { getPerksFilteredBy, getPerksSortedByName } from '@/utils';
+import { getFilteredPerks, getPerksSortedByName } from '@/utils';
 
-import { CustomComponentProps, PerkData } from '@/types';
+import { CustomComponentProps } from '@/types';
 
 import Filter from '@/components/Filter/Filter';
 import Perks from '@/components/Perks/Perks';
+import PerksCounter from '@/components/PerksCounter/PerksCounter';
+import Searching from '@/components/Searching/Searching';
 import Sorter from '@/components/Sorter/Sorter';
 
-import './styles.scss';
+import './Main.scss';
 
 type MainProps = CustomComponentProps;
 
-export default function Main({
-  className = '',
-}: MainProps = {}): React.JSX.Element {
-  const perks: PerkData[] = useSelector((state: RootState) => state.perks);
+export default function Main({ className = '' }: MainProps = {}): JSX.Element {
+  const dispatch = useDispatch();
+
+  i18n.on('loaded', () => {
+    dispatch(setPerks(getPerksData()));
+  });
+
+  const isSearching = useSelector((state: RootState) => state.app.isSearching);
+
+  const perks = useSelector((state: RootState) => state.perks.perks);
+
+  const searchText = useSelector((state: RootState) => state.app.searchText);
 
   const selectedDirection = useSelector(
     (state: RootState) => state.app.sortDirection,
@@ -28,13 +41,13 @@ export default function Main({
     (state: RootState) => state.app.survivorPerksShown,
   );
 
-  const outputPerks: PerkData[] = getPerksFilteredBy(
-    getPerksSortedByName(perks, selectedDirection),
-    {
-      isKillerPerksShown: isKillerPerksShown,
-      isSurvivorPerksShown: isSurvivorPerksShown,
-    },
-  );
+  const filteredPerks = getFilteredPerks(perks, {
+    searchText,
+    isKillerPerksShown,
+    isSurvivorPerksShown,
+  });
+
+  const outputPerks = getPerksSortedByName(filteredPerks, selectedDirection);
 
   return (
     <main className={`main ${className}`}>
@@ -42,8 +55,18 @@ export default function Main({
         <div className="main__filter-sorter-wrapper">
           <Filter className="main__filter" />
           <Sorter className="main__sorter" />
+          {isSearching ? (
+            <Searching className="main__searching" />
+          ) : (
+            <PerksCounter
+              className="main__perks-counter"
+              perksCount={outputPerks.length}
+            />
+          )}
         </div>
-        <Perks perks={outputPerks} />
+        <div className="main__perks-wrapper">
+          <Perks perks={outputPerks} />
+        </div>
       </div>
     </main>
   );

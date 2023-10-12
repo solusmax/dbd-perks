@@ -1,0 +1,131 @@
+:root {
+  --app-free-space-below: 120px;
+
+  @media (min-width: $tablet-width) {
+    --app-free-space-below: 180px;
+  }
+
+  @media (min-width: $desktop-width) {
+    --app-free-space-below: 240px;
+  }
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  min-width: $mobile-width;
+  min-height: 100%;
+  margin: 0;
+
+  font-family: $font-roboto-condensed;
+  font-weight: 400;
+  color: $color-white;
+  overflow-wrap: break-word;
+
+  background-color: $color-purple-500;
+  -webkit-tap-highlight-color: transparent;
+}
+
+// stylelint-disable-next-line
+#root {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  height: 100%;
+  min-height: 100%;
+  padding-bottom: var(--app-free-space-below);
+
+  // stylelint-disable-next-line
+  &::before {
+    content: "";
+
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: 8950;
+
+    display: block;
+    height: $mobile-header-height;
+
+    background-color: $color-purple-600;
+  }
+
+  @media (min-width: $tablet-width) {
+    // stylelint-disable-next-line
+    &::before {
+      height: $tablet-header-height;
+    }
+  }
+
+  @media (min-width: $desktop-width) {
+    // stylelint-disable-next-line
+    &::before {
+      height: $desktop-header-height;
+    }
+  }
+
+  @media (max-height: $comfortable-height) and (min-width: $tablet-width) {
+    // stylelint-disable-next-line
+    &::before {
+      display: none;
+    }
+  }
+}
+
+.app__header {
+  position: relative;
+
+  flex-shrink: 0;
+}
+
+.app__logo {
+  flex-shrink: 0;
+}
+
+.app__dbd-version {
+  flex-shrink: 0;
+  margin-left: $mobile-header-gap;
+
+  @media (min-width: $tablet-width) {
+    margin-left: $tablet-header-gap;
+  }
+
+  @media (min-width: $desktop-width) {
+    margin-left: $desktop-header-gap;
+  }
+}
+
+.app__about {
+  flex-shrink: 0;
+  margin-left: auto;
+}
+
+.app__language-switcher {
+  position: fixed;
+  right: 12px;
+  bottom: 12px;
+  z-index: 9100;
+
+  @media (min-width: $tablet-width) {
+    right: $tablet-padding;
+    bottom: $tablet-padding;
+  }
+}
+
+.app__main {
+  flex-grow: 1;
+}
+
+body .app__tooltip {
+  z-index: 9500;
+
+  font-weight: 300;
+
+  background-color: $color-purple-440;
+
+  transition-duration: 0s;
+  transition-property: none;
+}

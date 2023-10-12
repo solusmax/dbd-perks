@@ -1,4 +1,5 @@
 import { MouseEvent } from 'react';
+import { useTranslation } from 'react-i18next';
 import { useDispatch, useSelector } from 'react-redux';
 
 import { SortDirection } from '@/consts/sorter';
@@ -9,19 +10,19 @@ import { CustomComponentProps } from '@/types';
 
 import SvgIcon from '@/components/SvgIcon/SvgIcon';
 
-import './styles.scss';
+import './Sorter.scss';
 
 const SORTER_SELECTED_CLASS = 'sorter__svg--selected';
 
 type SorterProps = CustomComponentProps;
 
-export default function Sorter({
-  className = '',
-}: SorterProps): React.JSX.Element {
+export default function Sorter({ className = '' }: SorterProps): JSX.Element {
   const selectedDirection = useSelector(
     (state: RootState) => state.app.sortDirection,
   );
   const dispatch = useDispatch();
+
+  const { t } = useTranslation();
 
   const handleButtonClick = (evt: MouseEvent<HTMLButtonElement>) => {
     evt.preventDefault();
@@ -38,9 +39,12 @@ export default function Sorter({
   return (
     <div className={`sorter ${className}`}>
       <button
-        className="sorter__button"
+        className="tooltip sorter__button"
         type="button"
         onClick={handleButtonClick}
+        data-tooltip-content={t('sorter-button', {
+          ns: 'app',
+        })}
       >
         <div className="sorter__svg-wrapper">
           <SvgIcon

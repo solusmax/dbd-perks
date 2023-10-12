@@ -1,0 +1,67 @@
+.perk-description {
+  padding: 16px;
+
+  font-size: 12px;
+  line-height: 1.25;
+
+  & p {
+    margin-top: 0;
+  }
+
+  & li {
+    margin-bottom: 0.2em;
+  }
+
+  @media (min-width: $tablet-width) {
+    padding: 22px;
+
+    font-size: 16px;
+  }
+}
+
+.md-perk-extra-info {
+  font-weight: 400;
+  font-style: italic;
+  color: $color-yellow-300;
+}
+
+.md-perk-quote {
+  font-weight: 400;
+  font-style: italic;
+  color: $color-yellow-400;
+}
+
+.md-perk-tier-1 {
+  font-weight: 700;
+  color: $color-yellow-500;
+}
+
+.md-perk-tier-2 {
+  font-weight: 700;
+  color: $color-green-500;
+}
+
+.md-perk-tier-3 {
+  font-weight: 700;
+  color: $color-purple-200;
+}
+
+.md-perk-value-orange {
+  font-weight: 700;
+  color: $color-orange-500;
+}
+
+.md-perk-value-purple {
+  font-weight: 700;
+  color: $color-purple-200;
+}
+
+.md-perk-value-red {
+  font-weight: 700;
+  color: $color-red-500;
+}
+
+.md-perk-value-yellow {
+  font-weight: 700;
+  color: $color-yellow-500;
+}
