@@ -10,6 +10,9 @@ void i18n
   .use(Backend)
   .use(initReactI18next)
   .init({
+    detection: {
+      convertDetectedLanguage: (lng) => lng.replace(/-.+/, ''),
+    },
     backend: {
       loadPath: './locales/{{lng}}/{{ns}}.json',
     },
