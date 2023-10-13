@@ -1,7 +1,7 @@
+import { useWindowSize } from '@uidotdev/usehooks';
 import clsx from 'clsx';
 import { useTranslation } from 'react-i18next';
 
-import useWindowDimensions from '@/hooks/use-window-dimensions';
 import { isMobileBreakpoint } from '@/utils';
 
 import { CustomComponentProps } from '@/types';
@@ -17,7 +17,7 @@ export default function PerksCounter({
   perksCount,
 }: PerksCounterProps): JSX.Element {
   const { t } = useTranslation();
-  const { width: windowWidth } = useWindowDimensions();
+  const { width: windowWidth } = useWindowSize();
 
   return (
     <div

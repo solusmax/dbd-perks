@@ -1,8 +1,8 @@
+import { useWindowSize } from '@uidotdev/usehooks';
 import clsx from 'clsx';
 import { useEffect, useState } from 'react';
 
 import { AppLayout } from '@/consts';
-import useWindowDimensions from '@/hooks/use-window-dimensions';
 import { isMobileBreakpoint } from '@/utils';
 
 import { CustomComponentProps, PerkData } from '@/types';
@@ -13,6 +13,7 @@ import PerkInfo from '@/components/PerkInfo/PerkInfo';
 import './Perks.scss';
 
 const PerksLayout = {
+  DefaultRowSize: 5,
   PerkWidth: {
     Mobile: 92,
     Tablet: 160,
@@ -41,7 +42,11 @@ const calcMinWindowWidth = (
   );
 };
 
-const calcRowSize = (windowWidth: number) => {
+const calcRowSize = (windowWidth: number | null) => {
+  if (windowWidth === null) {
+    return PerksLayout.DefaultRowSize;
+  }
+
   if (windowWidth < calcMinWindowWidth(3, 'Mobile')) {
     return 3;
   }
@@ -90,16 +95,19 @@ type PerksProps = CustomComponentProps & {
 };
 
 export default function Perks({ className, perks }: PerksProps): JSX.Element {
-  const { width: windowWidth } = useWindowDimensions();
+  const { width: windowWidth } = useWindowSize();
 
-  const [rowSize, setRowSize] = useState<number>(calcRowSize(windowWidth));
+  const [rowSize, setRowSize] = useState<number | null>(
+    calcRowSize(windowWidth),
+  );
 
   useEffect(() => {
     setRowSize(calcRowSize(windowWidth));
   }, [windowWidth]);
 
   const perksCount = perks.length;
-  const isMultiple = perksCount % rowSize === 0;
+  const perksRowSize = rowSize ?? PerksLayout.DefaultRowSize;
+  const isMultiple = perksCount % perksRowSize === 0;
 
   return (
     <>
@@ -108,12 +116,12 @@ export default function Perks({ className, perks }: PerksProps): JSX.Element {
           return <Perk key={perk.id} className="perks__perk" id={perk.id} />;
         })}
 
-        {perksCount < rowSize * 3 && (
-          <EmptySlots count={rowSize * 3 - perksCount} />
+        {perksCount < perksRowSize * 3 && (
+          <EmptySlots count={perksRowSize * 3 - perksCount} />
         )}
 
-        {perksCount > rowSize * 3 && !isMultiple && (
-          <EmptySlots count={rowSize - (perksCount % rowSize)} />
+        {perksCount > perksRowSize * 3 && !isMultiple && (
+          <EmptySlots count={perksRowSize - (perksCount % perksRowSize)} />
         )}
       </div>
       <PerkInfo />
