@@ -1,4 +1,5 @@
 import { useDebounce } from '@uidotdev/usehooks';
+import clsx from 'clsx';
 import { ChangeEvent, MouseEvent, useEffect, useRef, useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import { useDispatch, useSelector } from 'react-redux';
@@ -22,7 +23,7 @@ const SEARCH_DELAY = 750;
 
 type FilterProps = CustomComponentProps;
 
-export default function Filter({ className = '' }: FilterProps): JSX.Element {
+export default function Filter({ className }: FilterProps): JSX.Element {
   const [searchValue, setSearchValue] = useState<string>('');
   const debouncedSearchValue = useDebounce(searchValue, SEARCH_DELAY);
   const globalSearchValue = useSelector(
@@ -86,7 +87,7 @@ export default function Filter({ className = '' }: FilterProps): JSX.Element {
   };
 
   return (
-    <div className={`filter ${className}`}>
+    <div className={clsx(className, 'filter')}>
       <input
         className="filter__search"
         ref={searchInputRef}
@@ -111,9 +112,13 @@ export default function Filter({ className = '' }: FilterProps): JSX.Element {
 
         <div className="filter__side-switchers">
           <button
-            className={`tooltip filter__side-switcher filter__side-switcher--killer ${
-              isKillerSelected ? 'filter__side-switcher--selected' : ''
-            }`}
+            className={clsx(
+              className,
+              'filter__side-switcher',
+              'filter__side-switcher--killer',
+              isKillerSelected && 'filter__side-switcher--selected',
+              'tooltip',
+            )}
             type="button"
             onClick={handleSideSwitcherClick(Side.Killer)}
             data-tooltip-content={t('side-switcher-killer-button', {
@@ -132,9 +137,13 @@ export default function Filter({ className = '' }: FilterProps): JSX.Element {
           </button>
 
           <button
-            className={`tooltip filter__side-switcher filter__side-switcher--survivor ${
-              isSurvivorSelected ? 'filter__side-switcher--selected' : ''
-            }`}
+            className={clsx(
+              className,
+              'filter__side-switcher',
+              'filter__side-switcher--survivor',
+              isSurvivorSelected && 'filter__side-switcher--selected',
+              'tooltip',
+            )}
             type="button"
             onClick={handleSideSwitcherClick(Side.Survivor)}
             data-tooltip-content={t('side-switcher-survovor-button', {

@@ -1,3 +1,4 @@
+import clsx from 'clsx';
 import { useEffect, useState } from 'react';
 
 import { AppLayout } from '@/consts';
@@ -64,8 +65,8 @@ const calcRowSize = (windowWidth: number) => {
 
 type EmptySlotProps = CustomComponentProps;
 
-function EmptySlot({ className = '' }: EmptySlotProps): JSX.Element {
-  return <div className={`perks__empty-slot ${className}`} />;
+function EmptySlot({ className }: EmptySlotProps): JSX.Element {
+  return <div className={clsx(className, 'perks__empty-slot')} />;
 }
 
 type EmptySlotsProps = {
@@ -88,10 +89,7 @@ type PerksProps = CustomComponentProps & {
   perks: PerkData[];
 };
 
-export default function Perks({
-  className = '',
-  perks,
-}: PerksProps): JSX.Element {
+export default function Perks({ className, perks }: PerksProps): JSX.Element {
   const { width: windowWidth } = useWindowDimensions();
 
   const [rowSize, setRowSize] = useState<number>(calcRowSize(windowWidth));
@@ -105,7 +103,7 @@ export default function Perks({
 
   return (
     <>
-      <div className={`perks perks--row-size-${rowSize} ${className}`}>
+      <div className={clsx(className, `perks perks--row-size-${rowSize}`)}>
         {perks.map((perk) => {
           return <Perk key={perk.id} className="perks__perk" {...perk} />;
         })}

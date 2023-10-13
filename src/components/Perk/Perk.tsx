@@ -1,3 +1,4 @@
+import clsx from 'clsx';
 import { MouseEvent } from 'react';
 import { useTranslation } from 'react-i18next';
 import { useDispatch, useSelector } from 'react-redux';
@@ -14,7 +15,7 @@ import './Perk.scss';
 type PerkProps = CustomComponentProps & PerkData;
 
 export default function Perk({
-  className = '',
+  className,
   id,
   side,
   character,
@@ -57,9 +58,9 @@ export default function Perk({
     : t(`${id}.legacy.name`, { ns: 'perks' });
 
   return (
-    <div className={`perk ${className}`}>
+    <div className={clsx(className, 'perk')}>
       <button
-        className={`perk__button ${isInfoOpen ? 'perk__button--selected' : ''}`}
+        className={clsx('perk__button', isInfoOpen && 'perk__button--selected')}
         onClick={handleButtonClick(id)}
         data-perk-id={perkId}
         data-perk-name={perkName}

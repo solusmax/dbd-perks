@@ -1,3 +1,4 @@
+import clsx from 'clsx';
 import { MouseEvent } from 'react';
 import { useTranslation } from 'react-i18next';
 import { useDispatch, useSelector } from 'react-redux';
@@ -25,12 +26,12 @@ type SideImgProps = CustomComponentProps & {
   side: string;
 };
 
-function SideImg({ className = '', side }: SideImgProps): JSX.Element {
+function SideImg({ className, side }: SideImgProps): JSX.Element {
   const { t } = useTranslation();
 
   return (
     <img
-      className={`perk-info__side-img ${className}`}
+      className={clsx(className, 'perk-info__side-img')}
       src={sideImages[side as keyof SideImages]}
       alt={t(side, { ns: 'sides' })}
     />
@@ -52,7 +53,7 @@ type PerkHeaderProps = CustomComponentProps & {
 };
 
 export default function PerkHeader({
-  className = '',
+  className,
   id,
   name,
   side,
@@ -76,7 +77,7 @@ export default function PerkHeader({
   };
 
   return (
-    <div className={`perk-header ${className}`}>
+    <div className={clsx(className, 'perk-header')}>
       <div className="perk-header__name">
         <a
           className="perk-header__wiki-link"

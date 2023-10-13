@@ -1,3 +1,5 @@
+import clsx from 'clsx';
+
 import { CustomComponentProps } from '@/types';
 
 import './PerkDescription.scss';
@@ -7,12 +9,12 @@ type PerkDescriptionProps = CustomComponentProps & {
 };
 
 export default function PerkDescription({
-  className = '',
+  className,
   description,
 }: PerkDescriptionProps): JSX.Element {
   return (
     <div
-      className={`perk-description ${className}`}
+      className={clsx(className, 'perk-description')}
       dangerouslySetInnerHTML={{ __html: description }}
     />
   );

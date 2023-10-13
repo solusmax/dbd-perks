@@ -1,3 +1,4 @@
+import clsx from 'clsx';
 import i18n from 'i18next';
 import { useDispatch, useSelector } from 'react-redux';
 
@@ -18,7 +19,7 @@ import './Main.scss';
 
 type MainProps = CustomComponentProps;
 
-export default function Main({ className = '' }: MainProps = {}): JSX.Element {
+export default function Main({ className }: MainProps = {}): JSX.Element {
   const dispatch = useDispatch();
 
   i18n.on('loaded', () => {
@@ -50,7 +51,7 @@ export default function Main({ className = '' }: MainProps = {}): JSX.Element {
   const outputPerks = getPerksSortedByName(filteredPerks, selectedDirection);
 
   return (
-    <main className={`main ${className}`}>
+    <main className={clsx(className, 'main')}>
       <div className="main__inner">
         <div className="main__filter-sorter-wrapper">
           <Filter className="main__filter" />

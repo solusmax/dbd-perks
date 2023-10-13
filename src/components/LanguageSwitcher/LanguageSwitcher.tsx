@@ -1,3 +1,4 @@
+import clsx from 'clsx';
 import { useState } from 'react';
 import Select from 'react-select';
 
@@ -25,7 +26,7 @@ type LanguageSwitcherProps = CustomComponentProps;
 const languages = getLanguages();
 
 export default function LanguageSwitcher({
-  className = '',
+  className,
 }: LanguageSwitcherProps = {}): JSX.Element {
   const [selectedOption, setSelectedOption] = useState<SelectOption>(
     getSelectOption(getCurrentLanguage()),
@@ -56,7 +57,7 @@ export default function LanguageSwitcher({
   };
 
   return (
-    <div className={`language-switcher ${className}`}>
+    <div className={clsx(className, 'language-switcher')}>
       <button
         className="language-switcher__button language-switcher__button--previous"
         type="button"

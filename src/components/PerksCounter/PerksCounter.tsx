@@ -1,3 +1,4 @@
+import clsx from 'clsx';
 import { useTranslation } from 'react-i18next';
 
 import useWindowDimensions from '@/hooks/use-window-dimensions';
@@ -12,7 +13,7 @@ type PerksCounterProps = CustomComponentProps & {
 };
 
 export default function PerksCounter({
-  className = '',
+  className,
   perksCount,
 }: PerksCounterProps): JSX.Element {
   const { t } = useTranslation();
@@ -20,7 +21,7 @@ export default function PerksCounter({
 
   return (
     <div
-      className={`${className} tooltip perks-counter`}
+      className={clsx(className, 'tooltip perks-counter')}
       data-tooltip-hidden={!isMobileBreakpoint(windowWidth)}
       data-tooltip-content={t('perks-counter-tooltip', { ns: 'app' })}
     >

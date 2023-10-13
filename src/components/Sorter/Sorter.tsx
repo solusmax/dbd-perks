@@ -1,3 +1,4 @@
+import clsx from 'clsx';
 import { MouseEvent } from 'react';
 import { useTranslation } from 'react-i18next';
 import { useDispatch, useSelector } from 'react-redux';
@@ -12,11 +13,9 @@ import SvgIcon from '@/components/SvgIcon/SvgIcon';
 
 import './Sorter.scss';
 
-const SORTER_SELECTED_CLASS = 'sorter__svg--selected';
-
 type SorterProps = CustomComponentProps;
 
-export default function Sorter({ className = '' }: SorterProps): JSX.Element {
+export default function Sorter({ className }: SorterProps): JSX.Element {
   const selectedDirection = useSelector(
     (state: RootState) => state.app.sortDirection,
   );
@@ -37,9 +36,9 @@ export default function Sorter({ className = '' }: SorterProps): JSX.Element {
   };
 
   return (
-    <div className={`sorter ${className}`}>
+    <div className={clsx(className, 'sorter')}>
       <button
-        className="tooltip sorter__button"
+        className="sorter__button tooltip"
         type="button"
         onClick={handleButtonClick}
         data-tooltip-content={t('sorter-button', {
@@ -49,19 +48,19 @@ export default function Sorter({ className = '' }: SorterProps): JSX.Element {
         <div className="sorter__svg-wrapper">
           <SvgIcon
             icon="arrow"
-            className={`sorter__svg ${
-              selectedDirection === SortDirection.Up
-                ? SORTER_SELECTED_CLASS
-                : ''
-            }`}
+            className={clsx(
+              'sorter__svg',
+              selectedDirection === SortDirection.Up && 'sorter__svg--selected',
+            )}
           />
           <SvgIcon
             icon="arrow"
-            className={`sorter__svg sorter__svg--down ${
-              selectedDirection === SortDirection.Down
-                ? SORTER_SELECTED_CLASS
-                : ''
-            }`}
+            className={clsx(
+              'sorter__svg',
+              'sorter__svg--down',
+              selectedDirection === SortDirection.Down &&
+                'sorter__svg--selected',
+            )}
           />
         </div>
       </button>

@@ -1,3 +1,4 @@
+import clsx from 'clsx';
 import { useTranslation } from 'react-i18next';
 
 import { CustomComponentProps } from '@/types';
@@ -9,7 +10,7 @@ type DbdVersionProps = CustomComponentProps & {
 };
 
 export default function DbdVersion({
-  className = '',
+  className,
   dbdVersion,
 }: DbdVersionProps): JSX.Element {
   const { t } = useTranslation();
@@ -17,7 +18,7 @@ export default function DbdVersion({
   return (
     <>
       <div
-        className={`tooltip dbd-version ${className}`}
+        className={clsx(className, 'dbd-version', 'tooltip')}
         data-tooltip-content={t('dbd-version-tooltip', { ns: 'app' })}
       >
         {dbdVersion}
