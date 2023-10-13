@@ -12,7 +12,7 @@
     "lint:scss": "prettier --write \"./src/**/*.scss\" && stylelint \"./src/**/*.scss\" --custom-syntax postcss-scss",
     "lint:html": "prettier --write \"./**/*.html\"",
     "preview": "npm run build && npm run preview:only",
-    "preview:only": "vite preview --open",
+    "preview:only": "vite preview --open --host",
     "deploy": "npm run build && gh-pages -d \"./dist\""
   },
   "dependencies": {
