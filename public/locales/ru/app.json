@@ -1,8 +1,8 @@
 {
   "dbd-perks-logo": "Логотип DBD Perks.",
   "dbd-version-tooltip": "Версия Dead by Daylight",
-  "side-switcher-killer-button": "Навыки убийц",
-  "side-switcher-survovor-button": "Навыки выживших",
+  "player-side-switcher-killer-button": "Навыки убийц",
+  "player-side-switcher-survivor-button": "Навыки выживших",
   "sorter-button": "Сортировать по алфавиту",
   "search-placeholder": "осколок",
   "perks-counter-label_one": "{{count}} навык",

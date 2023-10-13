@@ -1,8 +1,8 @@
 :root {
-  --searching-loader-size: 20px;
+  --searching-icon-size: 20px;
 
   @media (min-width: $tablet-width) {
-    --searching-loader-size: 8px;
+    --searching-icon-size: 8px;
   }
 }
 
@@ -17,10 +17,10 @@
   }
 }
 
-.searching__loader {
-  width: var(--searching-loader-size);
-  height: var(--searching-loader-size);
-  border-width: calc(var(--searching-loader-size) / 6);
+.searching__icon {
+  width: var(--searching-icon-size);
+  height: var(--searching-icon-size);
+  border-width: calc(var(--searching-icon-size) / 6);
   border-style: solid;
   border-color: rgba($color-white, 0.6);
   border-bottom-color: transparent;
@@ -35,8 +35,8 @@
     border: none;
     background-color: rgba($color-white, 0.6);
     box-shadow:
-      calc(var(--searching-loader-size) * 2) 0 rgba($color-white, 0.6),
-      calc((var(--searching-loader-size) * 2) * -1) 0 rgba($color-white, 0.6);
+      calc(var(--searching-icon-size) * 2) 0 rgba($color-white, 0.6),
+      calc((var(--searching-icon-size) * 2) * -1) 0 rgba($color-white, 0.6);
 
     animation-name: flash;
     animation-duration: 0.5s;
@@ -59,19 +59,19 @@
   0% {
     background-color: rgba($color-white, 0.2);
     box-shadow:
-      calc(var(--searching-loader-size) * 2) 0 rgba($color-white, 0.2),
-      calc((var(--searching-loader-size) * 2) * -1) 0 rgba($color-white, 0.6);
+      calc(var(--searching-icon-size) * 2) 0 rgba($color-white, 0.2),
+      calc((var(--searching-icon-size) * 2) * -1) 0 rgba($color-white, 0.6);
   }
   50% {
     background-color: rgba($color-white, 0.6);
     box-shadow:
-      calc(var(--searching-loader-size) * 2) 0 rgba($color-white, 0.2),
-      calc((var(--searching-loader-size) * 2) * -1) 0 rgba($color-white, 0.2);
+      calc(var(--searching-icon-size) * 2) 0 rgba($color-white, 0.2),
+      calc((var(--searching-icon-size) * 2) * -1) 0 rgba($color-white, 0.2);
   }
   100% {
     background-color: rgba($color-white, 0.2);
     box-shadow:
-      calc(var(--searching-loader-size) * 2) 0 rgba($color-white, 0.6),
-      calc((var(--searching-loader-size) * 2) * -1) 0 rgba($color-white, 0.2);
+      calc(var(--searching-icon-size) * 2) 0 rgba($color-white, 0.6),
+      calc((var(--searching-icon-size) * 2) * -1) 0 rgba($color-white, 0.2);
   }
 }

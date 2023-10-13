@@ -21,7 +21,7 @@ export default function PerksCounter({
 
   return (
     <div
-      className={clsx(className, 'tooltip perks-counter')}
+      className={clsx(className, 'perks-counter', 'tooltip')}
       data-tooltip-hidden={!isMobileBreakpoint(windowWidth)}
       data-tooltip-content={t('perks-counter-tooltip', { ns: 'app' })}
     >

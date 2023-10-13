@@ -19,8 +19,8 @@ export default function Perk({ className, id }: PerkProps): JSX.Element {
   const isInfoOpen = useSelector(
     (state: RootState) => id !== null && state.app.selectedPerkId === id,
   );
-  const dispatch = useDispatch();
   const isLegacyMode = useIsLegacyMode(id);
+  const dispatch = useDispatch();
   const { t } = useTranslation();
 
   const handleButtonClick = (newSelecterPerkID: string) => {
@@ -36,8 +36,8 @@ export default function Perk({ className, id }: PerkProps): JSX.Element {
   );
   const perkHasLegacy = perkData.legacy !== null;
   const perkIcon = !(perkHasLegacy && isLegacyMode)
-    ? `./img/perks/${perkData.side}/${perkData.icon}`
-    : `./img/perks/${perkData.side}/legacy/${perkData.legacy?.icon}`;
+    ? `./img/perks/${perkData.playerSide}/${perkData.icon}`
+    : `./img/perks/${perkData.playerSide}/legacy/${perkData.legacy?.icon}`;
   const perkIconAltText = !(perkHasLegacy && isLegacyMode)
     ? t(`${id}.name`, { ns: 'perks' })
     : t(`${id}.legacy.name`, { ns: 'perks' });
@@ -55,10 +55,14 @@ export default function Perk({ className, id }: PerkProps): JSX.Element {
           src={perkIcon}
           alt={perkIconAltText}
         />
-        <div className="perk__selection perk__selection--tl" />
-        <div className="perk__selection perk__selection--tr" />
-        <div className="perk__selection perk__selection--bl" />
-        <div className="perk__selection perk__selection--br" />
+        {['tl', 'tr', 'bl', 'br'].map((side) => {
+          return (
+            <div
+              key={side}
+              className={clsx('perk__selection', `perk__selection--${side}`)}
+            />
+          );
+        })}
       </button>
       <div className="perk__overlay" />
     </div>

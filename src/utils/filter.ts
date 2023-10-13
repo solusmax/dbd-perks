@@ -1,11 +1,5 @@
-import MiniSearch from 'minisearch';
-
-import {
-  Side,
-  searchByDescriptionOptions,
-  searchByNamesOptions,
-} from '@/consts';
-import { getClearedSearchText, getUnitedPerks } from '@/utils';
+import { PlayerSide } from '@/consts';
+import { getFilteredBySearchTextPerks } from '@/utils';
 
 import { FilterSettings, PerkData } from '@/types';
 
@@ -19,11 +13,15 @@ export const getFilteredPerks = (
     resultPerks = perks.filter((perk) => {
       let isShown = true;
 
-      if (!isKillerPerksShown && perk.side === Side.Killer) {
+      if (!isKillerPerksShown && perk.playerSide === PlayerSide.Killer) {
         isShown = false;
       }
 
-      if (isShown && !isSurvivorPerksShown && perk.side === Side.Survivor) {
+      if (
+        isShown &&
+        !isSurvivorPerksShown &&
+        perk.playerSide === PlayerSide.Survivor
+      ) {
         isShown = false;
       }
 
@@ -37,36 +35,7 @@ export const getFilteredPerks = (
     return resultPerks;
   }
 
-  const currentSearchText = getClearedSearchText(searchText);
-
-  const miniSearchNames = new MiniSearch(searchByNamesOptions);
-
-  miniSearchNames.addAll(resultPerks);
-
-  const perksFilteredByNames = miniSearchNames
-    .search(currentSearchText)
-    .map((miniSearchPerk) => String(miniSearchPerk.id));
-
-  const miniSearchDescription = new MiniSearch(searchByDescriptionOptions);
-
-  miniSearchDescription.addAll(resultPerks);
-
-  const perksFilteredByDescription = miniSearchDescription
-    .search(currentSearchText)
-    .filter((miniSearchPerk) => {
-      if (typeof miniSearchPerk.localeDescription !== 'string') {
-        return;
-      }
-
-      return miniSearchPerk.localeDescription.includes(currentSearchText);
-    })
-    .map((miniSearchPerk) => String(miniSearchPerk.id));
-
-  resultPerks = getUnitedPerks(
-    perks,
-    perksFilteredByNames,
-    perksFilteredByDescription,
-  );
+  resultPerks = getFilteredBySearchTextPerks(resultPerks, searchText);
 
   return resultPerks;
 };

@@ -4,22 +4,16 @@ import { ChangeEvent, MouseEvent, useEffect, useRef, useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import { useDispatch, useSelector } from 'react-redux';
 
-import { Side } from '@/consts';
-import {
-  setIsSeaching,
-  setSearchText,
-  toggleKillerPerksShown,
-  toggleSurvivorPerksShown,
-} from '@/store/appSlice';
+import { SEARCH_DELAY } from '@/consts';
+import { setIsSeaching, setSearchText } from '@/store/appSlice';
 import { RootState } from '@/store/store';
 
-import { CustomComponentProps, Sides } from '@/types';
+import { CustomComponentProps } from '@/types';
 
+import PlayerSideSwitchers from '@/components/PlayerSideSwitchers/PlayerSideSwitchers';
 import SvgIcon from '@/components/SvgIcon/SvgIcon';
 
 import './Filter.scss';
-
-const SEARCH_DELAY = 750;
 
 type FilterProps = CustomComponentProps;
 
@@ -30,17 +24,10 @@ export default function Filter({ className }: FilterProps): JSX.Element {
     (state: RootState) => state.app.searchText,
   );
 
-  const isKillerSelected = useSelector(
-    (state: RootState) => state.app.killerPerksShown,
-  );
-  const isSurvivorSelected = useSelector(
-    (state: RootState) => state.app.survivorPerksShown,
-  );
   const dispatch = useDispatch();
+  const { t } = useTranslation();
 
   const searchInputRef = useRef<HTMLInputElement>(null);
-
-  const { t } = useTranslation();
 
   useEffect(() => {
     dispatch(setIsSeaching(searchValue !== globalSearchValue));
@@ -71,21 +58,6 @@ export default function Filter({ className }: FilterProps): JSX.Element {
     focusSearch();
   };
 
-  const handleSideSwitcherClick = (side: Sides) => {
-    return (evt: MouseEvent<HTMLButtonElement>) => {
-      evt.preventDefault();
-
-      switch (side) {
-        case Side.Killer:
-          dispatch(toggleKillerPerksShown());
-          break;
-        case Side.Survivor:
-          dispatch(toggleSurvivorPerksShown());
-          break;
-      }
-    };
-  };
-
   return (
     <div className={clsx(className, 'filter')}>
       <input
@@ -110,53 +82,7 @@ export default function Filter({ className }: FilterProps): JSX.Element {
           </button>
         )}
 
-        <div className="filter__side-switchers">
-          <button
-            className={clsx(
-              className,
-              'filter__side-switcher',
-              'filter__side-switcher--killer',
-              isKillerSelected && 'filter__side-switcher--selected',
-              'tooltip',
-            )}
-            type="button"
-            onClick={handleSideSwitcherClick(Side.Killer)}
-            data-tooltip-content={t('side-switcher-killer-button', {
-              ns: 'app',
-            })}
-          >
-            <img
-              className="filter__side-switcher-img"
-              src={`./img/perks/${Side.Killer}_80.png`}
-              alt={t(Side.Killer, { ns: 'sides' })}
-            />
-            <SvgIcon
-              className="filter__side-switcher-img-background"
-              icon="killer-background"
-            />
-          </button>
-
-          <button
-            className={clsx(
-              className,
-              'filter__side-switcher',
-              'filter__side-switcher--survivor',
-              isSurvivorSelected && 'filter__side-switcher--selected',
-              'tooltip',
-            )}
-            type="button"
-            onClick={handleSideSwitcherClick(Side.Survivor)}
-            data-tooltip-content={t('side-switcher-survovor-button', {
-              ns: 'app',
-            })}
-          >
-            <img
-              className="filter__side-switcher-img"
-              src={`./img/perks/${Side.Survivor}_80.png`}
-              alt={t(Side.Survivor, { ns: 'sides' })}
-            />
-          </button>
-        </div>
+        <PlayerSideSwitchers className="filter__player-side-switchers" />
       </div>
     </div>
   );

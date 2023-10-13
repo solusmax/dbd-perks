@@ -1,8 +1,8 @@
 :root {
-  --perk-header-side-size: 48px;
+  --perk-header-player-side-size: 48px;
 
   @media (min-width: $tablet-width) {
-    --perk-header-side-size: 64px;
+    --perk-header-player-side-size: 64px;
   }
 }
 
@@ -68,7 +68,7 @@
   }
 }
 
-.perk-header__side {
+.perk-header__player-side {
   position: absolute;
   right: 9px;
   top: 0;
@@ -76,7 +76,7 @@
 
   display: flex;
   align-items: center;
-  width: var(--perk-header-side-size);
+  width: var(--perk-header-player-side-size);
 
   @media (min-width: $tablet-width) {
     right: 11px;
@@ -86,8 +86,8 @@
 .perk-header__legacy-switcher {
   position: relative;
 
-  width: var(--perk-header-side-size);
-  height: var(--perk-header-side-size);
+  width: var(--perk-header-player-side-size);
+  height: var(--perk-header-player-side-size);
   padding: 0;
   border: none;
 
@@ -116,7 +116,7 @@
   }
 }
 
-.perk-header__side-img {
-  width: var(--perk-header-side-size);
-  height: var(--perk-header-side-size);
+.perk-header__player-side-img {
+  width: var(--perk-header-player-side-size);
+  height: var(--perk-header-player-side-size);
 }

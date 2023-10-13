@@ -3,12 +3,9 @@ import { t } from 'i18next';
 
 import PerksJson from '@/data/perks.json';
 
-import { Side } from '@/consts';
-import {
-  getCharacterNameLocale,
-  getClearedSearchText,
-  getLanguages,
-} from '@/utils';
+import { PlayerSide } from '@/consts';
+import { getLanguages } from '@/model';
+import { getCharacterNameLocale, getClearedSearchText } from '@/utils';
 
 import { PerkData } from '@/types';
 
@@ -16,7 +13,10 @@ export const getPerksData = (): PerkData[] => {
   const resultPerks: PerkData[] = PerksJson.map((perk) => {
     const currentPerk: PerkData = {
       ...perk,
-      side: perk.side === 'killer' ? Side.Killer : Side.Survivor,
+      playerSide:
+        perk['player-side'] === 'killer'
+          ? PlayerSide.Killer
+          : PlayerSide.Survivor,
       localeNames: '',
       localeDescription: '',
       localeCharacterNames: '',

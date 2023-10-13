@@ -4,14 +4,12 @@ import { createSlice } from '@reduxjs/toolkit';
 import { SortDirection } from '@/consts';
 import { removeElementFromArray } from '@/utils';
 
-import { SortDirections } from '@/types';
-
 export type AppState = {
   isSearching: boolean;
   searchText: string;
   killerPerksShown: boolean;
   survivorPerksShown: boolean;
-  sortDirection: SortDirections;
+  sortDirection: SortDirection;
   selectedPerkId: string | null;
   legaciedPerkIds: string[];
 };
@@ -42,7 +40,7 @@ export const appSlice = createSlice({
     toggleSurvivorPerksShown: (state) => {
       state.survivorPerksShown = !state.survivorPerksShown;
     },
-    setSortDirection: (state, action: PayloadAction<SortDirections>) => {
+    setSortDirection: (state, action: PayloadAction<SortDirection>) => {
       state.sortDirection = action.payload;
     },
     toogleLegacyPerk: (state, action: PayloadAction<string>) => {

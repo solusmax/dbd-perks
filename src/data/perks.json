@@ -1,7 +1,7 @@
 [
   {
     "id": "ace-in-the-hole-b022b3",
-    "side": "survivor",
+    "player-side": "survivor",
     "character": "ace-visconti",
     "icon": "ace-in-the-hole.png",
     "wiki": "https://deadbydaylight.fandom.com/wiki/Ace_in_the_Hole",
@@ -9,7 +9,7 @@
   },
   {
     "id": "adrenaline-95f04b",
-    "side": "survivor",
+    "player-side": "survivor",
     "character": "meg-thomas",
     "icon": "adrenaline.png",
     "wiki": "https://deadbydaylight.fandom.com/wiki/Adrenaline",
@@ -17,7 +17,7 @@
   },
   {
     "id": "aftercare-b3e500",
-    "side": "survivor",
+    "player-side": "survivor",
     "character": "jeff-johansen",
     "icon": "aftercare.png",
     "wiki": "https://deadbydaylight.fandom.com/wiki/Aftercare",
@@ -25,7 +25,7 @@
   },
   {
     "id": "alert-544ac1",
-    "side": "survivor",
+    "player-side": "survivor",
     "character": "feng-min",
     "icon": "alert.png",
     "wiki": "https://deadbydaylight.fandom.com/wiki/Alert",
@@ -33,7 +33,7 @@
   },
   {
     "id": "any-means-necessary-ad2d04",
-    "side": "survivor",
+    "player-side": "survivor",
     "character": "yui-kimura",
     "icon": "any-means-necessary.png",
     "wiki": "https://deadbydaylight.fandom.com/wiki/Any_Means_Necessary",
@@ -41,7 +41,7 @@
   },
   {
     "id": "appraisal-450146",
-    "side": "survivor",
+    "player-side": "survivor",
     "character": "elodie-rakoto",
     "icon": "appraisal.png",
     "wiki": "https://deadbydaylight.fandom.com/wiki/Appraisal",
@@ -49,7 +49,7 @@
   },
   {
     "id": "autodidact-d0cf46",
-    "side": "survivor",
+    "player-side": "survivor",
     "character": "adam-francis",
     "icon": "autodidact.png",
     "wiki": "https://deadbydaylight.fandom.com/wiki/Autodidact",
@@ -57,7 +57,7 @@
   },
   {
     "id": "background-player-a771c4",
-    "side": "survivor",
+    "player-side": "survivor",
     "character": "renato-lyra",
     "icon": "background-player.png",
     "wiki": "https://deadbydaylight.fandom.com/wiki/Background_Player",
@@ -65,7 +65,7 @@
   },
   {
     "id": "balanced-landing-36ace2",
-    "side": "survivor",
+    "player-side": "survivor",
     "character": "nea-karlsson",
     "icon": "balanced-landing.png",
     "wiki": "https://deadbydaylight.fandom.com/wiki/Balanced_Landing",
@@ -73,7 +73,7 @@
   },
   {
     "id": "better-than-new-3d1958",
-    "side": "survivor",
+    "player-side": "survivor",
     "character": "rebecca-chambers",
     "icon": "better-than-new.png",
     "wiki": "https://deadbydaylight.fandom.com/wiki/Better_than_New",
@@ -81,7 +81,7 @@
   },
   {
     "id": "bite-the-bullet-830e27",
-    "side": "survivor",
+    "player-side": "survivor",
     "character": "leon-s-kennedy",
     "icon": "bite-the-bullet.png",
     "wiki": "https://deadbydaylight.fandom.com/wiki/Bite_the_Bullet",
@@ -89,7 +89,7 @@
   },
   {
     "id": "blast-mine-8e2bde",
-    "side": "survivor",
+    "player-side": "survivor",
     "character": "jill-valentine",
     "icon": "blast-mine.png",
     "wiki": "https://deadbydaylight.fandom.com/wiki/Blast_Mine",
@@ -97,7 +97,7 @@
   },
   {
     "id": "blood-pact-5fdedb",
-    "side": "survivor",
+    "player-side": "survivor",
     "character": "cheryl-mason",
     "icon": "blood-pact.png",
     "wiki": "https://deadbydaylight.fandom.com/wiki/Blood_Pact",
@@ -105,7 +105,7 @@
   },
   {
     "id": "blood-rush-8436c0",
-    "side": "survivor",
+    "player-side": "survivor",
     "character": "renato-lyra",
     "icon": "blood-rush.png",
     "wiki": "https://deadbydaylight.fandom.com/wiki/Blood_Rush",
@@ -113,7 +113,7 @@
   },
   {
     "id": "boil-over-7324a8",
-    "side": "survivor",
+    "player-side": "survivor",
     "character": "kate-denson",
     "icon": "boil-over.png",
     "wiki": "https://deadbydaylight.fandom.com/wiki/Boil_Over",
@@ -121,7 +121,7 @@
   },
   {
     "id": "bond-8050e7",
-    "side": "survivor",
+    "player-side": "survivor",
     "character": "dwight-fairfield",
     "icon": "bond.png",
     "wiki": "https://deadbydaylight.fandom.com/wiki/Bond",
@@ -129,7 +129,7 @@
   },
   {
     "id": "boon-circle-of-healing-551a2b",
-    "side": "survivor",
+    "player-side": "survivor",
     "character": "mikaela-reid",
     "icon": "boon-circle-of-healing.png",
     "wiki": "https://deadbydaylight.fandom.com/wiki/Boon:_Circle_of_Healing",
@@ -137,7 +137,7 @@
   },
   {
     "id": "boon-dark-theory-78e77c",
-    "side": "survivor",
+    "player-side": "survivor",
     "character": "yoichi-asakawa",
     "icon": "boon-dark-theory.png",
     "wiki": "https://deadbydaylight.fandom.com/wiki/Boon:_Dark_Theory",
@@ -145,7 +145,7 @@
   },
   {
     "id": "boon-exponential-2379a2",
-    "side": "survivor",
+    "player-side": "survivor",
     "character": "jonah-vasquez",
     "icon": "boon-exponential.png",
     "wiki": "https://deadbydaylight.fandom.com/wiki/Boon:_Exponential",
@@ -153,7 +153,7 @@
   },
   {
     "id": "boon-shadow-step-7cfcef",
-    "side": "survivor",
+    "player-side": "survivor",
     "character": "mikaela-reid",
     "icon": "boon-shadow-step.png",
     "wiki": "https://deadbydaylight.fandom.com/wiki/Boon:_Shadow_Step",
@@ -161,7 +161,7 @@
   },
   {
     "id": "borrowed-time-78efc4",
-    "side": "survivor",
+    "player-side": "survivor",
     "character": "william-bill-overbeck",
     "icon": "borrowed-time.png",
     "wiki": "https://deadbydaylight.fandom.com/wiki/Borrowed_Time",
@@ -169,7 +169,7 @@
   },
   {
     "id": "botany-knowledge-2f7d01",
-    "side": "survivor",
+    "player-side": "survivor",
     "character": "claudette-morel",
     "icon": "botany-knowledge.png",
     "wiki": "https://deadbydaylight.fandom.com/wiki/Claudette_Morel",
@@ -177,7 +177,7 @@
   },
   {
     "id": "breakdown-e3d189",
-    "side": "survivor",
+    "player-side": "survivor",
     "character": "jeff-johansen",
     "icon": "breakdown.png",
     "wiki": "https://deadbydaylight.fandom.com/wiki/Breakdown",
@@ -185,7 +185,7 @@
   },
   {
     "id": "breakout-b9f9d0",
-    "side": "survivor",
+    "player-side": "survivor",
     "character": "yui-kimura",
     "icon": "breakout.png",
     "wiki": "https://deadbydaylight.fandom.com/wiki/Breakout",
@@ -193,7 +193,7 @@
   },
   {
     "id": "buckle-up-9f92df",
-    "side": "survivor",
+    "player-side": "survivor",
     "character": "ashley-j-williams",
     "icon": "buckle-up.png",
     "wiki": "https://deadbydaylight.fandom.com/wiki/Buckle_Up",
@@ -201,7 +201,7 @@
   },
   {
     "id": "built-to-last-d39164",
-    "side": "survivor",
+    "player-side": "survivor",
     "character": "felix-richter",
     "icon": "built-to-last.png",
     "wiki": "https://deadbydaylight.fandom.com/wiki/Built_to_Last",
@@ -209,7 +209,7 @@
   },
   {
     "id": "calm-spirit-2d5af7",
-    "side": "survivor",
+    "player-side": "survivor",
     "character": "jake-park",
     "icon": "calm-spirit.png",
     "wiki": "https://deadbydaylight.fandom.com/wiki/Calm_Spirit",
@@ -217,7 +217,7 @@
   },
   {
     "id": "clairvoyance-b1092f",
-    "side": "survivor",
+    "player-side": "survivor",
     "character": "mikaela-reid",
     "icon": "clairvoyance.png",
     "wiki": "https://deadbydaylight.fandom.com/wiki/Clairvoyance",
@@ -225,7 +225,7 @@
   },
   {
     "id": "corrective-action-3d08d4",
-    "side": "survivor",
+    "player-side": "survivor",
     "character": "jonah-vasquez",
     "icon": "corrective-action.png",
     "wiki": "https://deadbydaylight.fandom.com/wiki/Corrective_Action",
@@ -233,7 +233,7 @@
   },
   {
     "id": "counterforce-f2ca06",
-    "side": "survivor",
+    "player-side": "survivor",
     "character": "jill-valentine",
     "icon": "counterforce.png",
     "wiki": "https://deadbydaylight.fandom.com/wiki/Counterforce",
@@ -241,7 +241,7 @@
   },
   {
     "id": "cut-loose-7148eb",
-    "side": "survivor",
+    "player-side": "survivor",
     "character": "thalita-lyra",
     "icon": "cut-loose.png",
     "wiki": "https://deadbydaylight.fandom.com/wiki/Cut_Loose",
@@ -249,7 +249,7 @@
   },
   {
     "id": "dance-with-me-da0b32",
-    "side": "survivor",
+    "player-side": "survivor",
     "character": "kate-denson",
     "icon": "dance-with-me.png",
     "wiki": "https://deadbydaylight.fandom.com/wiki/Dance_With_Me",
@@ -257,7 +257,7 @@
   },
   {
     "id": "dark-sense-aec185",
-    "side": "survivor",
+    "player-side": "survivor",
     "character": "general-perk",
     "icon": "dark-sense.png",
     "wiki": "https://deadbydaylight.fandom.com/wiki/Dark_Sense",
@@ -265,7 +265,7 @@
   },
   {
     "id": "dead-hard-06dc08",
-    "side": "survivor",
+    "player-side": "survivor",
     "character": "david-king",
     "icon": "dead-hard.png",
     "wiki": "https://deadbydaylight.fandom.com/wiki/Dead_Hard",
@@ -273,7 +273,7 @@
   },
   {
     "id": "deception-4214ee",
-    "side": "survivor",
+    "player-side": "survivor",
     "character": "elodie-rakoto",
     "icon": "deception.png",
     "wiki": "https://deadbydaylight.fandom.com/wiki/Deception",
@@ -281,7 +281,7 @@
   },
   {
     "id": "decisive-strike-9d6df6",
-    "side": "survivor",
+    "player-side": "survivor",
     "character": "laurie-strode",
     "icon": "decisive-strike.png",
     "wiki": "https://deadbydaylight.fandom.com/wiki/Decisive_Strike",
@@ -289,7 +289,7 @@
   },
   {
     "id": "deja-vu-5a8445",
-    "side": "survivor",
+    "player-side": "survivor",
     "character": "general-perk",
     "icon": "deja-vu.png",
     "wiki": "https://deadbydaylight.fandom.com/wiki/D%C3%A9j%C3%A0_Vu",
@@ -297,7 +297,7 @@
   },
   {
     "id": "deliverance-fa225e",
-    "side": "survivor",
+    "player-side": "survivor",
     "character": "adam-francis",
     "icon": "deliverance.png",
     "wiki": "https://deadbydaylight.fandom.com/wiki/Deliverance",
@@ -305,7 +305,7 @@
   },
   {
     "id": "desperate-measures-89eb55",
-    "side": "survivor",
+    "player-side": "survivor",
     "character": "felix-richter",
     "icon": "desperate-measures.png",
     "wiki": "https://deadbydaylight.fandom.com/wiki/Desperate_Measures",
@@ -313,7 +313,7 @@
   },
   {
     "id": "detectives-hunch-4bb9fe",
-    "side": "survivor",
+    "player-side": "survivor",
     "character": "detective-tapp",
     "icon": "detectives-hunch.png",
     "wiki": "https://deadbydaylight.fandom.com/wiki/Detective%27s_Hunch",
@@ -321,7 +321,7 @@
   },
   {
     "id": "distortion-c08944",
-    "side": "survivor",
+    "player-side": "survivor",
     "character": "jeff-johansen",
     "icon": "distortion.png",
     "wiki": "https://deadbydaylight.fandom.com/wiki/Distortion",
@@ -329,7 +329,7 @@
   },
   {
     "id": "diversion-588c9e",
-    "side": "survivor",
+    "player-side": "survivor",
     "character": "adam-francis",
     "icon": "diversion.png",
     "wiki": "https://deadbydaylight.fandom.com/wiki/Diversion",
@@ -337,7 +337,7 @@
   },
   {
     "id": "empathic-connection-2b1bbc",
-    "side": "survivor",
+    "player-side": "survivor",
     "character": "yoichi-asakawa",
     "icon": "empathic-connection.png",
     "wiki": "https://deadbydaylight.fandom.com/wiki/Empathic_Connection",
@@ -345,7 +345,7 @@
   },
   {
     "id": "empathy-c4ea19",
-    "side": "survivor",
+    "player-side": "survivor",
     "character": "claudette-morel",
     "icon": "empathy.png",
     "wiki": "https://deadbydaylight.fandom.com/wiki/Empathy",
@@ -353,7 +353,7 @@
   },
   {
     "id": "fast-track-6edebb",
-    "side": "survivor",
+    "player-side": "survivor",
     "character": "yun-jin-lee",
     "icon": "fast-track.png",
     "wiki": "https://deadbydaylight.fandom.com/wiki/Fast_Track",
@@ -361,7 +361,7 @@
   },
   {
     "id": "flashbang-4d9974",
-    "side": "survivor",
+    "player-side": "survivor",
     "character": "leon-s-kennedy",
     "icon": "flashbang.png",
     "wiki": "https://deadbydaylight.fandom.com/wiki/Flashbang",
@@ -369,7 +369,7 @@
   },
   {
     "id": "flip-flop-58b523",
-    "side": "survivor",
+    "player-side": "survivor",
     "character": "ashley-j-williams",
     "icon": "flip-flop.png",
     "wiki": "https://deadbydaylight.fandom.com/wiki/Flip-Flop",
@@ -377,7 +377,7 @@
   },
   {
     "id": "fogwise-f3e0dc",
-    "side": "survivor",
+    "player-side": "survivor",
     "character": "vittorio-toscano",
     "icon": "fogwise.png",
     "wiki": "https://deadbydaylight.fandom.com/wiki/Fogwise",
@@ -385,7 +385,7 @@
   },
   {
     "id": "for-the-people-3a3eed",
-    "side": "survivor",
+    "player-side": "survivor",
     "character": "zarina-kassir",
     "icon": "for-the-people.png",
     "wiki": "https://deadbydaylight.fandom.com/wiki/For_the_People",
@@ -393,7 +393,7 @@
   },
   {
     "id": "friendly-competition-e2acf9",
-    "side": "survivor",
+    "player-side": "survivor",
     "character": "thalita-lyra",
     "icon": "friendly-competition.png",
     "wiki": "https://deadbydaylight.fandom.com/wiki/Friendly_Competition",
@@ -401,7 +401,7 @@
   },
   {
     "id": "guardian-c91484",
-    "side": "survivor",
+    "player-side": "survivor",
     "character": "general-perk",
     "icon": "guardian.png",
     "wiki": "https://deadbydaylight.fandom.com/wiki/Guardian",
@@ -413,7 +413,7 @@
   },
   {
     "id": "head-on-fac685",
-    "side": "survivor",
+    "player-side": "survivor",
     "character": "jane-romero",
     "icon": "head-on.png",
     "wiki": "https://deadbydaylight.fandom.com/wiki/Head_On",
@@ -421,7 +421,7 @@
   },
   {
     "id": "hope-641889",
-    "side": "survivor",
+    "player-side": "survivor",
     "character": "general-perk",
     "icon": "hope.png",
     "wiki": "https://deadbydaylight.fandom.com/wiki/Hope",
@@ -429,7 +429,7 @@
   },
   {
     "id": "hyperfocus-f2364d",
-    "side": "survivor",
+    "player-side": "survivor",
     "character": "rebecca-chambers",
     "icon": "hyperfocus.png",
     "wiki": "https://deadbydaylight.fandom.com/wiki/Hyperfocus",
@@ -437,7 +437,7 @@
   },
   {
     "id": "inner-focus-76843f",
-    "side": "survivor",
+    "player-side": "survivor",
     "character": "haddie-kaur",
     "icon": "inner-focus.png",
     "wiki": "https://deadbydaylight.fandom.com/wiki/Inner_Focus",
@@ -445,7 +445,7 @@
   },
   {
     "id": "inner-healing-4f43eb",
-    "side": "survivor",
+    "player-side": "survivor",
     "character": "general-perk",
     "icon": "inner-healing.png",
     "wiki": "https://deadbydaylight.fandom.com/wiki/Inner_Healing",
@@ -457,7 +457,7 @@
   },
   {
     "id": "iron-will-e76742",
-    "side": "survivor",
+    "player-side": "survivor",
     "character": "jake-park",
     "icon": "iron-will.png",
     "wiki": "https://deadbydaylight.fandom.com/wiki/Iron_Will",
@@ -465,7 +465,7 @@
   },
   {
     "id": "kindred-491bea",
-    "side": "survivor",
+    "player-side": "survivor",
     "character": "general-perk",
     "icon": "kindred.png",
     "wiki": "https://deadbydaylight.fandom.com/wiki/Kindred",
@@ -473,7 +473,7 @@
   },
   {
     "id": "kinship-2380a7",
-    "side": "survivor",
+    "player-side": "survivor",
     "character": "general-perk",
     "icon": "kinship.png",
     "wiki": "https://deadbydaylight.fandom.com/wiki/Kinship",
@@ -485,7 +485,7 @@
   },
   {
     "id": "leader-3d1513",
-    "side": "survivor",
+    "player-side": "survivor",
     "character": "dwight-fairfield",
     "icon": "leader.png",
     "wiki": "https://deadbydaylight.fandom.com/wiki/Leader",
@@ -493,7 +493,7 @@
   },
   {
     "id": "left-behind-d5f964",
-    "side": "survivor",
+    "player-side": "survivor",
     "character": "william-bill-overbeck",
     "icon": "left-behind.png",
     "wiki": "https://deadbydaylight.fandom.com/wiki/Left_Behind",
@@ -501,7 +501,7 @@
   },
   {
     "id": "lightweight-30c31a",
-    "side": "survivor",
+    "player-side": "survivor",
     "character": "general-perk",
     "icon": "lightweight.png",
     "wiki": "https://deadbydaylight.fandom.com/wiki/Lightweight",
@@ -509,7 +509,7 @@
   },
   {
     "id": "lithe-c16661",
-    "side": "survivor",
+    "player-side": "survivor",
     "character": "feng-min",
     "icon": "lithe.png",
     "wiki": "https://deadbydaylight.fandom.com/wiki/Lithe",
@@ -517,7 +517,7 @@
   },
   {
     "id": "low-profile-74d85d",
-    "side": "survivor",
+    "player-side": "survivor",
     "character": "ada-wong",
     "icon": "low-profile.png",
     "wiki": "https://deadbydaylight.fandom.com/wiki/Low_Profile",
@@ -525,7 +525,7 @@
   },
   {
     "id": "lucky-break-7a795e",
-    "side": "survivor",
+    "player-side": "survivor",
     "character": "yui-kimura",
     "icon": "lucky-break.png",
     "wiki": "https://deadbydaylight.fandom.com/wiki/Lucky_Break",
@@ -533,7 +533,7 @@
   },
   {
     "id": "made-for-this-9c74a5",
-    "side": "survivor",
+    "player-side": "survivor",
     "character": "gabriel-soma",
     "icon": "made-for-this.png",
     "wiki": "https://deadbydaylight.fandom.com/wiki/Made_for_This",
@@ -541,7 +541,7 @@
   },
   {
     "id": "mettle-of-man-b3c4aa",
-    "side": "survivor",
+    "player-side": "survivor",
     "character": "ashley-j-williams",
     "icon": "mettle-of-man.png",
     "wiki": "https://deadbydaylight.fandom.com/wiki/Mettle_of_Man",
@@ -549,7 +549,7 @@
   },
   {
     "id": "no-mither-58477a",
-    "side": "survivor",
+    "player-side": "survivor",
     "character": "david-king",
     "icon": "no-mither.png",
     "wiki": "https://deadbydaylight.fandom.com/wiki/No_Mither",
@@ -557,7 +557,7 @@
   },
   {
     "id": "no-one-left-behind-51e672",
-    "side": "survivor",
+    "player-side": "survivor",
     "character": "general-perk",
     "icon": "no-one-left-behind.png",
     "wiki": "https://deadbydaylight.fandom.com/wiki/No_One_Left_Behind",
@@ -565,7 +565,7 @@
   },
   {
     "id": "object-of-obsession-9b2958",
-    "side": "survivor",
+    "player-side": "survivor",
     "character": "laurie-strode",
     "icon": "object-of-obsession.png",
     "wiki": "https://deadbydaylight.fandom.com/wiki/Object_of_Obsession",
@@ -573,7 +573,7 @@
   },
   {
     "id": "off-the-record-9d0f9b",
-    "side": "survivor",
+    "player-side": "survivor",
     "character": "zarina-kassir",
     "icon": "off-the-record.png",
     "wiki": "https://deadbydaylight.fandom.com/wiki/Off_the_Record",
@@ -581,7 +581,7 @@
   },
   {
     "id": "open-handed-ad589a",
-    "side": "survivor",
+    "player-side": "survivor",
     "character": "ace-visconti",
     "icon": "open-handed.png",
     "wiki": "https://deadbydaylight.fandom.com/wiki/Open-Handed",
@@ -589,7 +589,7 @@
   },
   {
     "id": "overcome-0fbcf6",
-    "side": "survivor",
+    "player-side": "survivor",
     "character": "jonah-vasquez",
     "icon": "overcome.png",
     "wiki": "https://deadbydaylight.fandom.com/wiki/Overcome",
@@ -597,7 +597,7 @@
   },
   {
     "id": "overzealous-001c36",
-    "side": "survivor",
+    "player-side": "survivor",
     "character": "haddie-kaur",
     "icon": "overzealous.png",
     "wiki": "https://deadbydaylight.fandom.com/wiki/Overzealous",
@@ -605,7 +605,7 @@
   },
   {
     "id": "parental-guidance-f85fcc",
-    "side": "survivor",
+    "player-side": "survivor",
     "character": "yoichi-asakawa",
     "icon": "parental-guidance.png",
     "wiki": "https://deadbydaylight.fandom.com/wiki/Parental_Guidance",
@@ -613,7 +613,7 @@
   },
   {
     "id": "pharmacy-6e4b81",
-    "side": "survivor",
+    "player-side": "survivor",
     "character": "quentin-smith",
     "icon": "pharmacy.png",
     "wiki": "https://deadbydaylight.fandom.com/wiki/Pharmacy",
@@ -621,7 +621,7 @@
   },
   {
     "id": "plunderers-instinct-d5cb4d",
-    "side": "survivor",
+    "player-side": "survivor",
     "character": "general-perk",
     "icon": "plunderers-instinct.png",
     "wiki": "https://deadbydaylight.fandom.com/wiki/Plunderer%27s_Instinct",
@@ -629,7 +629,7 @@
   },
   {
     "id": "poised-a96a34",
-    "side": "survivor",
+    "player-side": "survivor",
     "character": "jane-romero",
     "icon": "poised.png",
     "wiki": "https://deadbydaylight.fandom.com/wiki/Poised",
@@ -637,7 +637,7 @@
   },
   {
     "id": "potential-energy-8d0a57",
-    "side": "survivor",
+    "player-side": "survivor",
     "character": "vittorio-toscano",
     "icon": "potential-energy.png",
     "wiki": "https://deadbydaylight.fandom.com/wiki/Potential_Energy",
@@ -645,7 +645,7 @@
   },
   {
     "id": "power-struggle-3cc582",
-    "side": "survivor",
+    "player-side": "survivor",
     "character": "elodie-rakoto",
     "icon": "power-struggle.png",
     "wiki": "https://deadbydaylight.fandom.com/wiki/Power_Struggle",
@@ -653,7 +653,7 @@
   },
   {
     "id": "premonition-05d040",
-    "side": "survivor",
+    "player-side": "survivor",
     "character": "general-perk",
     "icon": "premonition.png",
     "wiki": "https://deadbydaylight.fandom.com/wiki/Premonition",
@@ -661,7 +661,7 @@
   },
   {
     "id": "prove-thyself-81dc93",
-    "side": "survivor",
+    "player-side": "survivor",
     "character": "dwight-fairfield",
     "icon": "prove-thyself.png",
     "wiki": "https://deadbydaylight.fandom.com/wiki/Prove_Thyself",
@@ -669,7 +669,7 @@
   },
   {
     "id": "quick-and-quiet-973ff3",
-    "side": "survivor",
+    "player-side": "survivor",
     "character": "meg-thomas",
     "icon": "quick-and-quiet.png",
     "wiki": "https://deadbydaylight.fandom.com/wiki/Quick_%26_Quiet",
@@ -677,7 +677,7 @@
   },
   {
     "id": "quick-gambit-3543e6",
-    "side": "survivor",
+    "player-side": "survivor",
     "character": "vittorio-toscano",
     "icon": "quick-gambit.png",
     "wiki": "https://deadbydaylight.fandom.com/wiki/Quick_Gambit",
@@ -685,7 +685,7 @@
   },
   {
     "id": "reactive-healing-8936db",
-    "side": "survivor",
+    "player-side": "survivor",
     "character": "ada-wong",
     "icon": "reactive-healing.png",
     "wiki": "https://deadbydaylight.fandom.com/wiki/Reactive_Healing",
@@ -693,7 +693,7 @@
   },
   {
     "id": "reassurance-d2e77c",
-    "side": "survivor",
+    "player-side": "survivor",
     "character": "rebecca-chambers",
     "icon": "reassurance.png",
     "wiki": "https://deadbydaylight.fandom.com/wiki/Reassurance",
@@ -701,7 +701,7 @@
   },
   {
     "id": "red-herring-c2b4fd",
-    "side": "survivor",
+    "player-side": "survivor",
     "character": "zarina-kassir",
     "icon": "red-herring.png",
     "wiki": "https://deadbydaylight.fandom.com/wiki/Red_Herring",
@@ -709,7 +709,7 @@
   },
   {
     "id": "renewal-033060",
-    "side": "survivor",
+    "player-side": "survivor",
     "character": "general-perk",
     "icon": "renewal.png",
     "wiki": "https://deadbydaylight.fandom.com/wiki/Renewal",
@@ -721,7 +721,7 @@
   },
   {
     "id": "repressed-alliance-774ee9",
-    "side": "survivor",
+    "player-side": "survivor",
     "character": "cheryl-mason",
     "icon": "repressed-alliance.png",
     "wiki": "https://deadbydaylight.fandom.com/wiki/Repressed_Alliance",
@@ -729,7 +729,7 @@
   },
   {
     "id": "residual-manifest-42d894",
-    "side": "survivor",
+    "player-side": "survivor",
     "character": "haddie-kaur",
     "icon": "residual-manifest.png",
     "wiki": "https://deadbydaylight.fandom.com/wiki/Residual_Manifest",
@@ -737,7 +737,7 @@
   },
   {
     "id": "resilience-144fdb",
-    "side": "survivor",
+    "player-side": "survivor",
     "character": "general-perk",
     "icon": "resilience.png",
     "wiki": "https://deadbydaylight.fandom.com/wiki/Resilience",
@@ -745,7 +745,7 @@
   },
   {
     "id": "resurgence-717bd4",
-    "side": "survivor",
+    "player-side": "survivor",
     "character": "jill-valentine",
     "icon": "resurgence.png",
     "wiki": "https://deadbydaylight.fandom.com/wiki/Resurgence",
@@ -753,7 +753,7 @@
   },
   {
     "id": "rookie-spirit-3dc5e6",
-    "side": "survivor",
+    "player-side": "survivor",
     "character": "leon-s-kennedy",
     "icon": "rookie-spirit.png",
     "wiki": "https://deadbydaylight.fandom.com/wiki/Rookie_Spirit",
@@ -761,7 +761,7 @@
   },
   {
     "id": "saboteur-aa31b1",
-    "side": "survivor",
+    "player-side": "survivor",
     "character": "jake-park",
     "icon": "saboteur.png",
     "wiki": "https://deadbydaylight.fandom.com/wiki/Saboteur",
@@ -769,7 +769,7 @@
   },
   {
     "id": "scavenger-3b3224",
-    "side": "survivor",
+    "player-side": "survivor",
     "character": "gabriel-soma",
     "icon": "scavenger.png",
     "wiki": "https://deadbydaylight.fandom.com/wiki/Scavenger",
@@ -777,7 +777,7 @@
   },
   {
     "id": "self-aware-dfac48",
-    "side": "survivor",
+    "player-side": "survivor",
     "character": "general-perk",
     "icon": "self-aware.png",
     "wiki": "https://deadbydaylight.fandom.com/wiki/Self-Aware",
@@ -789,7 +789,7 @@
   },
   {
     "id": "self-care-cdf5c6",
-    "side": "survivor",
+    "player-side": "survivor",
     "character": "claudette-morel",
     "icon": "self-care.png",
     "wiki": "https://deadbydaylight.fandom.com/wiki/Self-Care",
@@ -797,7 +797,7 @@
   },
   {
     "id": "self-preservation-7c821d",
-    "side": "survivor",
+    "player-side": "survivor",
     "character": "yun-jin-lee",
     "icon": "self-preservation.png",
     "wiki": "https://deadbydaylight.fandom.com/wiki/Self-Preservation",
@@ -805,7 +805,7 @@
   },
   {
     "id": "situational-awareness-db2c0b",
-    "side": "survivor",
+    "player-side": "survivor",
     "character": "general-perk",
     "icon": "situational-awareness.png",
     "wiki": "https://deadbydaylight.fandom.com/wiki/Situational_Awareness",
@@ -817,7 +817,7 @@
   },
   {
     "id": "slippery-meat-0b7f8f",
-    "side": "survivor",
+    "player-side": "survivor",
     "character": "general-perk",
     "icon": "slippery-meat.png",
     "wiki": "https://deadbydaylight.fandom.com/wiki/Slippery_Meat",
@@ -825,7 +825,7 @@
   },
   {
     "id": "small-game-d34d10",
-    "side": "survivor",
+    "player-side": "survivor",
     "character": "general-perk",
     "icon": "small-game.png",
     "wiki": "https://deadbydaylight.fandom.com/wiki/Small_Game",
@@ -833,7 +833,7 @@
   },
   {
     "id": "smash-hit-d41499",
-    "side": "survivor",
+    "player-side": "survivor",
     "character": "yun-jin-lee",
     "icon": "smash-hit.png",
     "wiki": "https://deadbydaylight.fandom.com/wiki/Smash_Hit",
@@ -841,7 +841,7 @@
   },
   {
     "id": "sole-survivor-c715d0",
-    "side": "survivor",
+    "player-side": "survivor",
     "character": "laurie-strode",
     "icon": "sole-survivor.png",
     "wiki": "https://deadbydaylight.fandom.com/wiki/Sole_Survivor",
@@ -849,7 +849,7 @@
   },
   {
     "id": "solidarity-1d7f60",
-    "side": "survivor",
+    "player-side": "survivor",
     "character": "jane-romero",
     "icon": "solidarity.png",
     "wiki": "https://deadbydaylight.fandom.com/wiki/Solidarity",
@@ -857,7 +857,7 @@
   },
   {
     "id": "soul-guard-28cb27",
-    "side": "survivor",
+    "player-side": "survivor",
     "character": "cheryl-mason",
     "icon": "soul-guard.png",
     "wiki": "https://deadbydaylight.fandom.com/wiki/Soul_Guard",
@@ -865,7 +865,7 @@
   },
   {
     "id": "spine-chil-ce2db6",
-    "side": "survivor",
+    "player-side": "survivor",
     "character": "general-perk",
     "icon": "spine-chill.png",
     "wiki": "https://deadbydaylight.fandom.com/wiki/Spine_Chill",
@@ -873,7 +873,7 @@
   },
   {
     "id": "sprint-burst-8dd4b1",
-    "side": "survivor",
+    "player-side": "survivor",
     "character": "meg-thomas",
     "icon": "sprint-burst.png",
     "wiki": "https://deadbydaylight.fandom.com/wiki/Sprint_Burst",
@@ -881,7 +881,7 @@
   },
   {
     "id": "stake-out-262384",
-    "side": "survivor",
+    "player-side": "survivor",
     "character": "detective-tapp",
     "icon": "stake-out.png",
     "wiki": "https://deadbydaylight.fandom.com/wiki/Stake_Out",
@@ -889,7 +889,7 @@
   },
   {
     "id": "streetwise-35927e",
-    "side": "survivor",
+    "player-side": "survivor",
     "character": "nea-karlsson",
     "icon": "streetwise.png",
     "wiki": "https://deadbydaylight.fandom.com/wiki/Streetwise",
@@ -897,7 +897,7 @@
   },
   {
     "id": "teamwork-collective-stealth-a098e7",
-    "side": "survivor",
+    "player-side": "survivor",
     "character": "renato-lyra",
     "icon": "teamwork-collective-stealth.png",
     "wiki": "https://deadbydaylight.fandom.com/wiki/Teamwork:_Collective_Stealth",
@@ -905,7 +905,7 @@
   },
   {
     "id": "teamwork-power-of-two-d88199",
-    "side": "survivor",
+    "player-side": "survivor",
     "character": "thalita-lyra",
     "icon": "teamwork-power-of-two.png",
     "wiki": "https://deadbydaylight.fandom.com/wiki/Teamwork:_Power_of_Two",
@@ -913,7 +913,7 @@
   },
   {
     "id": "technician-780f00",
-    "side": "survivor",
+    "player-side": "survivor",
     "character": "feng-min",
     "icon": "technician.png",
     "wiki": "https://deadbydaylight.fandom.com/wiki/Technician",
@@ -921,7 +921,7 @@
   },
   {
     "id": "tenacity-da1dd7",
-    "side": "survivor",
+    "player-side": "survivor",
     "character": "detective-tapp",
     "icon": "tenacity.png",
     "wiki": "https://deadbydaylight.fandom.com/wiki/Tenacity",
@@ -929,7 +929,7 @@
   },
   {
     "id": "this-is-not-happening-b535a4",
-    "side": "survivor",
+    "player-side": "survivor",
     "character": "general-perk",
     "icon": "this-is-not-happening.png",
     "wiki": "https://deadbydaylight.fandom.com/wiki/This_Is_Not_Happening",
@@ -937,7 +937,7 @@
   },
   {
     "id": "troubleshooter-ff384d",
-    "side": "survivor",
+    "player-side": "survivor",
     "character": "gabriel-soma",
     "icon": "troubleshooter.png",
     "wiki": "https://deadbydaylight.fandom.com/wiki/Troubleshooter",
@@ -945,7 +945,7 @@
   },
   {
     "id": "unbreakable-6e07f1",
-    "side": "survivor",
+    "player-side": "survivor",
     "character": "william-bill-overbeck",
     "icon": "unbreakable.png",
     "wiki": "https://deadbydaylight.fandom.com/wiki/Unbreakable",
@@ -953,7 +953,7 @@
   },
   {
     "id": "up-the-ante-44a562",
-    "side": "survivor",
+    "player-side": "survivor",
     "character": "ace-visconti",
     "icon": "up-the-ante.png",
     "wiki": "https://deadbydaylight.fandom.com/wiki/Up_the_Ante",
@@ -961,7 +961,7 @@
   },
   {
     "id": "urban-evasion-81951b",
-    "side": "survivor",
+    "player-side": "survivor",
     "character": "nea-karlsson",
     "icon": "urban-evasion.png",
     "wiki": "https://deadbydaylight.fandom.com/wiki/Urban_Evasion",
@@ -969,7 +969,7 @@
   },
   {
     "id": "vigil-f4914b",
-    "side": "survivor",
+    "player-side": "survivor",
     "character": "quentin-smith",
     "icon": "vigil.png",
     "wiki": "https://deadbydaylight.fandom.com/wiki/Vigil",
@@ -977,7 +977,7 @@
   },
   {
     "id": "visionary-558b7b",
-    "side": "survivor",
+    "player-side": "survivor",
     "character": "felix-richter",
     "icon": "visionary.png",
     "wiki": "https://deadbydaylight.fandom.com/wiki/Visionary",
@@ -985,7 +985,7 @@
   },
   {
     "id": "wake-up-0cf464",
-    "side": "survivor",
+    "player-side": "survivor",
     "character": "quentin-smith",
     "icon": "wake-up.png",
     "wiki": "https://deadbydaylight.fandom.com/wiki/Wake_Up!",
@@ -993,7 +993,7 @@
   },
   {
     "id": "well-make-it-ab52ec",
-    "side": "survivor",
+    "player-side": "survivor",
     "character": "general-perk",
     "icon": "well-make-it.png",
     "wiki": "https://deadbydaylight.fandom.com/wiki/We%27ll_Make_It",
@@ -1001,7 +1001,7 @@
   },
   {
     "id": "were-gonna-live-forever-357900",
-    "side": "survivor",
+    "player-side": "survivor",
     "character": "david-king",
     "icon": "were-gonna-live-forever.png",
     "wiki": "https://deadbydaylight.fandom.com/wiki/We%27re_Gonna_Live_Forever",
@@ -1009,7 +1009,7 @@
   },
   {
     "id": "windows-of-opportunity-7413ce",
-    "side": "survivor",
+    "player-side": "survivor",
     "character": "kate-denson",
     "icon": "windows-of-opportunity.png",
     "wiki": "https://deadbydaylight.fandom.com/wiki/Windows_of_Opportunity",
@@ -1017,7 +1017,7 @@
   },
   {
     "id": "wiretap-46e3ec",
-    "side": "survivor",
+    "player-side": "survivor",
     "character": "ada-wong",
     "icon": "wiretap.png",
     "wiki": "https://deadbydaylight.fandom.com/wiki/Wiretap",
@@ -1025,7 +1025,7 @@
   },
   {
     "id": "a-nurses-calling-a98a5e",
-    "side": "killer",
+    "player-side": "killer",
     "character": "the-nurse",
     "icon": "a-nurses-calling.png",
     "wiki": "https://deadbydaylight.fandom.com/wiki/A_Nurse%27s_Calling",
@@ -1033,7 +1033,7 @@
   },
   {
     "id": "agitation-29512a",
-    "side": "killer",
+    "player-side": "killer",
     "character": "the-trapper",
     "icon": "agitation.png",
     "wiki": "https://deadbydaylight.fandom.com/wiki/Agitation",
@@ -1041,7 +1041,7 @@
   },
   {
     "id": "awakened-awareness-bf1070",
-    "side": "killer",
+    "player-side": "killer",
     "character": "the-mastermind",
     "icon": "awakened-awareness.png",
     "wiki": "https://deadbydaylight.fandom.com/wiki/Awakened_Awareness",
@@ -1049,7 +1049,7 @@
   },
   {
     "id": "bamboozle-f0a2c2",
-    "side": "killer",
+    "player-side": "killer",
     "character": "the-clown",
     "icon": "bamboozle.png",
     "wiki": "https://deadbydaylight.fandom.com/wiki/Bamboozle",
@@ -1057,7 +1057,7 @@
   },
   {
     "id": "barbecue-and-chilli-e30b6e",
-    "side": "killer",
+    "player-side": "killer",
     "character": "the-cannibal",
     "icon": "barbecue-and-chilli.png",
     "wiki": "https://deadbydaylight.fandom.com/wiki/Barbecue_%26_Chilli",
@@ -1065,7 +1065,7 @@
   },
   {
     "id": "beast-of-prey-006f7c",
-    "side": "killer",
+    "player-side": "killer",
     "character": "the-huntress",
     "icon": "beast-of-prey.png",
     "wiki": "https://deadbydaylight.fandom.com/wiki/Beast_of_Prey",
@@ -1073,7 +1073,7 @@
   },
   {
     "id": "bitter-murmur-31bddb",
-    "side": "killer",
+    "player-side": "killer",
     "character": "general-perk",
     "icon": "bitter-murmur.png",
     "wiki": "https://deadbydaylight.fandom.com/wiki/Bitter_Murmur",
@@ -1081,7 +1081,7 @@
   },
   {
     "id": "blood-echo-261091",
-    "side": "killer",
+    "player-side": "killer",
     "character": "the-oni",
     "icon": "blood-echo.png",
     "wiki": "https://deadbydaylight.fandom.com/wiki/Blood_Echo",
@@ -1089,7 +1089,7 @@
   },
   {
     "id": "blood-warden-be4ae2",
-    "side": "killer",
+    "player-side": "killer",
     "character": "the-nightmare",
     "icon": "blood-warden.png",
     "wiki": "https://deadbydaylight.fandom.com/wiki/Blood_Warden",
@@ -1097,7 +1097,7 @@
   },
   {
     "id": "bloodhound-28512c",
-    "side": "killer",
+    "player-side": "killer",
     "character": "the-wraith",
     "icon": "bloodhound.png",
     "wiki": "https://deadbydaylight.fandom.com/wiki/Bloodhound",
@@ -1105,7 +1105,7 @@
   },
   {
     "id": "brutal-strength-506890",
-    "side": "killer",
+    "player-side": "killer",
     "character": "the-trapper",
     "icon": "brutal-strength.png",
     "wiki": "https://deadbydaylight.fandom.com/wiki/Brutal_Strength",
@@ -1113,7 +1113,7 @@
   },
   {
     "id": "call-of-brine-2531fa",
-    "side": "killer",
+    "player-side": "killer",
     "character": "the-onryo",
     "icon": "call-of-brine.png",
     "wiki": "https://deadbydaylight.fandom.com/wiki/Call_of_Brine",
@@ -1121,7 +1121,7 @@
   },
   {
     "id": "claustrophobia-e13c28",
-    "side": "killer",
+    "player-side": "killer",
     "character": "general-perk",
     "icon": "claustrophobia.png",
     "wiki": "https://deadbydaylight.fandom.com/wiki/Claustrophobia",
@@ -1133,7 +1133,7 @@
   },
   {
     "id": "corrupt-intervention-c1aee3",
-    "side": "killer",
+    "player-side": "killer",
     "character": "the-plague",
     "icon": "corrupt-intervention.png",
     "wiki": "https://deadbydaylight.fandom.com/wiki/Corrupt_Intervention",
@@ -1141,7 +1141,7 @@
   },
   {
     "id": "coulrophobia-5858f9",
-    "side": "killer",
+    "player-side": "killer",
     "character": "the-clown",
     "icon": "coulrophobia.png",
     "wiki": "https://deadbydaylight.fandom.com/wiki/Coulrophobia",
@@ -1149,7 +1149,7 @@
   },
   {
     "id": "coup-de-grace-6136ca",
-    "side": "killer",
+    "player-side": "killer",
     "character": "the-twins",
     "icon": "coup-de-grace.png",
     "wiki": "https://deadbydaylight.fandom.com/wiki/Coup_de_Gr%C3%A2ce",
@@ -1157,7 +1157,7 @@
   },
   {
     "id": "dark-devotion-d2f5cf",
-    "side": "killer",
+    "player-side": "killer",
     "character": "the-plague",
     "icon": "dark-devotion.png",
     "wiki": "https://deadbydaylight.fandom.com/wiki/Dark_Devotion",
@@ -1165,7 +1165,7 @@
   },
   {
     "id": "darkness-revealed-be34b4",
-    "side": "killer",
+    "player-side": "killer",
     "character": "the-dredge",
     "icon": "darkness-revealed.png",
     "wiki": "https://deadbydaylight.fandom.com/wiki/Darkness_Revealed",
@@ -1173,7 +1173,7 @@
   },
   {
     "id": "dead-mans-switch-965210",
-    "side": "killer",
+    "player-side": "killer",
     "character": "the-deathslinger",
     "icon": "dead-mans-switch.png",
     "wiki": "https://deadbydaylight.fandom.com/wiki/Dead_Man%27s_Switch",
@@ -1181,7 +1181,7 @@
   },
   {
     "id": "deadlock-9d8a23",
-    "side": "killer",
+    "player-side": "killer",
     "character": "the-cenobite",
     "icon": "deadlock.png",
     "wiki": "https://deadbydaylight.fandom.com/wiki/Deadlock",
@@ -1189,7 +1189,7 @@
   },
   {
     "id": "deathbound-9879a9",
-    "side": "killer",
+    "player-side": "killer",
     "character": "the-executioner",
     "icon": "deathbound.png",
     "wiki": "https://deadbydaylight.fandom.com/wiki/Deathbound",
@@ -1197,7 +1197,7 @@
   },
   {
     "id": "deerstalker-b8e8f2",
-    "side": "killer",
+    "player-side": "killer",
     "character": "general-perk",
     "icon": "deerstalker.png",
     "wiki": "https://deadbydaylight.fandom.com/wiki/Deerstalker",
@@ -1205,7 +1205,7 @@
   },
   {
     "id": "discordance-0fa454",
-    "side": "killer",
+    "player-side": "killer",
     "character": "the-legion",
     "icon": "discordance.png",
     "wiki": "https://deadbydaylight.fandom.com/wiki/Discordance",
@@ -1213,7 +1213,7 @@
   },
   {
     "id": "dissolution-e6661a",
-    "side": "killer",
+    "player-side": "killer",
     "character": "the-dredge",
     "icon": "dissolution.png",
     "wiki": "https://deadbydaylight.fandom.com/wiki/Dissolution",
@@ -1221,7 +1221,7 @@
   },
   {
     "id": "distressing-a77cb4",
-    "side": "killer",
+    "player-side": "killer",
     "character": "general-perk",
     "icon": "distressing.png",
     "wiki": "https://deadbydaylight.fandom.com/wiki/Distressing",
@@ -1229,7 +1229,7 @@
   },
   {
     "id": "dragons-grip-dc26f9",
-    "side": "killer",
+    "player-side": "killer",
     "character": "the-blight",
     "icon": "dragons-grip.png",
     "wiki": "https://deadbydaylight.fandom.com/wiki/Dragon%27s_Grip",
@@ -1237,7 +1237,7 @@
   },
   {
     "id": "dying-light-e7f1ca",
-    "side": "killer",
+    "player-side": "killer",
     "character": "the-shape",
     "icon": "dying-light.png",
     "wiki": "https://deadbydaylight.fandom.com/wiki/Dying_Light",
@@ -1245,7 +1245,7 @@
   },
   {
     "id": "enduring-75deaf",
-    "side": "killer",
+    "player-side": "killer",
     "character": "the-hillbilly",
     "icon": "enduring.png",
     "wiki": "https://deadbydaylight.fandom.com/wiki/Enduring",
@@ -1253,7 +1253,7 @@
   },
   {
     "id": "eruption-014b5c",
-    "side": "killer",
+    "player-side": "killer",
     "character": "the-nemesis",
     "icon": "eruption.png",
     "wiki": "https://deadbydaylight.fandom.com/wiki/Eruption",
@@ -1261,7 +1261,7 @@
   },
   {
     "id": "fearmonger-e34f6c",
-    "side": "killer",
+    "player-side": "killer",
     "character": "general-perk",
     "icon": "fearmonger.png",
     "wiki": "https://deadbydaylight.fandom.com/wiki/Fearmonger",
@@ -1273,7 +1273,7 @@
   },
   {
     "id": "fire-up-29f0dd",
-    "side": "killer",
+    "player-side": "killer",
     "character": "the-nightmare",
     "icon": "fire-up.png",
     "wiki": "https://deadbydaylight.fandom.com/wiki/Fire_Up",
@@ -1281,7 +1281,7 @@
   },
   {
     "id": "forced-hesitation-cec393",
-    "side": "killer",
+    "player-side": "killer",
     "character": "the-singularity",
     "icon": "forced-hesitation.png",
     "wiki": "https://deadbydaylight.fandom.com/wiki/Forced_Hesitation",
@@ -1289,7 +1289,7 @@
   },
   {
     "id": "forced-penance-b40928",
-    "side": "killer",
+    "player-side": "killer",
     "character": "the-executioner",
     "icon": "forced-penance.png",
     "wiki": "https://deadbydaylight.fandom.com/wiki/Forced_Penance",
@@ -1297,7 +1297,7 @@
   },
   {
     "id": "franklins-demise-7af0a2",
-    "side": "killer",
+    "player-side": "killer",
     "character": "the-cannibal",
     "icon": "franklins-demise.png",
     "wiki": "https://deadbydaylight.fandom.com/wiki/Franklin%27s_Demise",
@@ -1305,7 +1305,7 @@
   },
   {
     "id": "furtive-chase-d4a12e",
-    "side": "killer",
+    "player-side": "killer",
     "character": "the-ghost-face",
     "icon": "furtive-chase.png",
     "wiki": "https://deadbydaylight.fandom.com/wiki/Furtive_Chase",
@@ -1313,7 +1313,7 @@
   },
   {
     "id": "game-afoot-778403",
-    "side": "killer",
+    "player-side": "killer",
     "character": "the-skull-merchant",
     "icon": "game-afoot.png",
     "wiki": "https://deadbydaylight.fandom.com/wiki/Game_Afoot",
@@ -1321,7 +1321,7 @@
   },
   {
     "id": "gearhead-c6803d",
-    "side": "killer",
+    "player-side": "killer",
     "character": "the-deathslinger",
     "icon": "gearhead.png",
     "wiki": "https://deadbydaylight.fandom.com/wiki/Gearhead",
@@ -1329,7 +1329,7 @@
   },
   {
     "id": "genetic-limits-881490",
-    "side": "killer",
+    "player-side": "killer",
     "character": "the-singularity",
     "icon": "genetic-limits.png",
     "wiki": "https://deadbydaylight.fandom.com/wiki/Genetic_Limits",
@@ -1337,7 +1337,7 @@
   },
   {
     "id": "grim-embrace-9749bb",
-    "side": "killer",
+    "player-side": "killer",
     "character": "the-artist",
     "icon": "grim-embrace.png",
     "wiki": "https://deadbydaylight.fandom.com/wiki/Grim_Embrace",
@@ -1345,7 +1345,7 @@
   },
   {
     "id": "hangmans-trick-5b8aeb",
-    "side": "killer",
+    "player-side": "killer",
     "character": "the-pig",
     "icon": "hangmans-trick.png",
     "wiki": "https://deadbydaylight.fandom.com/wiki/Hangman%27s_Trick",
@@ -1353,7 +1353,7 @@
   },
   {
     "id": "hex-blood-favour-a96980",
-    "side": "killer",
+    "player-side": "killer",
     "character": "the-blight",
     "icon": "hex-blood-favour.png",
     "wiki": "https://deadbydaylight.fandom.com/wiki/Hex:_Blood_Favour",
@@ -1361,7 +1361,7 @@
   },
   {
     "id": "hex-crowd-control-e35699",
-    "side": "killer",
+    "player-side": "killer",
     "character": "the-trickster",
     "icon": "hex-crowd-control.png",
     "wiki": "https://deadbydaylight.fandom.com/wiki/Hex:_Crowd_Control",
@@ -1369,7 +1369,7 @@
   },
   {
     "id": "hex-devour-hope-28f5fc",
-    "side": "killer",
+    "player-side": "killer",
     "character": "the-hag",
     "icon": "hex-devour-hope.png",
     "wiki": "https://deadbydaylight.fandom.com/wiki/Hex:_Devour_Hope",
@@ -1377,7 +1377,7 @@
   },
   {
     "id": "hex-face-the-darkness-c73c40",
-    "side": "killer",
+    "player-side": "killer",
     "character": "the-knight",
     "icon": "hex-face-the-darkness.png",
     "wiki": "https://deadbydaylight.fandom.com/wiki/Hex:_Face_the_Darkness",
@@ -1385,7 +1385,7 @@
   },
   {
     "id": "hex-haunted-ground-e85ab1",
-    "side": "killer",
+    "player-side": "killer",
     "character": "the-spirit",
     "icon": "hex-haunted-ground.png",
     "wiki": "https://deadbydaylight.fandom.com/wiki/Hex:_Haunted_Ground",
@@ -1393,7 +1393,7 @@
   },
   {
     "id": "hex-huntress-lullaby-53cb72",
-    "side": "killer",
+    "player-side": "killer",
     "character": "the-huntress",
     "icon": "hex-huntress-lullaby.png",
     "wiki": "https://deadbydaylight.fandom.com/wiki/Hex:_Huntress_Lullaby",
@@ -1401,7 +1401,7 @@
   },
   {
     "id": "hex-no-one-escapes-death-e15ab3",
-    "side": "killer",
+    "player-side": "killer",
     "character": "general-perk",
     "icon": "hex-no-one-escapes-death.png",
     "wiki": "https://deadbydaylight.fandom.com/wiki/Hex:_No_One_Escapes_Death",
@@ -1409,7 +1409,7 @@
   },
   {
     "id": "hex-pentimento-4fe979",
-    "side": "killer",
+    "player-side": "killer",
     "character": "the-artist",
     "icon": "hex-pentimento.png",
     "wiki": "https://deadbydaylight.fandom.com/wiki/Hex:_Pentimento",
@@ -1417,7 +1417,7 @@
   },
   {
     "id": "hex-plaything-16ef57",
-    "side": "killer",
+    "player-side": "killer",
     "character": "the-cenobite",
     "icon": "hex-plaything.png",
     "wiki": "https://deadbydaylight.fandom.com/wiki/Hex:_Plaything",
@@ -1425,7 +1425,7 @@
   },
   {
     "id": "hex-retribution-61191c",
-    "side": "killer",
+    "player-side": "killer",
     "character": "the-deathslinger",
     "icon": "hex-retribution.png",
     "wiki": "https://deadbydaylight.fandom.com/wiki/Hex:_Retribution",
@@ -1433,7 +1433,7 @@
   },
   {
     "id": "hex-ruin-ea9b2b",
-    "side": "killer",
+    "player-side": "killer",
     "character": "the-hag",
     "icon": "hex-ruin.png",
     "wiki": "https://deadbydaylight.fandom.com/wiki/Hex:_Ruin",
@@ -1441,7 +1441,7 @@
   },
   {
     "id": "hex-the-third-seal-f86b4d",
-    "side": "killer",
+    "player-side": "killer",
     "character": "the-hag",
     "icon": "hex-the-third-seal.png",
     "wiki": "https://deadbydaylight.fandom.com/wiki/Hex:_The_Third_Seal",
@@ -1449,7 +1449,7 @@
   },
   {
     "id": "hex-thrill-of-the-hunt-85f8fc",
-    "side": "killer",
+    "player-side": "killer",
     "character": "general-perk",
     "icon": "hex-thrill-of-the-hunt.png",
     "wiki": "https://deadbydaylight.fandom.com/wiki/Hex:_Thrill_of_the_Hunt",
@@ -1457,7 +1457,7 @@
   },
   {
     "id": "hex-undying-3abd3c",
-    "side": "killer",
+    "player-side": "killer",
     "character": "the-blight",
     "icon": "hex-undying.png",
     "wiki": "https://deadbydaylight.fandom.com/wiki/Hex:_Undying",
@@ -1465,7 +1465,7 @@
   },
   {
     "id": "hoarder-09fb22",
-    "side": "killer",
+    "player-side": "killer",
     "character": "the-twins",
     "icon": "hoarder.png",
     "wiki": "https://deadbydaylight.fandom.com/wiki/Hoarder",
@@ -1473,7 +1473,7 @@
   },
   {
     "id": "hubris-73f0f2",
-    "side": "killer",
+    "player-side": "killer",
     "character": "the-knight",
     "icon": "hubris.png",
     "wiki": "https://deadbydaylight.fandom.com/wiki/Hubris",
@@ -1481,7 +1481,7 @@
   },
   {
     "id": "hysteria-91c0d5",
-    "side": "killer",
+    "player-side": "killer",
     "character": "the-nemesis",
     "icon": "hysteria.png",
     "wiki": "https://deadbydaylight.fandom.com/wiki/Hysteria",
@@ -1489,7 +1489,7 @@
   },
   {
     "id": "im-all-ears-faa3c6",
-    "side": "killer",
+    "player-side": "killer",
     "character": "the-ghost-face",
     "icon": "im-all-ears.png",
     "wiki": "https://deadbydaylight.fandom.com/wiki/I%27m_All_Ears",
@@ -1497,7 +1497,7 @@
   },
   {
     "id": "infectious-fright-1001e7",
-    "side": "killer",
+    "player-side": "killer",
     "character": "the-plague",
     "icon": "infectious-fright.png",
     "wiki": "https://deadbydaylight.fandom.com/wiki/Infectious_Fright",
@@ -1505,7 +1505,7 @@
   },
   {
     "id": "insidious-bc6712",
-    "side": "killer",
+    "player-side": "killer",
     "character": "general-perk",
     "icon": "insidious.png",
     "wiki": "https://deadbydaylight.fandom.com/wiki/Insidious",
@@ -1513,7 +1513,7 @@
   },
   {
     "id": "iron-grasp-c1ce87",
-    "side": "killer",
+    "player-side": "killer",
     "character": "general-perk",
     "icon": "iron-grasp.png",
     "wiki": "https://deadbydaylight.fandom.com/wiki/Iron_Grasp",
@@ -1521,7 +1521,7 @@
   },
   {
     "id": "iron-maiden-ce3bed",
-    "side": "killer",
+    "player-side": "killer",
     "character": "the-legion",
     "icon": "iron-maiden.png",
     "wiki": "https://deadbydaylight.fandom.com/wiki/Iron_Maiden",
@@ -1529,7 +1529,7 @@
   },
   {
     "id": "jolt-b96ca1",
-    "side": "killer",
+    "player-side": "killer",
     "character": "general-perk",
     "icon": "jolt.png",
     "wiki": "https://deadbydaylight.fandom.com/wiki/Jolt",
@@ -1541,7 +1541,7 @@
   },
   {
     "id": "knock-out-316c96",
-    "side": "killer",
+    "player-side": "killer",
     "character": "the-cannibal",
     "icon": "knock-out.png",
     "wiki": "https://deadbydaylight.fandom.com/wiki/Knock_Out",
@@ -1549,7 +1549,7 @@
   },
   {
     "id": "lethal-pursuer-9554ef",
-    "side": "killer",
+    "player-side": "killer",
     "character": "the-nemesis",
     "icon": "lethal-pursuer.png",
     "wiki": "https://deadbydaylight.fandom.com/wiki/Lethal_Pursuer",
@@ -1557,7 +1557,7 @@
   },
   {
     "id": "leverage-42d7a4",
-    "side": "killer",
+    "player-side": "killer",
     "character": "the-skull-merchant",
     "icon": "leverage.png",
     "wiki": "https://deadbydaylight.fandom.com/wiki/Leverage",
@@ -1565,7 +1565,7 @@
   },
   {
     "id": "lightborn-6eb622",
-    "side": "killer",
+    "player-side": "killer",
     "character": "the-hillbilly",
     "icon": "lightborn.png",
     "wiki": "https://deadbydaylight.fandom.com/wiki/Lightborn",
@@ -1573,7 +1573,7 @@
   },
   {
     "id": "machine-learning-66a543",
-    "side": "killer",
+    "player-side": "killer",
     "character": "the-singularity",
     "icon": "machine-learning.png",
     "wiki": "https://deadbydaylight.fandom.com/wiki/Machine_Learning",
@@ -1581,7 +1581,7 @@
   },
   {
     "id": "mad-grit-bf8ce3",
-    "side": "killer",
+    "player-side": "killer",
     "character": "the-legion",
     "icon": "mad-grit.png",
     "wiki": "https://deadbydaylight.fandom.com/wiki/Mad_Grit",
@@ -1589,7 +1589,7 @@
   },
   {
     "id": "make-your-choice-09baca",
-    "side": "killer",
+    "player-side": "killer",
     "character": "the-pig",
     "icon": "make-your-choice.png",
     "wiki": "https://deadbydaylight.fandom.com/wiki/Make_Your_Choice",
@@ -1597,7 +1597,7 @@
   },
   {
     "id": "merciless-storm-b2c0e6",
-    "side": "killer",
+    "player-side": "killer",
     "character": "the-onryo",
     "icon": "merciless-storm.png",
     "wiki": "https://deadbydaylight.fandom.com/wiki/Merciless_Storm",
@@ -1605,7 +1605,7 @@
   },
   {
     "id": "monitor-and-abuse-e81cf7",
-    "side": "killer",
+    "player-side": "killer",
     "character": "the-doctor",
     "icon": "monitor-and-abuse.png",
     "wiki": "https://deadbydaylight.fandom.com/wiki/Monitor_%26_Abuse",
@@ -1613,7 +1613,7 @@
   },
   {
     "id": "nemesis-9689d1",
-    "side": "killer",
+    "player-side": "killer",
     "character": "the-oni",
     "icon": "nemesis.png",
     "wiki": "https://deadbydaylight.fandom.com/wiki/Nemesis",
@@ -1621,7 +1621,7 @@
   },
   {
     "id": "no-way-out-33fc26",
-    "side": "killer",
+    "player-side": "killer",
     "character": "the-trickster",
     "icon": "no-way-out.png",
     "wiki": "https://deadbydaylight.fandom.com/wiki/No_Way_Out",
@@ -1629,7 +1629,7 @@
   },
   {
     "id": "nowhere-to-hide-858e72",
-    "side": "killer",
+    "player-side": "killer",
     "character": "the-knight",
     "icon": "nowhere-to-hide.png",
     "wiki": "https://deadbydaylight.fandom.com/wiki/Nowhere_to_Hide",
@@ -1637,7 +1637,7 @@
   },
   {
     "id": "oppression-afa768",
-    "side": "killer",
+    "player-side": "killer",
     "character": "the-twins",
     "icon": "oppression.png",
     "wiki": "https://deadbydaylight.fandom.com/wiki/Oppression",
@@ -1645,7 +1645,7 @@
   },
   {
     "id": "overcharge-fb9f98",
-    "side": "killer",
+    "player-side": "killer",
     "character": "the-doctor",
     "icon": "overcharge.png",
     "wiki": "https://deadbydaylight.fandom.com/wiki/Overcharge",
@@ -1653,7 +1653,7 @@
   },
   {
     "id": "overwhelming-presence-bef9b5",
-    "side": "killer",
+    "player-side": "killer",
     "character": "the-doctor",
     "icon": "overwhelming-presence.png",
     "wiki": "https://deadbydaylight.fandom.com/wiki/Overwhelming_Presence",
@@ -1661,7 +1661,7 @@
   },
   {
     "id": "play-with-your-food-28fced",
-    "side": "killer",
+    "player-side": "killer",
     "character": "the-shape",
     "icon": "play-with-your-food.png",
     "wiki": "https://deadbydaylight.fandom.com/wiki/Play_with_Your_Food",
@@ -1669,7 +1669,7 @@
   },
   {
     "id": "pop-goes-the-weasel-d77c48",
-    "side": "killer",
+    "player-side": "killer",
     "character": "the-clown",
     "icon": "pop-goes-the-weasel.png",
     "wiki": "https://deadbydaylight.fandom.com/wiki/Pop_Goes_the_Weasel",
@@ -1677,7 +1677,7 @@
   },
   {
     "id": "predator-0efea8",
-    "side": "killer",
+    "player-side": "killer",
     "character": "the-wraith",
     "icon": "predator.png",
     "wiki": "https://deadbydaylight.fandom.com/wiki/Predator",
@@ -1685,7 +1685,7 @@
   },
   {
     "id": "rancor-48c749",
-    "side": "killer",
+    "player-side": "killer",
     "character": "the-spirit",
     "icon": "rancor.png",
     "wiki": "https://deadbydaylight.fandom.com/wiki/Rancor",
@@ -1693,7 +1693,7 @@
   },
   {
     "id": "remember-me-eaf2c8",
-    "side": "killer",
+    "player-side": "killer",
     "character": "the-nightmare",
     "icon": "remember-me.png",
     "wiki": "https://deadbydaylight.fandom.com/wiki/Remember_Me",
@@ -1701,7 +1701,7 @@
   },
   {
     "id": "save-the-best-for-last-48c25d",
-    "side": "killer",
+    "player-side": "killer",
     "character": "the-shape",
     "icon": "save-the-best-for-last.png",
     "wiki": "https://deadbydaylight.fandom.com/wiki/Save_the_Best_for_Last",
@@ -1709,7 +1709,7 @@
   },
   {
     "id": "scourge-hook-floods-of-rage-4fd4a4",
-    "side": "killer",
+    "player-side": "killer",
     "character": "the-onryo",
     "icon": "scourge-hook-floods-of-rage.png",
     "wiki": "https://deadbydaylight.fandom.com/wiki/Scourge_Hook:_Floods_of_Rage",
@@ -1717,7 +1717,7 @@
   },
   {
     "id": "scourge-hook-gift-of-pain-1605f5",
-    "side": "killer",
+    "player-side": "killer",
     "character": "the-cenobite",
     "icon": "scourge-hook-gift-of-pain.png",
     "wiki": "https://deadbydaylight.fandom.com/wiki/Scourge_Hook:_Gift_of_Pain",
@@ -1725,7 +1725,7 @@
   },
   {
     "id": "scourge-hook-monstrous-shrine-a5b09e",
-    "side": "killer",
+    "player-side": "killer",
     "character": "general-perk",
     "icon": "scourge-hook-monstrous-shrine.png",
     "wiki": "https://deadbydaylight.fandom.com/wiki/Scourge_Hook:_Monstrous_Shrine",
@@ -1733,7 +1733,7 @@
   },
   {
     "id": "scourge-hook-pain-resonance-96dc43",
-    "side": "killer",
+    "player-side": "killer",
     "character": "the-artist",
     "icon": "scourge-hook-pain-resonance.png",
     "wiki": "https://deadbydaylight.fandom.com/wiki/Scourge_Hook:_Pain_Resonance",
@@ -1741,7 +1741,7 @@
   },
   {
     "id": "septic-touch-ca2fcd",
-    "side": "killer",
+    "player-side": "killer",
     "character": "the-dredge",
     "icon": "septic-touch.png",
     "wiki": "https://deadbydaylight.fandom.com/wiki/Septic_Touch",
@@ -1749,7 +1749,7 @@
   },
   {
     "id": "shadowborn-140491",
-    "side": "killer",
+    "player-side": "killer",
     "character": "the-wraith",
     "icon": "shadowborn.png",
     "wiki": "https://deadbydaylight.fandom.com/wiki/Shadowborn",
@@ -1757,7 +1757,7 @@
   },
   {
     "id": "shattered-hope-42798f",
-    "side": "killer",
+    "player-side": "killer",
     "character": "general-perk",
     "icon": "shattered-hope.png",
     "wiki": "https://deadbydaylight.fandom.com/wiki/Shattered_Hope",
@@ -1765,7 +1765,7 @@
   },
   {
     "id": "sloppy-butcher-e8a504",
-    "side": "killer",
+    "player-side": "killer",
     "character": "general-perk",
     "icon": "sloppy-butcher.png",
     "wiki": "https://deadbydaylight.fandom.com/wiki/Sloppy_Butcher",
@@ -1773,7 +1773,7 @@
   },
   {
     "id": "spies-from-the-shadows-2fdb39",
-    "side": "killer",
+    "player-side": "killer",
     "character": "general-perk",
     "icon": "spies-from-the-shadows.png",
     "wiki": "https://deadbydaylight.fandom.com/wiki/Spies_from_the_Shadows",
@@ -1781,7 +1781,7 @@
   },
   {
     "id": "spirit-fury-c783fc",
-    "side": "killer",
+    "player-side": "killer",
     "character": "the-spirit",
     "icon": "spirit-fury.png",
     "wiki": "https://deadbydaylight.fandom.com/wiki/Spirit_Fury",
@@ -1789,7 +1789,7 @@
   },
   {
     "id": "starstruck-236b8f",
-    "side": "killer",
+    "player-side": "killer",
     "character": "the-trickster",
     "icon": "starstruck.png",
     "wiki": "https://deadbydaylight.fandom.com/wiki/Starstruck",
@@ -1797,7 +1797,7 @@
   },
   {
     "id": "stridor-ce620e",
-    "side": "killer",
+    "player-side": "killer",
     "character": "the-nurse",
     "icon": "stridor.png",
     "wiki": "https://deadbydaylight.fandom.com/wiki/Stridor",
@@ -1805,7 +1805,7 @@
   },
   {
     "id": "superior-anatomy-a6af65",
-    "side": "killer",
+    "player-side": "killer",
     "character": "the-mastermind",
     "icon": "superior-anatomy.png",
     "wiki": "https://deadbydaylight.fandom.com/wiki/Superior_Anatomy",
@@ -1813,7 +1813,7 @@
   },
   {
     "id": "surveillance-844242",
-    "side": "killer",
+    "player-side": "killer",
     "character": "the-pig",
     "icon": "surveillance.png",
     "wiki": "https://deadbydaylight.fandom.com/wiki/Surveillance",
@@ -1821,7 +1821,7 @@
   },
   {
     "id": "terminus-683db6",
-    "side": "killer",
+    "player-side": "killer",
     "character": "the-mastermind",
     "icon": "terminus.png",
     "wiki": "https://deadbydaylight.fandom.com/wiki/Terminus",
@@ -1829,7 +1829,7 @@
   },
   {
     "id": "territorial-imperative-26b735",
-    "side": "killer",
+    "player-side": "killer",
     "character": "the-huntress",
     "icon": "territorial-imperative.png",
     "wiki": "https://deadbydaylight.fandom.com/wiki/Territorial_Imperative",
@@ -1837,7 +1837,7 @@
   },
   {
     "id": "thanatophobia-de130d",
-    "side": "killer",
+    "player-side": "killer",
     "character": "the-nurse",
     "icon": "thanatophobia.png",
     "wiki": "https://deadbydaylight.fandom.com/wiki/Thanatophobia",
@@ -1845,7 +1845,7 @@
   },
   {
     "id": "thrilling-tremors-966b36",
-    "side": "killer",
+    "player-side": "killer",
     "character": "the-ghost-face",
     "icon": "thrilling-tremors.png",
     "wiki": "https://deadbydaylight.fandom.com/wiki/Thrilling_Tremors",
@@ -1853,7 +1853,7 @@
   },
   {
     "id": "thwack-8277f8",
-    "side": "killer",
+    "player-side": "killer",
     "character": "the-skull-merchant",
     "icon": "thwack.png",
     "wiki": "https://deadbydaylight.fandom.com/wiki/THWACK!",
@@ -1861,7 +1861,7 @@
   },
   {
     "id": "tinkerer-628428",
-    "side": "killer",
+    "player-side": "killer",
     "character": "the-hillbilly",
     "icon": "tinkerer.png",
     "wiki": "https://deadbydaylight.fandom.com/wiki/Tinkerer",
@@ -1869,7 +1869,7 @@
   },
   {
     "id": "trail-of-torment-672ff2",
-    "side": "killer",
+    "player-side": "killer",
     "character": "the-executioner",
     "icon": "trail-of-torment.png",
     "wiki": "https://deadbydaylight.fandom.com/wiki/Trail_of_Torment",
@@ -1877,7 +1877,7 @@
   },
   {
     "id": "unnerving-presence-17eb19",
-    "side": "killer",
+    "player-side": "killer",
     "character": "the-trapper",
     "icon": "unnerving-presence.png",
     "wiki": "https://deadbydaylight.fandom.com/wiki/Unnerving_Presence",
@@ -1885,7 +1885,7 @@
   },
   {
     "id": "unrelenting-150a16",
-    "side": "killer",
+    "player-side": "killer",
     "character": "general-perk",
     "icon": "unrelenting.png",
     "wiki": "https://deadbydaylight.fandom.com/wiki/Unrelenting",
@@ -1893,7 +1893,7 @@
   },
   {
     "id": "whispers-63de4c",
-    "side": "killer",
+    "player-side": "killer",
     "character": "general-perk",
     "icon": "whispers.png",
     "wiki": "https://deadbydaylight.fandom.com/wiki/Whispers",
@@ -1901,7 +1901,7 @@
   },
   {
     "id": "zanshin-tactics-e9f6fa",
-    "side": "killer",
+    "player-side": "killer",
     "character": "the-oni",
     "icon": "zanshin-tactics.png",
     "wiki": "https://deadbydaylight.fandom.com/wiki/Zanshin_Tactics",

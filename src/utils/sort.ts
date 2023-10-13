@@ -1,6 +1,6 @@
 import { SortDirection } from '@/consts';
 
-import { PerkData, SortDirections } from '@/types';
+import { PerkData } from '@/types';
 
 export const comparePerksByName = (perkA: PerkData, perkB: PerkData) => {
   const perkNameA = perkA.id;
@@ -11,7 +11,7 @@ export const comparePerksByName = (perkA: PerkData, perkB: PerkData) => {
 
 export const getPerksSortedByName = (
   perks: PerkData[],
-  direction: SortDirections,
+  direction: SortDirection,
 ) => {
   const resultPerks = [...perks];
 

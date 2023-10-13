@@ -3,7 +3,7 @@ import { MouseEvent } from 'react';
 import { useTranslation } from 'react-i18next';
 import { useDispatch, useSelector } from 'react-redux';
 
-import { Side } from '@/consts';
+import { PlayerSide } from '@/consts';
 import { useIsLegacyMode } from '@/hooks/use-is-legacy-mode';
 import { toogleLegacyPerk } from '@/store/appSlice';
 import { RootState } from '@/store/store';
@@ -13,28 +13,31 @@ import { CustomComponentProps } from '@/types';
 
 import './PerkHeader.scss';
 
-type SideImages = {
-  [Side.Survivor]: string;
-  [Side.Killer]: string;
+type PlayerSideImages = {
+  [PlayerSide.Survivor]: string;
+  [PlayerSide.Killer]: string;
 };
 
-const sideImages: SideImages = {
-  [Side.Survivor]: `./img/perks/${Side.Survivor}.png`,
-  [Side.Killer]: `./img/perks/${Side.Killer}.png`,
+const playerSideImages: PlayerSideImages = {
+  [PlayerSide.Survivor]: `./img/perks/${PlayerSide.Survivor}.png`,
+  [PlayerSide.Killer]: `./img/perks/${PlayerSide.Killer}.png`,
 };
 
-type SideImgProps = CustomComponentProps & {
-  side: string;
+type PlayerSideImgProps = CustomComponentProps & {
+  playerSide: string;
 };
 
-function SideImg({ className, side }: SideImgProps): JSX.Element {
+function PlayerSideImg({
+  className,
+  playerSide,
+}: PlayerSideImgProps): JSX.Element {
   const { t } = useTranslation();
 
   return (
     <img
-      className={clsx(className, 'perk-info__side-img')}
-      src={sideImages[side as keyof SideImages]}
-      alt={t(side, { ns: 'sides' })}
+      className={clsx(className, 'perk-info__player-side-img')}
+      src={playerSideImages[playerSide as keyof PlayerSideImages]}
+      alt={t(playerSide, { ns: 'player-sides' })}
     />
   );
 }
@@ -47,12 +50,12 @@ export default function PerkHeader({
   className,
   id,
 }: PerkHeaderProps): JSX.Element {
-  const dispatch = useDispatch();
   const currentPerkId = useSelector(
     (state: RootState) => state.app.selectedPerkId,
   );
-  const isLegacyMode = useIsLegacyMode(currentPerkId);
 
+  const isLegacyMode = useIsLegacyMode(currentPerkId);
+  const dispatch = useDispatch();
   const { t } = useTranslation();
 
   const handleLegacySwitcherClick = (perkId: string) => {
@@ -62,13 +65,14 @@ export default function PerkHeader({
       dispatch(toogleLegacyPerk(perkId));
     };
   };
+
   const perkId = id;
   const perkData = useSelector(
     (state: RootState) => state.perks.perksById[perkId],
   );
 
   const perkName = t(`${perkId}.name`, { ns: 'perks' });
-  const perkSide = perkData.side;
+  const perkPlayerSide = perkData.playerSide;
   const perkCharacter = getPerkBelongingLocale(perkData.character);
   const perkWiki = perkData.wiki;
 
@@ -101,16 +105,16 @@ export default function PerkHeader({
       <div className="perk-header__subtitle">
         {!isLegacyMode ? perkCharacter : perkLegacy?.character}
       </div>
-      <div className="perk-header__side">
+      <div className="perk-header__player-side">
         {!perkHasLegacy ? (
-          <SideImg side={perkSide} />
+          <PlayerSideImg playerSide={perkPlayerSide} />
         ) : (
           <button
             className="perk-header__legacy-switcher"
             type="button"
             onClick={handleLegacySwitcherClick(id)}
           >
-            <SideImg side={perkSide} />
+            <PlayerSideImg playerSide={perkPlayerSide} />
           </button>
         )}
       </div>

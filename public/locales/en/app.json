@@ -1,8 +1,8 @@
 {
   "dbd-perks-logo": "DBD Perks logo.",
   "dbd-version-tooltip": "Dead by Daylight version",
-  "side-switcher-killer-button": "Killer perks",
-  "side-switcher-survovor-button": "Survivor perks",
+  "player-side-switcher-killer-button": "Killer perks",
+  "player-side-switcher-survivor-button": "Survivor perks",
   "sorter-button": "Sort alphabetically",
   "search-placeholder": "noed",
   "perks-counter-label_one": "{{count}} perk",

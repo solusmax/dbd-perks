@@ -1,12 +1,8 @@
 import i18next from 'i18next';
 
-import languagesJson from '@/data/languages.json';
+import { getLanguages } from '@/model';
 
 import { LanguageSwitcherDirection } from '@/types';
-
-export const getLanguages = () => {
-  return languagesJson.map((language) => language.value);
-};
 
 const languages = getLanguages();
 

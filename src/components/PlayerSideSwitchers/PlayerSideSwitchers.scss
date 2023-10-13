@@ -1,0 +1,159 @@
+:root {
+  --player-side-switcher-size: 38px;
+  --player-side-switchers-space-width: calc(
+    (var(--player-side-switcher-size) * 2) + var(--search-buttons-gap)
+  );
+  --player-side-switcher-killer-img-ratio: 0.8;
+  --player-side-switcher-survivor-img-ratio: 0.84;
+
+  @media (min-width: $tablet-width) {
+    --player-side-switcher-size: 50px;
+  }
+}
+
+.player-side-switchers {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: var(--player-side-switchers-space-width);
+  height: var(--player-side-switcher-size);
+}
+
+.player-side-switchers__button {
+  position: relative;
+
+  flex-shrink: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: var(--player-side-switcher-size);
+  height: var(--player-side-switcher-size);
+  padding: 0;
+  border: none;
+
+  background-color: transparent;
+
+  transition-property: background-color;
+  transition-duration: $transition-duration;
+
+  cursor: pointer;
+
+  &:not(:last-child) {
+    margin-right: var(--search-buttons-gap);
+  }
+
+  &:focus {
+    outline: none;
+  }
+
+  &--survivor {
+    &::before {
+      content: "";
+
+      position: absolute;
+      left: 0;
+      right: 0;
+      z-index: -1;
+
+      width: var(--player-side-switcher-size);
+      height: var(--player-side-switcher-size);
+      border-radius: 50%;
+
+      background-color: $color-purple-600;
+    }
+
+    &:hover::before,
+    &:focus-visible::before {
+      background-color: $color-purple-600;
+    }
+
+    &.player-side-switchers__button--selected {
+      &:hover::before,
+      &:focus-visible::before {
+        background-color: $color-purple-425;
+      }
+    }
+  }
+}
+
+.player-side-switchers__img {
+  opacity: 0.2;
+
+  transition-property: opacity;
+  transition-duration: $transition-duration;
+}
+
+.player-side-switchers__button--killer .player-side-switchers__img {
+  position: relative;
+  top: -1px;
+
+  width: calc(
+    var(--player-side-switcher-size) *
+      var(--player-side-switcher-killer-img-ratio)
+  );
+  height: calc(
+    var(--player-side-switcher-size) *
+      var(--player-side-switcher-killer-img-ratio)
+  );
+}
+
+.player-side-switchers__button--survivor .player-side-switchers__img {
+  width: calc(
+    var(--player-side-switcher-size) *
+      var(--player-side-switcher-survivor-img-ratio)
+  );
+  height: calc(
+    var(--player-side-switcher-size) *
+      var(--player-side-switcher-survivor-img-ratio)
+  );
+}
+
+.player-side-switchers__button:hover .player-side-switchers__img,
+.player-side-switchers__button:focus-visible .player-side-switchers__img {
+  opacity: 0.3;
+}
+
+.player-side-switchers__button:active .player-side-switchers__img {
+  opacity: 0.4;
+}
+
+.player-side-switchers__button--selected .player-side-switchers__img {
+  opacity: 1;
+}
+
+.player-side-switchers__button--selected:hover .player-side-switchers__img,
+.player-side-switchers__button--selected:focus-visible
+  .player-side-switchers__img {
+  opacity: 1;
+}
+
+.player-side-switchers__button--selected:active .player-side-switchers__img {
+  opacity: 0.8;
+}
+
+.player-side-switchers__img-background {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: -1;
+
+  display: none;
+
+  fill: $color-purple-600;
+
+  transition-property: fill;
+  transition-duration: $transition-duration;
+}
+
+.player-side-switchers__button--killer .player-side-switchers__img-background {
+  display: block;
+}
+
+.player-side-switchers__button--selected:hover
+  .player-side-switchers__img-background,
+.player-side-switchers__button--selected:focus-visible
+  .player-side-switchers__img-background {
+  fill: $color-purple-425;
+}

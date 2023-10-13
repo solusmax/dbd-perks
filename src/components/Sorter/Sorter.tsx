@@ -3,7 +3,7 @@ import { MouseEvent } from 'react';
 import { useTranslation } from 'react-i18next';
 import { useDispatch, useSelector } from 'react-redux';
 
-import { SortDirection } from '@/consts/sorter';
+import { SortDirection } from '@/consts';
 import { setSortDirection } from '@/store/appSlice';
 import { RootState } from '@/store/store';
 
@@ -20,7 +20,6 @@ export default function Sorter({ className }: SorterProps): JSX.Element {
     (state: RootState) => state.app.sortDirection,
   );
   const dispatch = useDispatch();
-
   const { t } = useTranslation();
 
   const handleButtonClick = (evt: MouseEvent<HTMLButtonElement>) => {

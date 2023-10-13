@@ -18,7 +18,7 @@ void i18n
     backend: {
       loadPath: './locales/{{lng}}/{{ns}}.json',
     },
-    ns: ['app', 'characters', 'perks', 'sides'],
+    ns: ['app', 'characters', 'perks', 'player-sides'],
     preload: languagesJson.map((language) => language.value),
     defaultNS: 'app',
     fallbackLng: getDefaultLanguage(),

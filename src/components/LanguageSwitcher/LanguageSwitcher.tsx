@@ -2,10 +2,10 @@ import clsx from 'clsx';
 import { useState } from 'react';
 import Select from 'react-select';
 
+import { getLanguages } from '@/model';
 import {
   getCurrentLanguage,
   getDefaultLanguage,
-  getLanguages,
   getNearestLanguage,
   getSelectOption,
   setLanguage,

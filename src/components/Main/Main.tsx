@@ -31,15 +31,14 @@ export default function Main({ className }: MainProps = {}): JSX.Element {
   const perks = useSelector((state: RootState) => state.perks.perks);
 
   const searchText = useSelector((state: RootState) => state.app.searchText);
-
-  const selectedDirection = useSelector(
-    (state: RootState) => state.app.sortDirection,
-  );
   const isKillerPerksShown = useSelector(
     (state: RootState) => state.app.killerPerksShown,
   );
   const isSurvivorPerksShown = useSelector(
     (state: RootState) => state.app.survivorPerksShown,
+  );
+  const selectedDirection = useSelector(
+    (state: RootState) => state.app.sortDirection,
   );
 
   const filteredPerks = getFilteredPerks(perks, {
