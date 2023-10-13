@@ -1,4 +1,3 @@
-import { convert } from 'html-to-text';
 import { t } from 'i18next';
 
 import PerksJson from '@/data/perks.json';
@@ -17,9 +16,9 @@ export const getPerksData = (): PerkData[] => {
         perk['player-side'] === 'killer'
           ? PlayerSide.Killer
           : PlayerSide.Survivor,
-      localeNames: '',
-      localeDescription: '',
-      localeCharacterNames: '',
+      searchNames: '',
+      searchDescription: '',
+      searchCharacterNames: '',
     };
 
     getLanguages().forEach((language) => {
@@ -32,26 +31,18 @@ export const getPerksData = (): PerkData[] => {
         }).split(','),
       ];
 
-      const newDescriptions = convert(
-        t(`${perk.id}.description`, {
-          ns: 'perks',
-          lng: language,
-        }),
-        {
-          wordwrap: null,
-        },
-      )
-        .trim()
-        .split(/[\s\p{P}]+/u)
-        .filter((el) => el !== '');
+      const newSearchDescription = t(`${perk.id}.searchDescription`, {
+        ns: 'perks',
+        lng: language,
+      });
 
       const newCharacterNames = [
         getCharacterNameLocale({ character: perk.character, language }),
       ];
 
-      currentPerk.localeNames += ` ${newNames.join(' ')}`;
-      currentPerk.localeDescription += ` ${newDescriptions.join(' ')}`;
-      currentPerk.localeCharacterNames += ` ${newCharacterNames.join(' ')}`;
+      currentPerk.searchNames += ` ${newNames.join(' ')}`;
+      currentPerk.searchDescription += ` ${newSearchDescription}`;
+      currentPerk.searchCharacterNames += ` ${newCharacterNames.join(' ')}`;
 
       if (perk.legacy !== null) {
         const newLegacyName = t(`${perk.id}.legacy.name`, {
@@ -64,17 +55,14 @@ export const getPerksData = (): PerkData[] => {
           language,
         });
 
-        currentPerk.localeNames += ` ${newLegacyName}`;
-        currentPerk.localeCharacterNames += ` ${newLegacyCharacterName}`;
+        currentPerk.searchNames += ` ${newLegacyName}`;
+        currentPerk.searchCharacterNames += ` ${newLegacyCharacterName}`;
       }
     });
 
-    currentPerk.localeNames = getClearedSearchText(currentPerk.localeNames);
-    currentPerk.localeDescription = getClearedSearchText(
-      currentPerk.localeDescription,
-    );
-    currentPerk.localeCharacterNames = getClearedSearchText(
-      currentPerk.localeCharacterNames,
+    currentPerk.searchNames = getClearedSearchText(currentPerk.searchNames);
+    currentPerk.searchCharacterNames = getClearedSearchText(
+      currentPerk.searchCharacterNames,
     );
 
     return currentPerk;

@@ -34,11 +34,11 @@ export const getFilteredBySearchTextPerks = (
   const filteredByDescriptionPerkIds = miniSearchDescription
     .search(currentSearchText)
     .filter((miniSearchPerk) => {
-      if (typeof miniSearchPerk.localeDescription !== 'string') {
+      if (typeof miniSearchPerk.searchDescription !== 'string') {
         return;
       }
 
-      return miniSearchPerk.localeDescription.includes(currentSearchText);
+      return miniSearchPerk.searchDescription.includes(currentSearchText);
     })
     .map((miniSearchPerk) => String(miniSearchPerk.id));
 

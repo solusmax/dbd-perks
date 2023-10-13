@@ -3,7 +3,7 @@ import { Options } from 'minisearch';
 export const SEARCH_DELAY = 500;
 
 export const searchByNamesOptions: Options = {
-  fields: ['localeNames', 'localeCharacterNames'],
+  fields: ['searchNames', 'searchCharacterNames'],
   storeFields: ['id'],
   searchOptions: {
     combineWith: 'AND',
@@ -13,8 +13,8 @@ export const searchByNamesOptions: Options = {
 };
 
 export const searchByDescriptionOptions: Options = {
-  fields: ['localeDescription'],
-  storeFields: ['id', 'localeDescription'],
+  fields: ['searchDescription'],
+  storeFields: ['id', 'searchDescription'],
   searchOptions: {
     combineWith: 'AND',
     fuzzy: false,

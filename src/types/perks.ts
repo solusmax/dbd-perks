@@ -11,7 +11,7 @@ export type PerkData = {
     icon: string;
     wiki: string;
   } | null;
-  localeNames?: string;
-  localeDescription?: string;
-  localeCharacterNames?: string;
+  searchNames?: string;
+  searchDescription?: string;
+  searchCharacterNames?: string;
 };
