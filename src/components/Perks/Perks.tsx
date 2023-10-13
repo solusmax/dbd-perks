@@ -105,7 +105,7 @@ export default function Perks({ className, perks }: PerksProps): JSX.Element {
     <>
       <div className={clsx(className, `perks perks--row-size-${rowSize}`)}>
         {perks.map((perk) => {
-          return <Perk key={perk.id} className="perks__perk" {...perk} />;
+          return <Perk key={perk.id} className="perks__perk" id={perk.id} />;
         })}
 
         {perksCount < rowSize * 3 && (

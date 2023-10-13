@@ -45,34 +45,12 @@ export default function PerkInfo(): JSX.Element {
       render={({ activeAnchor: activePerkButton }) => {
         if (activePerkButton === null) return;
 
-        const getPerkData = (attribute: string) =>
-          getDataAttribute(activePerkButton, attribute);
-
-        const perkId = getPerkData('perk-id');
-        const perkName = getPerkData('perk-name');
-        const perkSide = getPerkData('perk-side');
-        const perkCharacter = getPerkData('perk-character');
-        const perkWiki = getPerkData('perk-wiki');
-        const perkDescription = getPerkData('perk-description');
-        const perkHasLegacy = getPerkData('perk-has-legacy') === 'true';
-        const perkLegacy = {
-          name: getPerkData('perk-legacy-name'),
-          character: getPerkData('perk-legacy-character'),
-          wiki: getPerkData('perk-legacy-wiki'),
-        };
+        const perkId = getDataAttribute(activePerkButton, 'perk-id');
 
         return (
           <>
-            <PerkHeader
-              id={perkId}
-              name={perkName}
-              side={perkSide}
-              character={perkCharacter}
-              wiki={perkWiki}
-              hasLegacy={perkHasLegacy}
-              legacy={perkLegacy}
-            />
-            <PerkDescription description={perkDescription} />
+            <PerkHeader id={perkId} />
+            <PerkDescription id={perkId} />
           </>
         );
       }}

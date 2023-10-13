@@ -5,10 +5,12 @@ import { PerkData } from '@/types';
 
 export type PerksState = {
   perks: PerkData[];
+  perksById: Record<string, PerkData>;
 };
 
 const initialState: PerksState = {
   perks: [],
+  perksById: {},
 };
 
 export const perksSlice = createSlice({
@@ -17,6 +19,10 @@ export const perksSlice = createSlice({
   reducers: {
     setPerks: (state, action: PayloadAction<PerkData[]>) => {
       state.perks = action.payload;
+
+      action.payload.forEach((perk) => {
+        state.perksById[perk.id] = perk;
+      });
     },
   },
 });
