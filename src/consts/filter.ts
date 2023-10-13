@@ -1,6 +1,6 @@
 import { Options } from 'minisearch';
 
-export const SEARCH_DELAY = 750;
+export const SEARCH_DELAY = 500;
 
 export const searchByNamesOptions: Options = {
   fields: ['localeNames', 'localeCharacterNames'],
