@@ -2,7 +2,7 @@ import clsx from 'clsx';
 import i18n from 'i18next';
 import { useDispatch, useSelector } from 'react-redux';
 
-import { getPerksData } from '@/model/data';
+import { getPerksData } from '@/model';
 import { setPerks } from '@/store/perksSlice';
 import { RootState } from '@/store/store';
 import { getFilteredPerks, getPerksSortedByName } from '@/utils';

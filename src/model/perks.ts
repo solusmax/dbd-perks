@@ -1,7 +1,6 @@
 import { convert } from 'html-to-text';
 import { t } from 'i18next';
 
-import dbdData from '@/data/dbd.json';
 import PerksJson from '@/data/perks.json';
 
 import { Side } from '@/consts';
@@ -83,5 +82,3 @@ export const getPerksData = (): PerkData[] => {
 
   return resultPerks;
 };
-
-export const getDbdVersion = () => dbdData.version;

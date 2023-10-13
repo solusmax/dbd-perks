@@ -1,6 +1,6 @@
 import { Tooltip } from 'react-tooltip';
 
-import { getDbdVersion } from '@/model/data';
+import { getDbdVersion } from '@/model';
 
 import About from '@/components/About/About';
 import DbdVersion from '@/components/DbdVersion/DbdVersion';
