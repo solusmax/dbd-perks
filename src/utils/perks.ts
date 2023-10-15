@@ -44,7 +44,7 @@ export const getCharacterNameLocale = ({
     tOptions.lng = language;
   }
 
-  return t(character, tOptions);
+  return t(`${character}.name`, tOptions);
 };
 
 export const getPerkBelongingLocale = (character: string) => {

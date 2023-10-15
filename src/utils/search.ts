@@ -1,4 +1,5 @@
 import MiniSearch from 'minisearch';
+import removeAccents from 'remove-accents';
 
 import { searchByDescriptionOptions, searchByNamesOptions } from '@/consts';
 import { getUnitedPerks } from '@/utils';
@@ -10,7 +11,35 @@ export const getClearedSearchText = (text: string | undefined) => {
     return '';
   }
 
-  return text.trim().replace(/[\s]+/g, ' ').replace(/ё/g, 'е');
+  return text.trim().replace(/[\s]+/g, ' ');
+};
+
+export const getClearedTerm = (text: string | undefined) => {
+  if (text == null) {
+    return '';
+  }
+
+  let resultText = text;
+
+  resultText = removeAccents(resultText);
+
+  resultText = resultText.replace(/'/g, '');
+
+  return resultText;
+};
+
+export const addClearedTerm = (term: string) => {
+  const clearedTerm = getClearedTerm(term);
+
+  return term === clearedTerm ? term : `${term} ${clearedTerm}`;
+};
+
+export const generateSearchTerms = (...terms: string[]) => {
+  return terms
+    .map((term) => {
+      return addClearedTerm(term);
+    })
+    .join(' ');
 };
 
 export const getFilteredBySearchTextPerks = (

@@ -4,7 +4,12 @@ import PerksJson from '@/data/perks.json';
 
 import { PlayerSide } from '@/consts';
 import { getLanguages } from '@/model';
-import { getCharacterNameLocale, getClearedSearchText } from '@/utils';
+import {
+  addClearedTerm,
+  generateSearchTerms,
+  getCharacterNameLocale,
+  getI18ArrayElements,
+} from '@/utils';
 
 import { PerkData } from '@/types';
 
@@ -22,48 +27,70 @@ export const getPerksData = (): PerkData[] => {
     };
 
     getLanguages().forEach((language) => {
-      const newNames = [
+      const searchNames = generateSearchTerms(
         t(`${perk.id}.name`, { ns: 'perks', lng: language }),
-        ...t(`${perk.id}.alt-names`, {
+        ...getI18ArrayElements(`${perk.id}.alt-names`, {
           ns: 'perks',
           lng: language,
-          joinArrays: ',',
-        }).split(','),
-      ];
+        }),
+      );
 
-      const newSearchDescription = t(`${perk.id}.searchDescription`, {
+      const searchCharacterNames = generateSearchTerms(
+        getCharacterNameLocale({
+          character: perk.character,
+          language,
+        }),
+        ...getI18ArrayElements(`${perk.character}.alt-names`, {
+          ns: 'characters',
+          lng: language,
+        }),
+      );
+
+      const searchDescription = t(`${perk.id}.searchDescription`, {
         ns: 'perks',
         lng: language,
       });
 
-      const newCharacterNames = [
-        getCharacterNameLocale({ character: perk.character, language }),
-      ];
-
-      currentPerk.searchNames += ` ${newNames.join(' ')}`;
-      currentPerk.searchDescription += ` ${newSearchDescription}`;
-      currentPerk.searchCharacterNames += ` ${newCharacterNames.join(' ')}`;
+      currentPerk.searchNames = [currentPerk.searchNames, searchNames].join(
+        ' ',
+      );
+      currentPerk.searchCharacterNames = [
+        currentPerk.searchCharacterNames,
+        searchCharacterNames,
+      ].join(' ');
+      currentPerk.searchDescription = [
+        currentPerk.searchDescription,
+        searchDescription,
+      ].join(' ');
 
       if (perk.legacy !== null) {
-        const newLegacyName = t(`${perk.id}.legacy.name`, {
-          ns: 'perks',
-          lng: language,
-        });
+        const legacyNames = addClearedTerm(
+          t(`${perk.id}.legacy.name`, {
+            ns: 'perks',
+            lng: language,
+          }),
+        );
 
-        const newLegacyCharacterName = getCharacterNameLocale({
-          character: perk.legacy.character,
-          language,
-        });
+        const legacyCharacterNames = generateSearchTerms(
+          getCharacterNameLocale({
+            character: perk.legacy.character,
+            language,
+          }),
+          ...getI18ArrayElements(`${perk.legacy.character}.alt-names`, {
+            ns: 'characters',
+            lng: language,
+          }),
+        );
 
-        currentPerk.searchNames += ` ${newLegacyName}`;
-        currentPerk.searchCharacterNames += ` ${newLegacyCharacterName}`;
+        currentPerk.searchNames = [currentPerk.searchNames, legacyNames].join(
+          ' ',
+        );
+        currentPerk.searchCharacterNames = [
+          currentPerk.searchCharacterNames,
+          legacyCharacterNames,
+        ].join(' ');
       }
     });
-
-    currentPerk.searchNames = getClearedSearchText(currentPerk.searchNames);
-    currentPerk.searchCharacterNames = getClearedSearchText(
-      currentPerk.searchCharacterNames,
-    );
 
     return currentPerk;
   });

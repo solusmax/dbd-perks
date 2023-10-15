@@ -1,3 +1,5 @@
+import { t } from 'i18next';
+
 export const removeElementFromArray = <T>(array: T[], removedElement: T) =>
   array.filter((item) => item !== removedElement);
 
@@ -26,4 +28,14 @@ export const getSelectOption = (value: string, label?: string) => {
     value: value,
     label: label ?? value,
   };
+};
+
+export const getI18ArrayElements = (
+  key: string,
+  options: Record<string, string | null>,
+) => {
+  return t(key, {
+    ...options,
+    joinArrays: ',',
+  }).split(',');
 };
