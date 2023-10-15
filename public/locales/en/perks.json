@@ -57,7 +57,9 @@
   },
   "balanced-landing-36ace2": {
     "name": "Balanced Landing",
-    "alt-names": [],
+    "alt-names": [
+      "BL"
+    ],
     "description": "<p>Your agility is incomparable.</p> <p>After falling from a height, cat-like reflexes reduce your stagger duration from falling by <span class=\"md-perk-value-yellow\">75%</span> and reduce the volume of grunts from falling by <span class=\"md-perk-value-yellow\">100%</span>. You start sprinting at <span class=\"md-perk-value-orange\">150%</span> your normal running speed for a maximum of <span class=\"md-perk-value-red\">3 seconds</span>.</p> <p>Causes the <strong>Exhausted</strong> status effect for <span class=\"md-perk-tier-1\">60</span>/<span class=\"md-perk-tier-2\">50</span>/<span class=\"md-perk-tier-3\">40</span> <strong>seconds</strong>.</p> <p><em>Balanced Landing</em> cannot be used while <strong>Exhausted</strong>.</p> <p class=\"md-perk-extra-info\">Exhausted prevents Survivors from activating exhausting perks.</p> <p class=\"md-perk-quote\">\"I've jumped from higher places.\" — Nea</p> ",
     "searchDescription": "your agility is incomparable after falling from a height cat like reflexes reduce your stagger duration from falling by 75 and reduce the volume of grunts from falling by 100 you start sprinting at 150 your normal running speed for a maximum of 3 seconds causes the exhausted status effect for 60 50 40 seconds balanced landing cannot be used while exhausted exhausted prevents survivors from activating exhausting perks i ve jumped from higher places nea",
     "legacy": null
@@ -113,7 +115,9 @@
   },
   "boon-circle-of-healing-551a2b": {
     "name": "Boon: Circle of Healing",
-    "alt-names": [],
+    "alt-names": [
+      "COH"
+    ],
     "description": "<p>A boon that offers comfort amidst the terror.</p> <p>Press and hold the <em>Active Ability Button 1</em> near a Dull or Hex Totem to bless it and create a Boon Totem. Soft chimes ring out in a <span class=\"md-perk-value-yellow\">24 meter</span> range.</p> <p>Any Survivors within the Boon Totem&#39;s range gain a <span class=\"md-perk-tier-1\">50</span>/<span class=\"md-perk-tier-2\">75</span>/<span class=\"md-perk-tier-3\">100</span><strong>%</strong> healing speed bonus to healing others. Medkits give no bonus to healing in the Boon Totem&#39;s range. Injured Survivors have their auras revealed to all other Survivors when inside the Boon Totem&#39;s range.</p> <p>You can only bless one Totem at a time. All equipped boon perks are active on your Boon Totem.</p> <p class=\"md-perk-quote\">\"Try this, it's better than anything you'll find in a pharmacy.\" — Mikaela Reid</p> ",
     "searchDescription": "a boon that offers comfort amidst the terror press and hold the active ability button 1 near a dull or hex totem to bless it and create a boon totem soft chimes ring out in a 24 meter range any survivors within the boon totem s range gain a 50 75 100 healing speed bonus to healing others medkits give no bonus to healing in the boon totem s range injured survivors have their auras revealed to all other survivors when inside the boon totem s range you can only bless one totem at a time all equipped boon perks are active on your boon totem try this it s better than anything you ll find in a pharmacy mikaela reid",
     "legacy": null
@@ -405,7 +409,9 @@
   },
   "iron-will-e76742": {
     "name": "Iron Will",
-    "alt-names": [],
+    "alt-names": [
+      "IW"
+    ],
     "description": "<p>You&#39;re able to concentrate and enter a meditative-like state to numb some pain. Grunts of pain caused by injuries are reduced by <span class=\"md-perk-tier-1\">25</span>/<span class=\"md-perk-tier-2\">50</span>/<span class=\"md-perk-tier-3\">75</span><strong>%</strong>. Does not function while <strong>Exhausted</strong>. Does not inflict <strong>Exhausted</strong>.</p> <p class=\"md-perk-extra-info\">Exhausted prevents Survivors from activating exhausting perks.</p> ",
     "searchDescription": "you re able to concentrate and enter a meditative like state to numb some pain grunts of pain caused by injuries are reduced by 25 50 75 does not function while exhausted does not inflict exhausted exhausted prevents survivors from activating exhausting perks",
     "legacy": null
@@ -477,7 +483,9 @@
   },
   "mettle-of-man-b3c4aa": {
     "name": "Mettle of Man",
-    "alt-names": [],
+    "alt-names": [
+      "MoM"
+    ],
     "description": "<p>Evil has a way of always finding you.</p> <p>After you earn <span class=\"md-perk-value-yellow\">3</span> Protection Hit scoring events, <em>Mettle of Man</em> activates.</p> <p>Once activated, the next occasion that would put you into the <strong>dying state</strong> from the <strong>injured state</strong> is ignored.</p> <p>The next time you heal back to full health, your aura will be revealed to the Killer when you are further than <span class=\"md-perk-tier-1\">12</span>/<span class=\"md-perk-tier-2\">14</span>/<span class=\"md-perk-tier-3\">16</span> <strong>meters</strong> from the Killer.</p> <p><em>Mettle of Man</em> will deactivate the next time you are put into the dying state.</p> <ul> <li><em>Increases your chances to be the Killer&#39;s Obsession.</em></li> </ul> <p class=\"md-perk-extra-info\">The Killer can only be <b>obsessed</b> with one Survivor at a time.</p> <p class=\"md-perk-quote\">\"Evil has a bullseye on my back the size of Tiger Stadium.\" — Ash Williams</p> ",
     "searchDescription": "evil has a way of always finding you after you earn 3 protection hit scoring events mettle of man activates once activated the next occasion that would put you into the dying state from the injured state is ignored the next time you heal back to full health your aura will be revealed to the killer when you are further than 12 14 16 meters from the killer mettle of man will deactivate the next time you are put into the dying state increases your chances to be the killer s obsession the killer can only be obsessed with one survivor at a time evil has a bullseye on my back the size of tiger stadium ash williams",
     "legacy": null
@@ -498,7 +506,9 @@
   },
   "object-of-obsession-9b2958": {
     "name": "Object of Obsession",
-    "alt-names": [],
+    "alt-names": [
+      "OoO"
+    ],
     "description": "<p>A supernatural bond links you to the Killer.</p> <p>Whenever your aura is revealed to the Killer, the Killer&#39;s aura becomes visible to you and you gain a <span class=\"md-perk-tier-1\">2</span>/<span class=\"md-perk-tier-2\">4</span>/<span class=\"md-perk-tier-3\">6</span><strong>%</strong> bonus to healing, repairing and cleansing speed.</p> <p>If you are the Obsession, your aura is revealed to the Killer for <span class=\"md-perk-value-orange\">3 seconds</span> once every <span class=\"md-perk-value-red\">30 seconds</span>.</p> <p>Increases your chances of being the Obsession.</p> <p><em>The Killer can only be obsessed with one Survivor at a time.</em></p> <p class=\"md-perk-quote\">\"He was watching me!\" — Laurie Strode</p> ",
     "searchDescription": "a supernatural bond links you to the killer whenever your aura is revealed to the killer the killer s aura becomes visible to you and you gain a 2 4 6 bonus to healing repairing and cleansing speed if you are the obsession your aura is revealed to the killer for 3 seconds once every 30 seconds increases your chances of being the obsession the killer can only be obsessed with one survivor at a time he was watching me laurie strode",
     "legacy": null
@@ -589,7 +599,11 @@
   },
   "quick-and-quiet-973ff3": {
     "name": "Quick & Quiet",
-    "alt-names": [],
+    "alt-names": [
+      "QQ",
+      "Q&Q",
+      "QnQ"
+    ],
     "description": "<p>You do not make as much noise as others when quickly vaulting over obstacles or hiding in lockers.</p> <p>The vault and hide actions&#39; noise detection and audio range is reduced by <span class=\"md-perk-value-yellow\">100%</span>.</p> <p>This effect can only trigger once every <span class=\"md-perk-tier-1\">30</span>/<span class=\"md-perk-tier-2\">25</span>/<span class=\"md-perk-tier-3\">20</span> <strong>seconds</strong>.</p> ",
     "searchDescription": "you do not make as much noise as others when quickly vaulting over obstacles or hiding in lockers the vault and hide actions noise detection and audio range is reduced by 100 this effect can only trigger once every 30 25 20 seconds",
     "legacy": null
@@ -691,7 +705,9 @@
   },
   "self-care-cdf5c6": {
     "name": "Self-Care",
-    "alt-names": [],
+    "alt-names": [
+      "SC"
+    ],
     "description": "<p>Unlocks the ability to heal yourself without a healing item at <span class=\"md-perk-tier-1\">25</span>/<span class=\"md-perk-tier-2\">30</span>/<span class=\"md-perk-tier-3\">35</span><strong>%</strong> the normal healing speed.</p> ",
     "searchDescription": "unlocks the ability to heal yourself without a healing item at 25 30 35 the normal healing speed",
     "legacy": null
@@ -840,7 +856,9 @@
   },
   "urban-evasion-81951b": {
     "name": "Urban Evasion",
-    "alt-names": [],
+    "alt-names": [
+      "UE"
+    ],
     "description": "<p>Years of evading the cops taught you a thing or two about stealth. Your movement speed while crouching is increased by <span class=\"md-perk-tier-1\">90</span>/<span class=\"md-perk-tier-2\">95</span>/<span class=\"md-perk-tier-3\">100</span><strong>%</strong>.</p> <p class=\"md-perk-quote\">\"The paint is still fresh but I'm long gone.\" — Nea</p> ",
     "searchDescription": "years of evading the cops taught you a thing or two about stealth your movement speed while crouching is increased by 90 95 100 the paint is still fresh but i m long gone nea",
     "legacy": null
@@ -882,7 +900,9 @@
   },
   "windows-of-opportunity-7413ce": {
     "name": "Windows of Opportunity",
-    "alt-names": [],
+    "alt-names": [
+      "WoO"
+    ],
     "description": "<p>Unlocks potential in one&#39;s aura reading ability. Auras of pallets, breakable walls, and vault locations are revealed to you when within a <span class=\"md-perk-tier-1\">24</span>/<span class=\"md-perk-tier-2\">28</span>/<span class=\"md-perk-tier-3\">32</span> <strong>meter</strong> range.</p> <p class=\"md-perk-quote\">\"Rise and shine, work hard, carve out your name,<br> Take aim, pull the trigger, hit the bulls eye for fame,<br> Know the value of faith, an' family, and don't you complain,<br> Open wide, your windows of opportunity.\"<br> — Kate Denson's \"Windows of Opportunity\"</p> ",
     "searchDescription": "unlocks potential in one s aura reading ability auras of pallets breakable walls and vault locations are revealed to you when within a 24 28 32 meter range rise and shine work hard carve out your name take aim pull the trigger hit the bulls eye for fame know the value of faith an family and don t you complain open wide your windows of opportunity kate denson s windows of opportunity",
     "legacy": null
@@ -925,7 +945,9 @@
   "barbecue-and-chilli-e30b6e": {
     "name": "Barbecue & Chilli",
     "alt-names": [
-      "B&C"
+      "BBQ",
+      "B&C",
+      "BnC"
     ],
     "description": "<p>A deep bond with The Entity unlocks potential in one&#39;s aura reading ability.</p> <ul> <li>After hooking a Survivor, all other Survivors&#39; auras are revealed to you for <span class=\"md-perk-value-yellow\">4 seconds</span> when they are further than <span class=\"md-perk-tier-1\">60</span>/<span class=\"md-perk-tier-2\">50</span>/<span class=\"md-perk-tier-3\">40</span> <strong>meters</strong> from the hook.</li> </ul> <p class=\"md-perk-quote\">\"I just can't take no pleasure in killing. There's just some things you gotta do. Don't mean you have to like it.\" — Drayton Sawyer</p> ",
     "searchDescription": "a deep bond with the entity unlocks potential in one s aura reading ability after hooking a survivor all other survivors auras are revealed to you for 4 seconds when they are further than 60 50 40 meters from the hook i just can t take no pleasure in killing there s just some things you gotta do don t mean you have to like it drayton sawyer",
@@ -1214,7 +1236,9 @@
   },
   "hex-haunted-ground-e85ab1": {
     "name": "Hex: Haunted Ground",
-    "alt-names": [],
+    "alt-names": [
+      "HG"
+    ],
     "description": "<p>Two trapped Hex Totems will spawn in the trial.</p> <p>When either one of the two trapped Hex Totems is cleansed by a Survivor, all Survivors suffer from the <strong>Exposed</strong> status effect for <span class=\"md-perk-tier-1\">40</span>/<span class=\"md-perk-tier-2\">50</span>/<span class=\"md-perk-tier-3\">60</span> <strong>seconds</strong>.</p> <p>The remaining trapped Hex Totem immediately becomes a Dull Totem.</p> <p class=\"md-perk-extra-info\">Exposed Survivors will be downed by basic attacks even if uninjured.</p> <p class=\"md-perk-quote\">\"Her home became profane.\"</p> ",
     "searchDescription": "two trapped hex totems will spawn in the trial when either one of the two trapped hex totems is cleansed by a survivor all survivors suffer from the exposed status effect for 40 50 60 seconds the remaining trapped hex totem immediately becomes a dull totem exposed survivors will be downed by basic attacks even if uninjured her home became profane",
     "legacy": null
@@ -1272,7 +1296,9 @@
   },
   "hex-thrill-of-the-hunt-85f8fc": {
     "name": "Hex: Thrill of the Hunt",
-    "alt-names": [],
+    "alt-names": [
+      "TOTH"
+    ],
     "description": "<p>A Hex rooting its power on hope. The false hope of Survivors fills you with excitement and strengthens your Totems.</p> <p>For each Dull and Hex Totem remaining on the map gain a token.</p> <ul> <li>Gain <span class=\"md-perk-value-yellow\">10%</span> more Bloodpoints for actions in the Hunter category for each token.</li> <li>Survivors&#39; cleansing and blessing speed is reduced by <span class=\"md-perk-tier-1\">8</span>/<span class=\"md-perk-tier-2\">9</span>/<span class=\"md-perk-tier-3\">10</span><strong>%</strong> for each token.</li> </ul> <p><em>The Hex effects persist as long as the related Hex Totem is standing.</em></p> ",
     "searchDescription": "a hex rooting its power on hope the false hope of survivors fills you with excitement and strengthens your totems for each dull and hex totem remaining on the map gain a token gain 10 more bloodpoints for actions in the hunter category for each token survivors cleansing and blessing speed is reduced by 8 9 10 for each token the hex effects persist as long as the related hex totem is standing",
     "legacy": null
@@ -1393,7 +1419,9 @@
   },
   "make-your-choice-09baca": {
     "name": "Make Your Choice",
-    "alt-names": [],
+    "alt-names": [
+      "MYC"
+    ],
     "description": "<p>When a Survivor rescues another from a hook at least <span class=\"md-perk-value-yellow\">32 meters</span> away from you, <em>Make your Choice</em> causes the Survivor to scream and applies the <em><strong>Exposed</strong></em> status effect to them for <span class=\"md-perk-tier-1\">40</span>/<span class=\"md-perk-tier-2\">50</span>/<span class=\"md-perk-tier-3\">60</span> <strong>seconds</strong>.</p> <p><em>Make your Choice</em> has a cooldown of <span class=\"md-perk-tier-1\">40</span>/<span class=\"md-perk-tier-2\">50</span>/<span class=\"md-perk-tier-3\">60</span> <strong>seconds</strong>.</p> <p class=\"md-perk-extra-info\">Exposed Survivors will be downed by basic attacks even if uninjured.</p> <p class=\"md-perk-quote\">\"You'd be surprised what tools can save a life.\" — Amanda Young</p> ",
     "searchDescription": "when a survivor rescues another from a hook at least 32 meters away from you make your choice causes the survivor to scream and applies the exposed status effect to them for 40 50 60 seconds make your choice has a cooldown of 40 50 60 seconds exposed survivors will be downed by basic attacks even if uninjured you d be surprised what tools can save a life amanda young",
     "legacy": null
@@ -1407,7 +1435,10 @@
   },
   "monitor-and-abuse-e81cf7": {
     "name": "Monitor & Abuse",
-    "alt-names": [],
+    "alt-names": [
+      "M&A",
+      "MnA"
+    ],
     "description": "<p>Meticulous in your approach, terrifying in your application.</p> <p>While in a chase, your Terror Radius is increased by <span class=\"md-perk-value-yellow\">8 meters</span>. Otherwise, your Terror Radius is decreased by <span class=\"md-perk-value-orange\">8 meters</span> and your field of view is increased by <span class=\"md-perk-tier-1\">3</span>/<span class=\"md-perk-tier-2\">5</span>/<span class=\"md-perk-tier-3\">10</span> <strong>degrees</strong>.</p> <p><em>Field of view gains do not stack.</em></p> <p class=\"md-perk-quote\">\"It's time for your treatment!\" — The Doctor</p> ",
     "searchDescription": "meticulous in your approach terrifying in your application while in a chase your terror radius is increased by 8 meters otherwise your terror radius is decreased by 8 meters and your field of view is increased by 3 5 10 degrees field of view gains do not stack it s time for your treatment the doctor",
     "legacy": null
@@ -1456,14 +1487,18 @@
   },
   "play-with-your-food-28fced": {
     "name": "Play with Your Food",
-    "alt-names": [],
+    "alt-names": [
+      "PWYF"
+    ],
     "description": "<p>You become <strong>obsessed</strong> with one Survivor.</p> <p>Every time you chase your Obsession and let them escape, you receive a token up to a maximum of 3 tokens.</p> <p>Each token increases your movement speed by <span class=\"md-perk-tier-1\">3</span>/<span class=\"md-perk-tier-2\">4</span>/<span class=\"md-perk-tier-3\">5</span><strong>%</strong>.</p> <p>Performing a <em>basic attack</em> or <em>Special Attack</em> spends one token.</p> <p class=\"md-perk-extra-info\">The Killer can only be <b>obsessed</b> with one Survivor at a time.</p> <p class=\"md-perk-quote\">\"You've fooled them, haven't you Michael? But not me.\" — Dr. Sam Loomis</p> ",
     "searchDescription": "you become obsessed with one survivor every time you chase your obsession and let them escape you receive a token up to a maximum of 3 tokens each token increases your movement speed by 3 4 5 performing a basic attack or special attack spends one token the killer can only be obsessed with one survivor at a time you ve fooled them haven t you michael but not me dr sam loomis",
     "legacy": null
   },
   "pop-goes-the-weasel-d77c48": {
     "name": "Pop Goes the Weasel",
-    "alt-names": [],
+    "alt-names": [
+      "PGTW"
+    ],
     "description": "<p>A deep bond with The Entity unlocks great strength.</p> <p>After hooking a Survivor, the next generator you damage instantly loses <span class=\"md-perk-value-yellow\">30%</span> of its current progress. Normal generator regression applies after the Damage Generator action.</p> <p><em>Pop Goes the Weasel</em> is active for <span class=\"md-perk-tier-1\">35</span>/<span class=\"md-perk-tier-2\">40</span>/<span class=\"md-perk-tier-3\">45</span> <strong>seconds</strong> after the Survivor is hooked.</p> ",
     "searchDescription": "a deep bond with the entity unlocks great strength after hooking a survivor the next generator you damage instantly loses 30 of its current progress normal generator regression applies after the damage generator action pop goes the weasel is active for 35 40 45 seconds after the survivor is hooked",
     "legacy": null
@@ -1492,7 +1527,8 @@
   "save-the-best-for-last-48c25d": {
     "name": "Save the Best for Last",
     "alt-names": [
-      "SBFL, STBFL"
+      "SBFL",
+      "STBFL"
     ],
     "description": "<p>You become <strong>obsessed</strong> with one Survivor.</p> <p>Earn a token for each successful <em>basic attack</em> that is not dealt to the Obsession.</p> <p>Each Token grants a stackable <span class=\"md-perk-value-yellow\">5%</span> decreased successful <em>basic attack</em> cooldown, you can earn up to <span class=\"md-perk-value-orange\">8</span> tokens.</p> <p>Hitting your Obsession with a <em>basic attack</em> will cause you to lose <span class=\"md-perk-tier-1\">4</span>/<span class=\"md-perk-tier-2\">3</span>/<span class=\"md-perk-tier-3\">2</span> tokens.</p> <p>You can no longer gain tokens if your Obsession is sacrificed or killed.</p> <p class=\"md-perk-extra-info\">The Killer can only be <b>obsessed</b> with one Survivor at a time.</p> <p class=\"md-perk-quote\">\"Death has come to your little town, sheriff.\" — Dr. Sam Loomis</p> ",
     "searchDescription": "you become obsessed with one survivor earn a token for each successful basic attack that is not dealt to the obsession each token grants a stackable 5 decreased successful basic attack cooldown you can earn up to 8 tokens hitting your obsession with a basic attack will cause you to lose 4 3 2 tokens you can no longer gain tokens if your obsession is sacrificed or killed the killer can only be obsessed with one survivor at a time death has come to your little town sheriff dr sam loomis",
@@ -1563,7 +1599,9 @@
   },
   "spirit-fury-c783fc": {
     "name": "Spirit Fury",
-    "alt-names": [],
+    "alt-names": [
+      "SF"
+    ],
     "description": "<p>Each pallet you break magnifies the wrath of The Entity.</p> <p>After breaking <span class=\"md-perk-tier-1\">4</span>/<span class=\"md-perk-tier-2\">3</span>/<span class=\"md-perk-tier-3\">2</span> <strong>pallets</strong>, the next time you are stunned by a pallet, The Entity will instantly break the pallet.</p> <p>You still suffer from the stun effect penalty.</p> <p class=\"md-perk-quote\">\"Fury is her blood.\"</p> ",
     "searchDescription": "each pallet you break magnifies the wrath of the entity after breaking 4 3 2 pallets the next time you are stunned by a pallet the entity will instantly break the pallet you still suffer from the stun effect penalty fury is her blood",
     "legacy": null
