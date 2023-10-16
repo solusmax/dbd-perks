@@ -15,11 +15,12 @@
   width: var(--perk-info-width);
   padding: 0;
   border-radius: 0;
-  transition-duration: 0s;
-  transition-property: none;
 
   background-color: rgba($color-black, 0.95);
   box-shadow:
     0 20px 7px 0 rgba($color-black, 0.95),
     0 4px 4px 0 rgba($color-black, 0.25);
+
+  transition-duration: 0s;
+  transition-property: none;
 }
