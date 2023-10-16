@@ -69,6 +69,7 @@ export default function Filter({ className }: FilterProps): JSX.Element {
             type="button"
             onClick={handleResetButtonClick}
           >
+            <span className='visually-hidden'>{t('reset-search', { ns: 'app' })}</span>
             <SvgIcon className="filter__search-reset-svg" icon="cross" />
           </button>
         )}

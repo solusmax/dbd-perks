@@ -1,5 +1,6 @@
 import clsx from 'clsx';
 import { useState } from 'react';
+import { useTranslation } from 'react-i18next';
 import Select from 'react-select';
 
 import { getLanguages } from '@/model';
@@ -28,6 +29,8 @@ const languages = getLanguages();
 export default function LanguageSwitcher({
   className,
 }: LanguageSwitcherProps = {}): JSX.Element {
+  const { t } = useTranslation();
+
   const [selectedOption, setSelectedOption] = useState<SelectOption>(
     generateSelectOption(getCurrentLanguage()),
   );
@@ -63,6 +66,9 @@ export default function LanguageSwitcher({
         type="button"
         onClick={handleButtonClick('previous')}
       >
+        <span className="visually-hidden">
+          {t('previous-language', { ns: 'app' })}
+        </span>
         <SvgIcon className="language-switcher__button-svg" icon="triangle" />
       </button>
 
@@ -88,6 +94,9 @@ export default function LanguageSwitcher({
         type="button"
         onClick={handleButtonClick('next')}
       >
+        <span className="visually-hidden">
+          {t('next-language', { ns: 'app' })}
+        </span>
         <SvgIcon className="language-switcher__button-svg" icon="triangle" />
       </button>
     </div>

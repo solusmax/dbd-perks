@@ -45,6 +45,11 @@ export default function Sorter({ className }: SorterProps): JSX.Element {
           ns: 'app',
         })}
       >
+        <span className="visually-hidden">
+          {t('sorter-button', {
+            ns: 'app',
+          })}
+        </span>
         <div className="sorter__svg-wrapper">
           <SvgIcon
             icon="arrow"
