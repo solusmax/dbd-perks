@@ -42,10 +42,6 @@
     margin-right: var(--search-buttons-gap);
   }
 
-  &:focus {
-    outline: none;
-  }
-
   &--survivor {
     &::before {
       content: "";

@@ -47,10 +47,6 @@
   transform: rotate(180deg);
 }
 
-.language-switcher__button:focus {
-  outline: none;
-}
-
 .language-switcher__button:hover .language-switcher__button-svg,
 .language-switcher__button:focus-visible .language-switcher__button-svg {
   fill: $color-purple-425;

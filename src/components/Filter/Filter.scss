@@ -44,10 +44,6 @@
   font-weight: 700;
   color: $color-purple-500;
 
-  &:focus {
-    outline: none;
-  }
-
   &[value=""] {
     --search-buttons-width: calc(
       var(--player-side-switchers-space-width) + var(--search-buttons-gap)

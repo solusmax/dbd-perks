@@ -6,6 +6,16 @@
   box-sizing: border-box;
 }
 
+// Focus
+
+:focus {
+  outline: none;
+}
+
+:focus-visible {
+  @include focus();
+}
+
 // [1] Image will scale down if it has to, but never scale up to be larger
 //     than the window or the container in which it resides
 
