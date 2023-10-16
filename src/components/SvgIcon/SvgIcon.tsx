@@ -1,7 +1,13 @@
 import { CustomComponentProps } from '@/types';
 
 type SorterProps = CustomComponentProps & {
-  icon: 'arrow' | 'cross' | 'github' | 'killer-background' | 'triangle';
+  icon:
+    | 'arrow'
+    | 'cross'
+    | 'github'
+    | 'killer-background'
+    | 'menu'
+    | 'triangle';
 };
 
 export default function SvgIcon({ className, icon }: SorterProps): JSX.Element {
@@ -37,6 +43,18 @@ export default function SvgIcon({ className, icon }: SorterProps): JSX.Element {
         return (
           <svg className={className} viewBox="0 0 256 256">
             <path d="M57.21 6.5h138.92c5.66 0 10.76 3.43 12.9 8.68l40.62 99.71c2.12 5.2.91 11.17-3.07 15.13L137.74 238.33c-5.4 5.37-14.11 5.41-19.56.09L7.04 129.82a13.927 13.927 0 0 1-4.19-9.96c0-1.8.35-3.58 1.03-5.25L44.3 15.18c2.13-5.25 7.24-8.68 12.9-8.68Z" />
+          </svg>
+        );
+
+      case 'menu':
+        return (
+          <svg className={className} viewBox="0 0 24 24">
+            <path
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeWidth="2"
+              d="M13 5a1 1 0 1 0-2 0 1 1 0 0 0 2 0ZM13 12a1 1 0 1 0-2 0 1 1 0 0 0 2 0ZM13 19a1 1 0 1 0-2 0 1 1 0 0 0 2 0Z"
+            />
           </svg>
         );
 

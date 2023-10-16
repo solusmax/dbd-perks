@@ -5,23 +5,20 @@ import { Character } from '@/consts';
 
 import { PerkData } from '@/types';
 
-export const getPerkIndexById = (perks: PerkData[], id: string) =>
-  perks.findIndex((perk) => perk.id === id);
+export const getPerksByIds = (allPerks: PerkData[], perkIds: string[]) => {
+  return allPerks.filter((perk) => {
+    return perkIds.includes(perk.id);
+  });
+};
 
 export const getUnitedPerks = (
   allPerks: PerkData[],
-  perksIdsA: string[],
-  perksIdsB: string[],
+  perkIdsA: string[],
+  perkIdsB: string[],
 ) => {
-  const resultPerks: PerkData[] = [];
+  const resultPerksIds = union(perkIdsA, perkIdsB);
 
-  const resultPerksIds = union(perksIdsA, perksIdsB);
-
-  resultPerksIds.forEach((perkId) => {
-    resultPerks.push(allPerks[getPerkIndexById(allPerks, perkId)]);
-  });
-
-  return resultPerks;
+  return getPerksByIds(allPerks, resultPerksIds);
 };
 
 type GetCharacterNameLocale = {

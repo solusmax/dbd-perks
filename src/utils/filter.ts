@@ -5,7 +5,12 @@ import { FilterSettings, PerkData } from '@/types';
 
 export const getFilteredPerks = (
   perks: PerkData[],
-  { isKillerPerksShown, isSurvivorPerksShown, searchText }: FilterSettings,
+  {
+    searchText,
+    isSearchByDescription,
+    isKillerPerksShown,
+    isSurvivorPerksShown,
+  }: FilterSettings,
 ) => {
   let resultPerks: PerkData[] = [];
 
@@ -35,7 +40,11 @@ export const getFilteredPerks = (
     return resultPerks;
   }
 
-  resultPerks = getFilteredBySearchTextPerks(resultPerks, searchText);
+  resultPerks = getFilteredBySearchTextPerks(
+    resultPerks,
+    searchText,
+    isSearchByDescription,
+  );
 
   return resultPerks;
 };

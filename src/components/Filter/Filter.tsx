@@ -1,12 +1,16 @@
-import { useDebounce } from '@uidotdev/usehooks';
 import clsx from 'clsx';
-import { ChangeEvent, MouseEvent, useEffect, useRef, useState } from 'react';
+import {
+  ChangeEvent,
+  MouseEvent,
+  useDeferredValue,
+  useEffect,
+  useRef,
+  useState,
+} from 'react';
 import { useTranslation } from 'react-i18next';
-import { useDispatch, useSelector } from 'react-redux';
+import { useDispatch } from 'react-redux';
 
-import { SEARCH_DELAY } from '@/consts';
-import { setIsSeaching, setSearchText } from '@/store/appSlice';
-import { RootState } from '@/store/store';
+import { setSearchText } from '@/store/appSlice';
 
 import { CustomComponentProps } from '@/types';
 
@@ -18,43 +22,30 @@ import './Filter.scss';
 type FilterProps = CustomComponentProps;
 
 export default function Filter({ className }: FilterProps): JSX.Element {
-  const [searchValue, setSearchValue] = useState<string>('');
-  const debouncedSearchValue = useDebounce(searchValue, SEARCH_DELAY);
-  const globalSearchValue = useSelector(
-    (state: RootState) => state.app.searchText,
-  );
-
   const dispatch = useDispatch();
   const { t } = useTranslation();
+
+  const [searchValue, setSearchValue] = useState<string>('');
+  const deferredSearchValue = useDeferredValue(searchValue);
 
   const searchInputRef = useRef<HTMLInputElement>(null);
 
   useEffect(() => {
-    dispatch(setIsSeaching(searchValue !== globalSearchValue));
-  }, [dispatch, searchValue, globalSearchValue]);
-
-  useEffect(() => {
-    if (globalSearchValue !== debouncedSearchValue) {
-      dispatch(setSearchText(debouncedSearchValue));
-    }
-  }, [dispatch, globalSearchValue, debouncedSearchValue]);
-
-  const changeSearchValue = (value: string) => {
-    setSearchValue(value);
-  };
+    dispatch(setSearchText(deferredSearchValue));
+  }, [dispatch, deferredSearchValue]);
 
   const focusSearch = () => {
     searchInputRef.current?.focus();
   };
 
   const handleSearchChange = (evt: ChangeEvent<HTMLInputElement>) => {
-    changeSearchValue(evt.target.value);
+    setSearchValue(evt.target.value);
   };
 
   const handleResetButtonClick = (evt: MouseEvent<HTMLButtonElement>) => {
     evt.preventDefault();
 
-    changeSearchValue('');
+    setSearchValue('');
     focusSearch();
   };
 

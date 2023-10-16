@@ -23,7 +23,7 @@ export const getDataAttribute = (element: HTMLElement, attribute: string) => {
   return element?.getAttribute(`data-${attribute}`) ?? '';
 };
 
-export const getSelectOption = (value: string, label?: string) => {
+export const generateSelectOption = (value: string, label?: string) => {
   return {
     value: value,
     label: label ?? value,

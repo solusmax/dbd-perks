@@ -1,6 +1,6 @@
-import { useWindowSize } from '@uidotdev/usehooks';
 import clsx from 'clsx';
 import { useTranslation } from 'react-i18next';
+import { useWindowSize } from 'usehooks-ts';
 
 import { isMobileBreakpoint } from '@/utils';
 

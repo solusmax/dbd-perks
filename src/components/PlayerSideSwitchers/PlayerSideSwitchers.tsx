@@ -5,8 +5,8 @@ import { useDispatch, useSelector } from 'react-redux';
 
 import { PlayerSide } from '@/consts';
 import {
-  toggleKillerPerksShown,
-  toggleSurvivorPerksShown,
+  setIsKillerPerksShown,
+  setIsSurvivorPerksShown,
 } from '@/store/appSlice';
 import { RootState } from '@/store/store';
 
@@ -21,15 +21,15 @@ type PlayerSideSwitchersProps = CustomComponentProps;
 export default function PlayerSideSwitchers({
   className,
 }: PlayerSideSwitchersProps): JSX.Element {
-  const isKillerSelected = useSelector(
-    (state: RootState) => state.app.killerPerksShown,
-  );
-  const isSurvivorSelected = useSelector(
-    (state: RootState) => state.app.survivorPerksShown,
-  );
-
   const dispatch = useDispatch();
   const { t } = useTranslation();
+
+  const isKillerPerksShown = useSelector(
+    (state: RootState) => state.app.killerPerksShown,
+  );
+  const isSurvivorPerksShown = useSelector(
+    (state: RootState) => state.app.survivorPerksShown,
+  );
 
   const handleButtonClick = (playerSide: PlayerSide) => {
     return (evt: MouseEvent<HTMLButtonElement>) => {
@@ -37,10 +37,10 @@ export default function PlayerSideSwitchers({
 
       switch (playerSide) {
         case PlayerSide.Killer:
-          dispatch(toggleKillerPerksShown());
+          dispatch(setIsKillerPerksShown(!isKillerPerksShown));
           break;
         case PlayerSide.Survivor:
-          dispatch(toggleSurvivorPerksShown());
+          dispatch(setIsSurvivorPerksShown(!isSurvivorPerksShown));
           break;
       }
     };
@@ -53,7 +53,7 @@ export default function PlayerSideSwitchers({
           className,
           'player-side-switchers__button',
           'player-side-switchers__button--killer',
-          isKillerSelected && 'player-side-switchers__button--selected',
+          isKillerPerksShown && 'player-side-switchers__button--selected',
           'tooltip',
         )}
         type="button"
@@ -78,7 +78,7 @@ export default function PlayerSideSwitchers({
           className,
           'player-side-switchers__button',
           'player-side-switchers__button--survivor',
-          isSurvivorSelected && 'player-side-switchers__button--selected',
+          isSurvivorPerksShown && 'player-side-switchers__button--selected',
           'tooltip',
         )}
         type="button"

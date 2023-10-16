@@ -1,6 +1,6 @@
-import { useWindowSize } from '@uidotdev/usehooks';
 import clsx from 'clsx';
-import { useEffect, useState } from 'react';
+import { memo, useEffect, useState } from 'react';
+import { useWindowSize } from 'usehooks-ts';
 
 import { AppLayout } from '@/consts';
 import { isMobileBreakpoint } from '@/utils';
@@ -94,7 +94,10 @@ type PerksProps = CustomComponentProps & {
   perks: PerkData[];
 };
 
-export default function Perks({ className, perks }: PerksProps): JSX.Element {
+const Perks = memo(function Perks({
+  className,
+  perks,
+}: PerksProps): JSX.Element {
   const { width: windowWidth } = useWindowSize();
 
   const [rowSize, setRowSize] = useState<number | null>(
@@ -127,4 +130,6 @@ export default function Perks({ className, perks }: PerksProps): JSX.Element {
       <PerkInfo />
     </>
   );
-}
+});
+
+export default Perks;

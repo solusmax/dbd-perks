@@ -1,7 +1,5 @@
 import { Options } from 'minisearch';
 
-export const SEARCH_DELAY = 500;
-
 export const searchByNamesOptions: Options = {
   fields: ['searchNames', 'searchCharacterNames'],
   storeFields: ['id'],

@@ -1,6 +1,7 @@
 {
   "dbd-perks-logo": "Логотип DBD Perks.",
   "dbd-version-tooltip": "Версия Dead by Daylight",
+  "show-menu-button": "Показать меню",
   "player-side-switcher-killer-button": "Навыки убийц",
   "player-side-switcher-survivor-button": "Навыки выживших",
   "sorter-button": "Сортировать по алфавиту",
@@ -10,5 +11,11 @@
   "perks-counter-label_few": "{{count}} навыка",
   "perks-counter-tooltip": "Навыки",
   "perk-belonging-general": "Общий навык",
-  "perk-belonging-character": "Навык {{character}}"
+  "perk-belonging-character": "Навык {{character}}",
+  "menu": {
+    "checkbox-killer-perks": "Навыки убийц",
+    "checkbox-survivor-perks": "Навыки выживших",
+    "sort-alphabetically": "Сортировать по алфавиту",
+    "search-description": "Искать по описаниям"
+  }
 }

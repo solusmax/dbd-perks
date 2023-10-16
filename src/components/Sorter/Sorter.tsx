@@ -16,11 +16,12 @@ import './Sorter.scss';
 type SorterProps = CustomComponentProps;
 
 export default function Sorter({ className }: SorterProps): JSX.Element {
+  const dispatch = useDispatch();
+  const { t } = useTranslation();
+
   const selectedDirection = useSelector(
     (state: RootState) => state.app.sortDirection,
   );
-  const dispatch = useDispatch();
-  const { t } = useTranslation();
 
   const handleButtonClick = (evt: MouseEvent<HTMLButtonElement>) => {
     evt.preventDefault();

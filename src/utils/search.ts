@@ -2,7 +2,7 @@ import MiniSearch from 'minisearch';
 import removeAccents from 'remove-accents';
 
 import { searchByDescriptionOptions, searchByNamesOptions } from '@/consts';
-import { getUnitedPerks } from '@/utils';
+import { getPerksByIds, getUnitedPerks } from '@/utils';
 
 import { PerkData } from '@/types';
 
@@ -45,7 +45,10 @@ export const generateSearchTerms = (...terms: string[]) => {
 export const getFilteredBySearchTextPerks = (
   perks: PerkData[],
   searchText: string,
+  isSearchByDescription: boolean,
 ) => {
+  let resultPerks: PerkData[] = [];
+
   const currentSearchText = getClearedSearchText(searchText);
 
   const miniSearchNames = new MiniSearch(searchByNamesOptions);
@@ -56,24 +59,30 @@ export const getFilteredBySearchTextPerks = (
     .search(currentSearchText)
     .map((miniSearchPerk) => String(miniSearchPerk.id));
 
-  const miniSearchDescription = new MiniSearch(searchByDescriptionOptions);
+  if (isSearchByDescription) {
+    const miniSearchDescription = new MiniSearch(searchByDescriptionOptions);
 
-  miniSearchDescription.addAll(perks);
+    miniSearchDescription.addAll(perks);
 
-  const filteredByDescriptionPerkIds = miniSearchDescription
-    .search(currentSearchText)
-    .filter((miniSearchPerk) => {
-      if (typeof miniSearchPerk.searchDescription !== 'string') {
-        return;
-      }
+    const filteredByDescriptionPerkIds = miniSearchDescription
+      .search(currentSearchText)
+      .filter((miniSearchPerk) => {
+        if (typeof miniSearchPerk.searchDescription !== 'string') {
+          return;
+        }
 
-      return miniSearchPerk.searchDescription.includes(currentSearchText);
-    })
-    .map((miniSearchPerk) => String(miniSearchPerk.id));
+        return miniSearchPerk.searchDescription.includes(currentSearchText);
+      })
+      .map((miniSearchPerk) => String(miniSearchPerk.id));
 
-  return getUnitedPerks(
-    perks,
-    filteredByNamesPerkIds,
-    filteredByDescriptionPerkIds,
-  );
+    resultPerks = getUnitedPerks(
+      perks,
+      filteredByNamesPerkIds,
+      filteredByDescriptionPerkIds,
+    );
+  } else {
+    resultPerks = getPerksByIds(perks, filteredByNamesPerkIds);
+  }
+
+  return resultPerks;
 };

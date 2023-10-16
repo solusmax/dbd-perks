@@ -4,10 +4,10 @@ import Select from 'react-select';
 
 import { getLanguages } from '@/model';
 import {
+  generateSelectOption,
   getCurrentLanguage,
   getDefaultLanguage,
   getNearestLanguage,
-  getSelectOption,
   setLanguage,
 } from '@/utils';
 
@@ -29,7 +29,7 @@ export default function LanguageSwitcher({
   className,
 }: LanguageSwitcherProps = {}): JSX.Element {
   const [selectedOption, setSelectedOption] = useState<SelectOption>(
-    getSelectOption(getCurrentLanguage()),
+    generateSelectOption(getCurrentLanguage()),
   );
 
   const setNewLanguage = (language: SelectOption) => {
@@ -41,7 +41,7 @@ export default function LanguageSwitcher({
     if (!language) {
       const defaultLanguage = getDefaultLanguage();
 
-      setNewLanguage(getSelectOption(defaultLanguage));
+      setNewLanguage(generateSelectOption(defaultLanguage));
       return;
     }
 
@@ -52,7 +52,7 @@ export default function LanguageSwitcher({
     return () => {
       const newLanguage = getNearestLanguage(direction);
 
-      setNewLanguage(getSelectOption(newLanguage));
+      setNewLanguage(generateSelectOption(newLanguage));
     };
   };
 
@@ -79,7 +79,7 @@ export default function LanguageSwitcher({
         value={selectedOption}
         onChange={(newValue) => handleSelectChange(newValue)}
         options={languages.map((language) => {
-          return getSelectOption(language);
+          return generateSelectOption(language);
         })}
       />
 

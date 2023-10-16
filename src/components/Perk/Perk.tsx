@@ -16,12 +16,14 @@ type PerkProps = CustomComponentProps & {
 };
 
 export default function Perk({ className, id }: PerkProps): JSX.Element {
+  const dispatch = useDispatch();
+  const { t } = useTranslation();
+
   const isInfoOpen = useSelector(
     (state: RootState) => id !== null && state.app.selectedPerkId === id,
   );
+
   const isLegacyMode = useIsLegacyMode(id);
-  const dispatch = useDispatch();
-  const { t } = useTranslation();
 
   const handleButtonClick = (newSelecterPerkID: string) => {
     return (evt: MouseEvent<HTMLButtonElement>) => {

@@ -102,7 +102,6 @@
   }
 }
 
-.main__searching,
 .main__perks-counter {
   flex-shrink: 0;
   width: 32px;
@@ -115,16 +114,5 @@
 
     width: auto;
     margin-right: 0;
-  }
-}
-
-.main__searching {
-  @media (min-width: $tablet-width) {
-    left: calc(
-      var(--sorter-space) + var(--search-input-padding-left-right) + 3px
-    );
-    bottom: calc(var(--filter-sorter-wrapper-padding-bottom) + 2px);
-
-    width: calc(var(--searching-icon-size) * 5);
   }
 }

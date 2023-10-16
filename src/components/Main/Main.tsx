@@ -1,5 +1,6 @@
 import clsx from 'clsx';
 import i18n from 'i18next';
+import { useMemo } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 
 import { getPerksData } from '@/model';
@@ -12,7 +13,6 @@ import { CustomComponentProps } from '@/types';
 import Filter from '@/components/Filter/Filter';
 import Perks from '@/components/Perks/Perks';
 import PerksCounter from '@/components/PerksCounter/PerksCounter';
-import Searching from '@/components/Searching/Searching';
 import Sorter from '@/components/Sorter/Sorter';
 
 import './Main.scss';
@@ -26,11 +26,12 @@ export default function Main({ className }: MainProps = {}): JSX.Element {
     dispatch(setPerks(getPerksData()));
   });
 
-  const isSearching = useSelector((state: RootState) => state.app.isSearching);
-
   const perks = useSelector((state: RootState) => state.perks.perks);
 
   const searchText = useSelector((state: RootState) => state.app.searchText);
+  const isSearchByDescription = useSelector(
+    (state: RootState) => state.app.isSearchByDescription,
+  );
   const isKillerPerksShown = useSelector(
     (state: RootState) => state.app.killerPerksShown,
   );
@@ -43,11 +44,15 @@ export default function Main({ className }: MainProps = {}): JSX.Element {
 
   const filteredPerks = getFilteredPerks(perks, {
     searchText,
+    isSearchByDescription,
     isKillerPerksShown,
     isSurvivorPerksShown,
   });
 
-  const outputPerks = getPerksSortedByName(filteredPerks, selectedDirection);
+  const outputPerks = useMemo(
+    () => getPerksSortedByName(filteredPerks, selectedDirection),
+    [filteredPerks, selectedDirection],
+  );
 
   return (
     <main className={clsx(className, 'main')}>
@@ -55,14 +60,10 @@ export default function Main({ className }: MainProps = {}): JSX.Element {
         <div className="main__filter-sorter-wrapper">
           <Filter className="main__filter" />
           <Sorter className="main__sorter" />
-          {isSearching ? (
-            <Searching className="main__searching" />
-          ) : (
-            <PerksCounter
-              className="main__perks-counter"
-              perksCount={outputPerks.length}
-            />
-          )}
+          <PerksCounter
+            className="main__perks-counter"
+            perksCount={outputPerks.length}
+          />
         </div>
         <div className="main__perks-wrapper">
           <Perks perks={outputPerks} />

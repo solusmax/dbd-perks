@@ -2,12 +2,12 @@ import { Tooltip } from 'react-tooltip';
 
 import { getDbdVersion } from '@/model';
 
-import About from '@/components/About/About';
 import DbdVersion from '@/components/DbdVersion/DbdVersion';
 import Header from '@/components/Header/Header';
 import LanguageSwitcher from '@/components/LanguageSwitcher/LanguageSwitcher';
 import Logo from '@/components/Logo/Logo';
 import Main from '@/components/Main/Main';
+import Menu from '@/components/Menu/Menu';
 
 import './App.scss';
 
@@ -17,11 +17,12 @@ export default function App(): JSX.Element {
       <Header className="app__header">
         <Logo className="app__logo" />
         <DbdVersion className="app__dbd-version" dbdVersion={getDbdVersion()} />
-        <About className="app__about" />
+        <Menu className="app__menu" />
       </Header>
-      <Main className="app__main" />
 
       <LanguageSwitcher className="app__language-switcher" />
+
+      <Main className="app__main" />
 
       <Tooltip
         className="app__tooltip"

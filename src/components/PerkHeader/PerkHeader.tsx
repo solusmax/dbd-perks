@@ -50,13 +50,14 @@ export default function PerkHeader({
   className,
   id,
 }: PerkHeaderProps): JSX.Element {
+  const dispatch = useDispatch();
+  const { t } = useTranslation();
+
   const currentPerkId = useSelector(
     (state: RootState) => state.app.selectedPerkId,
   );
 
   const isLegacyMode = useIsLegacyMode(currentPerkId);
-  const dispatch = useDispatch();
-  const { t } = useTranslation();
 
   const handleLegacySwitcherClick = (perkId: string) => {
     return (evt: MouseEvent<HTMLButtonElement>) => {

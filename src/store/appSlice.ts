@@ -5,8 +5,8 @@ import { SortDirection } from '@/consts';
 import { removeElementFromArray } from '@/utils';
 
 export type AppState = {
-  isSearching: boolean;
   searchText: string;
+  isSearchByDescription: boolean;
   killerPerksShown: boolean;
   survivorPerksShown: boolean;
   sortDirection: SortDirection;
@@ -15,8 +15,8 @@ export type AppState = {
 };
 
 const initialState: AppState = {
-  isSearching: false,
   searchText: '',
+  isSearchByDescription: false,
   killerPerksShown: true,
   survivorPerksShown: true,
   sortDirection: SortDirection.Down,
@@ -28,17 +28,17 @@ export const appSlice = createSlice({
   name: 'app',
   initialState,
   reducers: {
-    setIsSeaching: (state, action: PayloadAction<boolean>) => {
-      state.isSearching = action.payload;
-    },
     setSearchText: (state, action: PayloadAction<string>) => {
       state.searchText = action.payload;
     },
-    toggleKillerPerksShown: (state) => {
-      state.killerPerksShown = !state.killerPerksShown;
+    setIsSearchByDescripton: (state, action: PayloadAction<boolean>) => {
+      state.isSearchByDescription = action.payload;
     },
-    toggleSurvivorPerksShown: (state) => {
-      state.survivorPerksShown = !state.survivorPerksShown;
+    setIsKillerPerksShown: (state, action: PayloadAction<boolean>) => {
+      state.killerPerksShown = action.payload;
+    },
+    setIsSurvivorPerksShown: (state, action: PayloadAction<boolean>) => {
+      state.survivorPerksShown = action.payload;
     },
     setSortDirection: (state, action: PayloadAction<SortDirection>) => {
       state.sortDirection = action.payload;
@@ -63,10 +63,10 @@ export const appSlice = createSlice({
 });
 
 export const {
-  setIsSeaching,
   setSearchText,
-  toggleKillerPerksShown,
-  toggleSurvivorPerksShown,
+  setIsSearchByDescripton,
+  setIsKillerPerksShown,
+  setIsSurvivorPerksShown,
   setSortDirection,
   toogleLegacyPerk,
   setSelectedPerkId,
