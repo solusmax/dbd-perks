@@ -1,8 +1,10 @@
 import clsx from 'clsx';
 import { memo, useEffect, useState } from 'react';
-import { useWindowSize } from 'usehooks-ts';
+import { useDispatch } from 'react-redux';
+import { useEffectOnce, useWindowSize } from 'usehooks-ts';
 
 import { AppLayout } from '@/consts';
+import { setSelectedPerkId } from '@/store/appSlice';
 import { isMobileBreakpoint } from '@/utils';
 
 import { CustomComponentProps, PerkData } from '@/types';
@@ -98,11 +100,17 @@ const Perks = memo(function Perks({
   className,
   perks,
 }: PerksProps): JSX.Element {
+  const dispatch = useDispatch();
+
   const { width: windowWidth } = useWindowSize();
 
   const [rowSize, setRowSize] = useState<number | null>(
     calcRowSize(windowWidth),
   );
+
+  useEffectOnce(() => {
+    dispatch(setSelectedPerkId(null));
+  });
 
   useEffect(() => {
     setRowSize(calcRowSize(windowWidth));
