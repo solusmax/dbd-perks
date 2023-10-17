@@ -36,9 +36,17 @@ export const appSlice = createSlice({
     },
     setIsKillerPerksShown: (state, action: PayloadAction<boolean>) => {
       state.killerPerksShown = action.payload;
+
+      if (!state.killerPerksShown && !state.survivorPerksShown) {
+        state.killerPerksShown = true;
+      }
     },
     setIsSurvivorPerksShown: (state, action: PayloadAction<boolean>) => {
       state.survivorPerksShown = action.payload;
+
+      if (!state.killerPerksShown && !state.survivorPerksShown) {
+        state.survivorPerksShown = true;
+      }
     },
     setSortDirection: (state, action: PayloadAction<SortDirection>) => {
       state.sortDirection = action.payload;
