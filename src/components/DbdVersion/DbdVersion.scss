@@ -1,16 +1,21 @@
-$mobile-dbd-version-min-height: 16px;
-$tablet-dbd-version-min-height: 18px;
+:root {
+  --dbd-version-min-height: 16px;
+
+  @media (min-width: $tablet-width) {
+    --dbd-version-min-height: 18px;
+  }
+}
 
 .dbd-version {
   display: inline-block;
   min-width: 36px;
   max-width: 54px;
-  min-height: $mobile-dbd-version-min-height;
+  min-height: var(--dbd-version-min-height);
   padding-left: 5px;
   padding-right: 5px;
   padding-top: 3px;
   padding-bottom: 3px;
-  border-radius: $mobile-dbd-version-min-height - 4px;
+  border-radius: calc(var(--dbd-version-min-height) - 4px);
 
   font-size: 12px;
   font-weight: 700;
@@ -20,12 +25,10 @@ $tablet-dbd-version-min-height: 18px;
   background-color: $color-purple-400;
 
   @media (min-width: $tablet-width) {
-    min-height: $tablet-dbd-version-min-height;
     padding-left: 8px;
     padding-right: 8px;
     padding-top: 5px;
     padding-bottom: 5px;
-    border-radius: $tablet-dbd-version-min-height - 4px;
 
     font-size: 14px;
   }

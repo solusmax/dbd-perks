@@ -2,7 +2,7 @@ import { autoPlacement, offset, shift } from '@floating-ui/dom';
 import { useDispatch, useSelector } from 'react-redux';
 import { Tooltip } from 'react-tooltip';
 
-import { clearSelectedPerkId } from '@/store/appSlice';
+import { setSelectedPerkId } from '@/store/appSlice';
 import { RootState } from '@/store/store';
 import { getDataAttribute } from '@/utils';
 
@@ -28,7 +28,7 @@ export default function PerkInfo(): JSX.Element {
       closeOnEsc
       clickable
       afterHide={() => {
-        dispatch(clearSelectedPerkId());
+        dispatch(setSelectedPerkId(null));
       }}
       noArrow
       opacity={1}

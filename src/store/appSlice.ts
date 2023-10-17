@@ -56,9 +56,6 @@ export const appSlice = createSlice({
     setSelectedPerkId: (state, action: PayloadAction<string | null>) => {
       state.selectedPerkId = action.payload;
     },
-    clearSelectedPerkId: (state) => {
-      state.selectedPerkId = null;
-    },
   },
 });
 
@@ -70,7 +67,6 @@ export const {
   setSortDirection,
   toogleLegacyPerk,
   setSelectedPerkId,
-  clearSelectedPerkId,
 } = appSlice.actions;
 
 export default appSlice.reducer;
