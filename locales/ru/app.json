@@ -1,5 +1,24 @@
 {
-  "documentTitle": {
-    "errorPage": "404"
+  "dbd-perks-logo": "Логотип DBD Perks.",
+  "dbd-version-tooltip": "Версия Dead by Daylight",
+  "show-menu-button": "Показать меню",
+  "reset-search": "Очистить поиск",
+  "previous-language": "Сменить язык на предыдущий",
+  "next-language": "Сменить язык на следующий",
+  "player-side-switcher-killer-button": "Навыки убийц",
+  "player-side-switcher-survivor-button": "Навыки выживших",
+  "sorter-button": "Сортировать по алфавиту",
+  "search-placeholder": "осколок",
+  "perks-counter-label_one": "{{count}} навык",
+  "perks-counter-label_many": "{{count}} навыков",
+  "perks-counter-label_few": "{{count}} навыка",
+  "perks-counter-tooltip": "Навыки",
+  "perk-belonging-general": "Общий навык",
+  "perk-belonging-character": "Навык {{character}}",
+  "menu": {
+    "checkbox-killer-perks": "Навыки убийц",
+    "checkbox-survivor-perks": "Навыки выживших",
+    "sort-alphabetically": "Сортировать по алфавиту",
+    "search-description": "Искать по описаниям"
   }
 }

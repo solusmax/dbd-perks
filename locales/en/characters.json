@@ -1,0 +1,365 @@
+{
+  "general-perk": {
+    "name": "General",
+    "alt-names": []
+  },
+  "ace-visconti": {
+    "name": "Ace Visconti",
+    "alt-names": []
+  },
+  "ada-wong": {
+    "name": "Ada Wong",
+    "alt-names": []
+  },
+  "adam-francis": {
+    "name": "Adam Francis",
+    "alt-names": []
+  },
+  "ashley-j-williams": {
+    "name": "Ashley J. Williams",
+    "alt-names": [
+      "Joanna"
+    ]
+  },
+  "cheryl-mason": {
+    "name": "Cheryl Mason",
+    "alt-names": []
+  },
+  "claudette-morel": {
+    "name": "Claudette Morel",
+    "alt-names": [
+      "Blendette"
+    ]
+  },
+  "david-king": {
+    "name": "David King",
+    "alt-names": []
+  },
+  "detective-tapp": {
+    "name": "Detective Tapp",
+    "alt-names": [
+      "David"
+    ]
+  },
+  "dwight-fairfield": {
+    "name": "Dwight Fairfield",
+    "alt-names": []
+  },
+  "elodie-rakoto": {
+    "name": "Élodie Rakoto",
+    "alt-names": []
+  },
+  "felix-richter": {
+    "name": "Felix Richter",
+    "alt-names": []
+  },
+  "feng-min": {
+    "name": "Feng Min",
+    "alt-names": []
+  },
+  "gabriel-soma": {
+    "name": "Gabriel Soma",
+    "alt-names": []
+  },
+  "haddie-kaur": {
+    "name": "Haddie Kaur",
+    "alt-names": []
+  },
+  "jake-park": {
+    "name": "Jake Park",
+    "alt-names": []
+  },
+  "jane-romero": {
+    "name": "Jane Romero",
+    "alt-names": []
+  },
+  "jeff-johansen": {
+    "name": "Jeff Johansen",
+    "alt-names": [
+      "Jeffrey"
+    ]
+  },
+  "jill-valentine": {
+    "name": "Jill Valentine",
+    "alt-names": []
+  },
+  "jonah-vasquez": {
+    "name": "Jonah Vasquez",
+    "alt-names": []
+  },
+  "kate-denson": {
+    "name": "Kate Denson",
+    "alt-names": []
+  },
+  "laurie-strode": {
+    "name": "Laurie Strode",
+    "alt-names": []
+  },
+  "leon-s-kennedy": {
+    "name": "Leon S. Kennedy",
+    "alt-names": [
+      "Scott"
+    ]
+  },
+  "meg-thomas": {
+    "name": "Meg Thomas",
+    "alt-names": [
+      "Meghead"
+    ]
+  },
+  "mikaela-reid": {
+    "name": "Mikaela Reid",
+    "alt-names": []
+  },
+  "nancy-wheeler": {
+    "name": "Nancy Wheeler",
+    "alt-names": []
+  },
+  "nea-karlsson": {
+    "name": "Nea Karlsson",
+    "alt-names": [
+      "Entity"
+    ]
+  },
+  "quentin-smith": {
+    "name": "Quentin Smith",
+    "alt-names": []
+  },
+  "rebecca-chambers": {
+    "name": "Rebecca Chambers",
+    "alt-names": []
+  },
+  "renato-lyra": {
+    "name": "Renato Lyra",
+    "alt-names": []
+  },
+  "steve-harrington": {
+    "name": "Steve Harrington",
+    "alt-names": []
+  },
+  "thalita-lyra": {
+    "name": "Thalita Lyra",
+    "alt-names": []
+  },
+  "vittorio-toscano": {
+    "name": "Vittorio Toscano",
+    "alt-names": []
+  },
+  "william-bill-overbeck": {
+    "name": "William \"Bill\" Overbeck",
+    "alt-names": []
+  },
+  "yoichi-asakawa": {
+    "name": "Yoichi Asakawa",
+    "alt-names": []
+  },
+  "yui-kimura": {
+    "name": "Yui Kimura",
+    "alt-names": []
+  },
+  "yun-jin-lee": {
+    "name": "Yun-Jin Lee",
+    "alt-names": []
+  },
+  "zarina-kassir": {
+    "name": "Zarina Kassir",
+    "alt-names": []
+  },
+  "the-artist": {
+    "name": "The Artist",
+    "alt-names": [
+      "Carmina Mora"
+    ]
+  },
+  "the-blight": {
+    "name": "The Blight",
+    "alt-names": [
+      "Talbot Grimes"
+    ]
+  },
+  "the-cannibal": {
+    "name": "The Cannibal",
+    "alt-names": [
+      "Bubba Sawyer"
+    ]
+  },
+  "the-cenobite": {
+    "name": "The Cenobite",
+    "alt-names": [
+      "Elliot Spencer",
+      "Pinhead"
+    ]
+  },
+  "the-clown": {
+    "name": "The Clown",
+    "alt-names": [
+      "Kenneth Chase",
+      "Jeffrey Hawk"
+    ]
+  },
+  "the-deathslinger": {
+    "name": "The Deathslinger",
+    "alt-names": [
+      "Caleb Quinn"
+    ]
+  },
+  "the-demogorgon": {
+    "name": "The Demogorgon",
+    "alt-names": []
+  },
+  "the-doctor": {
+    "name": "The Doctor",
+    "alt-names": [
+      "Herman Carter"
+    ]
+  },
+  "the-dredge": {
+    "name": "The Dredge",
+    "alt-names": [
+      "Druanee"
+    ]
+  },
+  "the-executioner": {
+    "name": "The Executioner",
+    "alt-names": [
+      "Pyramid Head"
+    ]
+  },
+  "the-ghost-face": {
+    "name": "The Ghost Face",
+    "alt-names": [
+      "Danny Johnson"
+    ]
+  },
+  "the-hag": {
+    "name": "The Hag",
+    "alt-names": [
+      "Lisa Sherwood"
+    ]
+  },
+  "the-hillbilly": {
+    "name": "The Hillbilly",
+    "alt-names": [
+      "Max Thompson Jr.",
+      "Billy"
+    ]
+  },
+  "the-huntress": {
+    "name": "The Huntress",
+    "alt-names": [
+      "Anna"
+    ]
+  },
+  "the-knight": {
+    "name": "The Knight",
+    "alt-names": [
+      "Tarhos Kovács"
+    ]
+  },
+  "the-legion": {
+    "name": "The Legion",
+    "alt-names": [
+      "Frank Morrison",
+      "Julie Kostenko",
+      "Susie Lavoie",
+      "Joey"
+    ]
+  },
+  "the-mastermind": {
+    "name": "The Mastermind",
+    "alt-names": [
+      "Albert Wesker"
+    ]
+  },
+  "the-nemesis": {
+    "name": "The Nemesis",
+    "alt-names": [
+      "Nemesis T-Type"
+    ]
+  },
+  "the-nightmare": {
+    "name": "The Nightmare",
+    "alt-names": [
+      "Freddy Krueger"
+    ]
+  },
+  "the-nurse": {
+    "name": "The Nurse",
+    "alt-names": [
+      "Sally Smithson"
+    ]
+  },
+  "the-oni": {
+    "name": "The Oni",
+    "alt-names": [
+      "Kazan Yamaoka"
+    ]
+  },
+  "the-onryo": {
+    "name": "The Onryō",
+    "alt-names": [
+      "Sadako Yamamura"
+    ]
+  },
+  "the-pig": {
+    "name": "The Pig",
+    "alt-names": [
+      "Amanda Young"
+    ]
+  },
+  "the-plague": {
+    "name": "The Plague",
+    "alt-names": [
+      "Adiris"
+    ]
+  },
+  "the-shape": {
+    "name": "The Shape",
+    "alt-names": [
+      "Michael Myers"
+    ]
+  },
+  "the-singularity": {
+    "name": "The Singularity",
+    "alt-names": [
+      "HUX-A7-13"
+    ]
+  },
+  "the-skull-merchant": {
+    "name": "The Skull Merchant",
+    "alt-names": [
+      "Adriana Imai"
+    ]
+  },
+  "the-spirit": {
+    "name": "The Spirit",
+    "alt-names": [
+      "Rin Yamaoka"
+    ]
+  },
+  "the-trapper": {
+    "name": "The Trapper",
+    "alt-names": [
+      "Evan MacMillan"
+    ]
+  },
+  "the-trickster": {
+    "name": "The Trickster",
+    "alt-names": [
+      "Ji-Woon Hak"
+    ]
+  },
+  "the-twins": {
+    "name": "The Twins",
+    "alt-names": [
+      "Charlotte Deshayes",
+      "Victor Deshayes"
+    ]
+  },
+  "the-wraith": {
+    "name": "The Wraith",
+    "alt-names": [
+      "Philip Ojomo"
+    ]
+  }
+}

@@ -1,5 +1,23 @@
 {
-  "documentTitle": {
-    "errorPage": "404"
+  "dbd-perks-logo": "DBD Perks logo.",
+  "dbd-version-tooltip": "Dead by Daylight version",
+  "show-menu-button": "Show menu",
+  "reset-search": "Clear search",
+  "previous-language": "Change language to previous",
+  "next-language": "Change language to next",
+  "player-side-switcher-killer-button": "Killer perks",
+  "player-side-switcher-survivor-button": "Survivor perks",
+  "sorter-button": "Sort alphabetically",
+  "search-placeholder": "noed",
+  "perks-counter-label_one": "{{count}} perk",
+  "perks-counter-label_other": "{{count}} perks",
+  "perks-counter-tooltip": "Perks",
+  "perk-belonging-general": "General perk",
+  "perk-belonging-character": "{{character}} perk",
+  "menu": {
+    "checkbox-killer-perks": "Killer perks",
+    "checkbox-survivor-perks": "Survivor perks",
+    "sort-alphabetically": "Sort alphabetically",
+    "search-description": "Search by descriptions"
   }
 }

@@ -1,0 +1,455 @@
+{
+  "general-perk": {
+    "name": "Общий",
+    "alt-names": []
+  },
+  "ace-visconti": {
+    "name": "Эйс Висконти",
+    "name_genitive": "Эйса Висконти",
+    "alt-names": []
+  },
+  "ada-wong": {
+    "name": "Ада Вонг",
+    "name_genitive": "Ады Вонг",
+    "alt-names": []
+  },
+  "adam-francis": {
+    "name": "Адам Фрэнсис",
+    "name_genitive": "Адама Фрэнсиса",
+    "alt-names": []
+  },
+  "ashley-j-williams": {
+    "name": "Эшли Джей Уильямс",
+    "name_genitive": "Эшли Джей Уильямса",
+    "alt-names": []
+  },
+  "cheryl-mason": {
+    "name": "Шерил Мейсон",
+    "name_genitive": "Шерил Мейсон",
+    "alt-names": []
+  },
+  "claudette-morel": {
+    "name": "Клодетт Морель",
+    "name_genitive": "Клодетт Морель",
+    "alt-names": [
+      "Клодетка",
+      "Блендетка",
+      "кладовка",
+      "Клода"
+    ]
+  },
+  "david-king": {
+    "name": "Дэвид Кинг",
+    "name_genitive": "Дэвида Кинга",
+    "alt-names": []
+  },
+  "detective-tapp": {
+    "name": "Детектив Тэпп",
+    "name_genitive": "Детектива Тэппа",
+    "alt-names": [
+      "Дэвид"
+    ]
+  },
+  "dwight-fairfield": {
+    "name": "Дуайт Фэйрфилд",
+    "name_genitive": "Дуайта Фэйрфилда",
+    "alt-names": []
+  },
+  "elodie-rakoto": {
+    "name": "Элоди Ракото",
+    "name_genitive": "Элоди Ракото",
+    "alt-names": []
+  },
+  "felix-richter": {
+    "name": "Феликс Рихтер",
+    "name_genitive": "Феликса Рихтера",
+    "alt-names": []
+  },
+  "feng-min": {
+    "name": "Фенг Мин",
+    "name_genitive": "Фенг Мин",
+    "alt-names": [
+      "Фенга"
+    ]
+  },
+  "gabriel-soma": {
+    "name": "Габриэль Сома",
+    "name_genitive": "Габриэля Сома",
+    "alt-names": []
+  },
+  "haddie-kaur": {
+    "name": "Хэдди Каур",
+    "name_genitive": "Хэдди Каур",
+    "alt-names": []
+  },
+  "jake-park": {
+    "name": "Джейк Парк",
+    "name_genitive": "Джейка Парка",
+    "alt-names": []
+  },
+  "jane-romero": {
+    "name": "Джейн Ромеро",
+    "name_genitive": "Джейн Ромеро",
+    "alt-names": []
+  },
+  "jeff-johansen": {
+    "name": "Джефф Йохансен",
+    "name_genitive": "Джеффа Йохансена",
+    "alt-names": []
+  },
+  "jill-valentine": {
+    "name": "Джилл Валентайн",
+    "name_genitive": "Джилл Валентайн",
+    "alt-names": []
+  },
+  "jonah-vasquez": {
+    "name": "Хонас Васкес",
+    "name_genitive": "Хонаса Васкеса",
+    "alt-names": []
+  },
+  "kate-denson": {
+    "name": "Кейт Денсон",
+    "name_genitive": "Кейт Денсон",
+    "alt-names": [
+      "Катя",
+      "Катюха"
+    ]
+  },
+  "laurie-strode": {
+    "name": "Лори Строуд",
+    "name_genitive": "Лори Строуд",
+    "alt-names": []
+  },
+  "leon-s-kennedy": {
+    "name": "Леон С. Кеннеди",
+    "name_genitive": "Леона С. Кеннеди",
+    "alt-names": [
+      "Скотт"
+    ]
+  },
+  "meg-thomas": {
+    "name": "Мэг Томас",
+    "name_genitive": "Мэг Томас",
+    "alt-names": []
+  },
+  "mikaela-reid": {
+    "name": "Микаэла Рид",
+    "name_genitive": "Микаэлы Рид",
+    "alt-names": []
+  },
+  "nancy-wheeler": {
+    "name": "Нэнси Уиллер",
+    "name_genitive": "Нэнси Уиллер",
+    "alt-names": []
+  },
+  "nea-karlsson": {
+    "name": "Нея Карлссон",
+    "name_genitive": "Неи Карлссон",
+    "alt-names": [
+      "Сущность"
+    ]
+  },
+  "quentin-smith": {
+    "name": "Квентин Смит",
+    "name_genitive": "Квентина Смита",
+    "alt-names": []
+  },
+  "rebecca-chambers": {
+    "name": "Ребекка Чемберс",
+    "name_genitive": "Ребекки Чемберс",
+    "alt-names": []
+  },
+  "renato-lyra": {
+    "name": "Ренато Лира",
+    "name_genitive": "Ренато Лиры",
+    "alt-names": []
+  },
+  "steve-harrington": {
+    "name": "Стив Харрингтон",
+    "name_genitive": "Стива Харрингтона",
+    "alt-names": []
+  },
+  "thalita-lyra": {
+    "name": "Талита Лира",
+    "name_genitive": "Талиты Лиры",
+    "alt-names": []
+  },
+  "vittorio-toscano": {
+    "name": "Витторио Тоскано",
+    "name_genitive": "Витторио Тоскано",
+    "alt-names": []
+  },
+  "william-bill-overbeck": {
+    "name": "Уильям \"Билл\" Овербек",
+    "name_genitive": "Уильяма \"Билла\" Овербека",
+    "alt-names": [
+      "дед"
+    ]
+  },
+  "yoichi-asakawa": {
+    "name": "Ёити Асакава",
+    "name_genitive": "Ёити Асакавы",
+    "alt-names": []
+  },
+  "yui-kimura": {
+    "name": "Юи Кимура",
+    "name_genitive": "Юи Кимуры",
+    "alt-names": []
+  },
+  "yun-jin-lee": {
+    "name": "Ли Юнчин",
+    "name_genitive": "Ли Юнчин",
+    "alt-names": []
+  },
+  "zarina-kassir": {
+    "name": "Зарина Кассир",
+    "name_genitive": "Зарины Кассир",
+    "alt-names": []
+  },
+  "the-artist": {
+    "name": "Художница",
+    "name_genitive": "Художницы",
+    "alt-names": [
+      "Кармина Мора",
+      "ворона"
+    ]
+  },
+  "the-blight": {
+    "name": "Мор",
+    "name_genitive": "Мора",
+    "alt-names": [
+      "Тальбот Граймс",
+      "бабка"
+    ]
+  },
+  "the-cannibal": {
+    "name": "Каннибал",
+    "name_genitive": "Каннибала",
+    "alt-names": [
+      "Бубба Сойер"
+    ]
+  },
+  "the-cenobite": {
+    "name": "Сенобит",
+    "name_genitive": "Сенобита",
+    "alt-names": [
+      "Эллиот Спенсер",
+      "Пинхед"
+    ]
+  },
+  "the-clown": {
+    "name": "Клоун",
+    "name_genitive": "Клоуна",
+    "alt-names": [
+      "Кеннет Чейз",
+      "Джеффри Хоук"
+    ]
+  },
+  "the-deathslinger": {
+    "name": "Стрелок",
+    "name_genitive": "Стрелка",
+    "alt-names": [
+      "Калеб Куинн"
+    ]
+  },
+  "the-demogorgon": {
+    "name": "Демогоргон",
+    "name_genitive": "Демогоргона",
+    "alt-names": [
+      "Димон"
+    ]
+  },
+  "the-doctor": {
+    "name": "Доктор",
+    "name_genitive": "Доктора",
+    "alt-names": [
+      "Герман Картер"
+    ]
+  },
+  "the-dredge": {
+    "name": "Грязь",
+    "name_genitive": "Грязи",
+    "alt-names": [
+      "Дрюэни"
+    ]
+  },
+  "the-executioner": {
+    "name": "Палач",
+    "name_genitive": "Палача",
+    "alt-names": [
+      "Пирамидоголовый"
+    ]
+  },
+  "the-ghost-face": {
+    "name": "Гоуст Фейс",
+    "name_genitive": "Гоуст Фейса",
+    "alt-names": [
+      "Дэнни Джонсон",
+      "Крик"
+    ]
+  },
+  "the-hag": {
+    "name": "Ведьма",
+    "name_genitive": "Ведьмы",
+    "alt-names": [
+      "Лиза Шервуд",
+      "Хага",
+      "старуха"
+    ]
+  },
+  "the-hillbilly": {
+    "name": "Деревенщина",
+    "name_genitive": "Деревенщины",
+    "alt-names": [
+      "Макс Томпсон младший",
+      "Билли",
+      "Биляс"
+    ]
+  },
+  "the-huntress": {
+    "name": "Охотница",
+    "name_genitive": "Охотницы",
+    "alt-names": [
+      "Анна",
+      "Аннушка"
+    ]
+  },
+  "the-knight": {
+    "name": "Рыцарь",
+    "name_genitive": "Рыцаря",
+    "alt-names": [
+      "Тархос Ковач"
+    ]
+  },
+  "the-legion": {
+    "name": "Легион",
+    "name_genitive": "Легиона",
+    "alt-names": [
+      "Фрэнк Моррисон",
+      "Джули Костенко",
+      "Сьюзи Лавуа",
+      "Джо"
+    ]
+  },
+  "the-mastermind": {
+    "name": "Кукловод",
+    "name_genitive": "Кукловода",
+    "alt-names": [
+      "Альберт Вескер",
+      "Вискас"
+    ]
+  },
+  "the-nemesis": {
+    "name": "Немезис",
+    "name_genitive": "Немезиса",
+    "alt-names": []
+  },
+  "the-nightmare": {
+    "name": "Кошмар",
+    "name_genitive": "Кошмара",
+    "alt-names": [
+      "Фредди Крюгер",
+      "Федя"
+    ]
+  },
+  "the-nurse": {
+    "name": "Медсестра",
+    "name_genitive": "Медсестры",
+    "alt-names": [
+      "Салли Смитсон",
+      "Нюрса"
+    ]
+  },
+  "the-oni": {
+    "name": "Они",
+    "name_genitive": "Они",
+    "alt-names": [
+      "Казан Ямаока"
+    ]
+  },
+  "the-onryo": {
+    "name": "Онрё",
+    "name_genitive": "Онрё",
+    "alt-names": [
+      "Садако Ямамура"
+    ]
+  },
+  "the-pig": {
+    "name": "Свинья",
+    "name_genitive": "Свиньи",
+    "alt-names": [
+      "Аманда Янг",
+      "пятачок",
+      "свинюшка",
+      "хрюшка"
+    ]
+  },
+  "the-plague": {
+    "name": "Чума",
+    "name_genitive": "Чумы",
+    "alt-names": [
+      "Адирис",
+      "Плага"
+    ]
+  },
+  "the-shape": {
+    "name": "Тень",
+    "name_genitive": "Тени",
+    "alt-names": [
+      "Майкл Майерс"
+    ]
+  },
+  "the-singularity": {
+    "name": "Сингулярность",
+    "name_genitive": "Сингулярности",
+    "alt-names": [
+      "Хакс-А7-13"
+    ]
+  },
+  "the-skull-merchant": {
+    "name": "Торговка черепами",
+    "name_genitive": "Торговки черепами",
+    "alt-names": [
+      "Адриана Имаи"
+    ]
+  },
+  "the-spirit": {
+    "name": "Дух",
+    "name_genitive": "Духа",
+    "alt-names": [
+      "Рин Ямаока"
+    ]
+  },
+  "the-trapper": {
+    "name": "Охотник",
+    "name_genitive": "Охотника",
+    "alt-names": [
+      "Эван МакМиллан",
+      "Траппер "
+    ]
+  },
+  "the-trickster": {
+    "name": "Трюкач",
+    "name_genitive": "Трюкача",
+    "alt-names": [
+      "Хак Чиун"
+    ]
+  },
+  "the-twins": {
+    "name": "Близнецы",
+    "name_genitive": "Близнецов",
+    "alt-names": [
+      "Шарлотта Дейе",
+      "Виктор Дейе"
+    ]
+  },
+  "the-wraith": {
+    "name": "Призрак",
+    "name_genitive": "Призрака",
+    "alt-names": [
+      "Филипп Оджомо",
+      "Коля",
+      "колокольчик"
+    ]
+  }
+}
