@@ -59,6 +59,7 @@
     "stylelint-scss": "^5.2.1",
     "svgo": "^3.0.2",
     "typescript": "^5.2.2",
+    "unplugin-inject-preload": "^1.1.1",
     "vite": "^4.4.11",
     "vite-plugin-image-optimizer": "^1.1.7"
   }
