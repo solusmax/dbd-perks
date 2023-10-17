@@ -1,17 +1,16 @@
 import { CustomComponentProps } from '@/types';
 
-type SorterProps = CustomComponentProps & {
+type SvgProps = CustomComponentProps & {
   icon:
     | 'arrow'
     | 'cross'
     | 'github'
     | 'killer-background'
-    | 'menu'
     | 'settings'
     | 'triangle';
 };
 
-export default function SvgIcon({ className, icon }: SorterProps): JSX.Element {
+export default function SvgIcon({ className, icon }: SvgProps): JSX.Element {
   const getSvg = () => {
     switch (icon) {
       case 'arrow':
