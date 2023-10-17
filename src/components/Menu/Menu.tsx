@@ -106,7 +106,7 @@ export default function Menu({ className }: MenuProps): JSX.Element {
           ref={menuButtonRef}
           onClick={handleButtonClick}
         >
-          <SvgIcon className="menu__button-svg" icon="menu" />
+          <SvgIcon className="menu__button-svg" icon="settings" />
           <span className="visually-hidden">
             {t('show-menu-button', { ns: 'app' })}
           </span>

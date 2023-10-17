@@ -83,20 +83,19 @@
   width: calc(var(--menu-button-size) * var(--menu-button-svg-ratio));
   height: calc(var(--menu-button-size) * var(--menu-button-svg-ratio));
 
-  fill: none;
-  stroke: $color-white;
+  fill: $color-white;
 
   transition-duration: $transition-duration;
-  transition-property: stroke;
+  transition-property: fill;
 }
 
 .menu__button:hover .menu__button-svg,
 .menu__button:focus-visible .menu__button-svg {
-  stroke: rgba($color-white, 0.7);
+  fill: rgba($color-white, 0.7);
 }
 
 .menu__button:active .menu__button-svg {
-  stroke: rgba($color-white, 0.5);
+  fill: rgba($color-white, 0.5);
 }
 
 /* stylelint-disable-next-line selector-max-id */
