@@ -21,6 +21,34 @@ import SvgIcon from '@/components/SvgIcon/SvgIcon';
 
 import './Menu.scss';
 
+type MenuCheckboxProps = CustomComponentProps & {
+  id: string;
+  checked: boolean;
+  onChange: (evt: ChangeEvent<HTMLInputElement>) => void;
+};
+
+function MenuCheckbox({
+  children,
+  id,
+  checked,
+  onChange,
+}: MenuCheckboxProps): JSX.Element {
+  return (
+    <>
+      <input
+        className="menu__checkbox visually-hidden"
+        id={id}
+        type="checkbox"
+        checked={checked}
+        onChange={onChange}
+      />
+      <label className="menu__checkbox-label" htmlFor={id}>
+        {children}
+      </label>
+    </>
+  );
+}
+
 type MenuProps = CustomComponentProps;
 
 export default function Menu({ className }: MenuProps): JSX.Element {
@@ -136,35 +164,23 @@ export default function Menu({ className }: MenuProps): JSX.Element {
             <div className="menu__wrapper" ref={menuWrapperRef}>
               <ul className="menu__list">
                 <li className="menu__item">
-                  <input
-                    className="menu__checkbox visually-hidden"
+                  <MenuCheckbox
                     id="menu-killer-perks-checkbox"
-                    type="checkbox"
                     checked={isKillerPerksShown}
                     onChange={handleKillerCheckboxClick}
-                  />
-                  <label
-                    className="menu__checkbox-label"
-                    htmlFor="menu-killer-perks-checkbox"
                   >
                     {t('menu.checkbox-killer-perks', { ns: 'app' })}
-                  </label>
+                  </MenuCheckbox>
                 </li>
 
                 <li className="menu__item">
-                  <input
-                    className="menu__checkbox visually-hidden"
+                  <MenuCheckbox
                     id="menu-survivor-perks-checkbox"
-                    type="checkbox"
                     checked={isSurvivorPerksShown}
                     onChange={handleSurvivorCheckboxClick}
-                  />
-                  <label
-                    className="menu__checkbox-label"
-                    htmlFor="menu-survivor-perks-checkbox"
                   >
                     {t('menu.checkbox-survivor-perks', { ns: 'app' })}
-                  </label>
+                  </MenuCheckbox>
                 </li>
               </ul>
 
@@ -172,19 +188,13 @@ export default function Menu({ className }: MenuProps): JSX.Element {
 
               <ul className="menu__list">
                 <li className="menu__item">
-                  <input
-                    className="menu__checkbox visually-hidden"
+                  <MenuCheckbox
                     id="menu-search-by-description-checkbox"
-                    type="checkbox"
                     checked={isSearchByDescription}
                     onChange={handleSearchByDescriptionCheckboxClick}
-                  />
-                  <label
-                    className="menu__checkbox-label"
-                    htmlFor="menu-search-by-description-checkbox"
                   >
                     {t('menu.search-description', { ns: 'app' })}
-                  </label>
+                  </MenuCheckbox>
                 </li>
               </ul>
 
