@@ -17,10 +17,7 @@ export default function Logo({ className }: LogoProps = {}): JSX.Element {
         src="img/logo.svg"
         alt={t('dbd-perks-logo', { ns: 'app' })}
       />
-      <span className="logo__title">
-        DBD Perks
-        <span className="logo__beta">beta</span>
-      </span>
+      <span className="logo__title">DBD Perks</span>
     </div>
   );
 }
